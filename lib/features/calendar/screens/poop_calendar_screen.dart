@@ -180,9 +180,14 @@ class _PoopCalendarScreenState extends State<PoopCalendarScreen> {
                         const NotesCard(),
                       ],
                     ),
-                    const Align(
+                    Align(
                       alignment: Alignment.bottomCenter,
-                      child: PoopBottomNavigation(),
+                      child: PoopBottomNavigation(
+                        isLogged: selectedDayIsMarked,
+                        onLogPressed: _isSaving || selectedDayIsMarked
+                            ? null
+                            : () => _toggleSelectedDay(null),
+                      ),
                     ),
                   ],
                 );

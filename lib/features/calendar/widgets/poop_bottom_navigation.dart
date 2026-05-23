@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../shared/app_assets.dart';
 
 class PoopBottomNavigation extends StatelessWidget {
-  const PoopBottomNavigation({super.key});
+  const PoopBottomNavigation({
+    required this.onLogPressed,
+    required this.isLogged,
+    super.key,
+  });
+
+  final VoidCallback? onLogPressed;
+  final bool isLogged;
 
   @override
   Widget build(BuildContext context) {
@@ -37,32 +43,20 @@ class PoopBottomNavigation extends StatelessWidget {
                 label: 'History',
                 selected: false,
               ),
-              Transform.translate(
-                offset: const Offset(0, -18),
-                child: DecoratedBox(
-                  decoration: BoxDecoration(
-                    color: const Color(0xFF49C2B8),
-                    shape: BoxShape.circle,
-                    border: Border.all(
-                      color: const Color(0xFFD8F5EC),
-                      width: 5,
+              SizedBox(
+                width: 96,
+                child: OverflowBox(
+                  minWidth: 120,
+                  maxWidth: 120,
+                  minHeight: 120,
+                  maxHeight: 120,
+                  alignment: Alignment.center,
+                  child: Transform.translate(
+                    offset: const Offset(0, -28),
+                    child: CenterLogButton(
+                      onPressed: onLogPressed,
+                      isLogged: isLogged,
                     ),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black.withValues(alpha: 0.16),
-                        blurRadius: 14,
-                        offset: const Offset(0, 7),
-                      ),
-                    ],
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(11),
-                    child:             Image.asset(
-                    AppAssets.poopPal,
-                    width: 70,
-                    height: 70,
-                    fit: BoxFit.contain,
-                  ),
                   ),
                 ),
               ),
@@ -78,6 +72,85 @@ class PoopBottomNavigation extends StatelessWidget {
               ),
             ],
           ),
+        ),
+      ),
+    );
+  }
+}
+
+class CenterLogButton extends StatelessWidget {
+  const CenterLogButton({
+    required this.onPressed,
+    required this.isLogged,
+    super.key,
+  });
+
+  final VoidCallback? onPressed;
+  final bool isLogged;
+
+  @override
+  Widget build(BuildContext context) {
+    return Semantics(
+      button: true,
+      label: isLogged ? 'Poop already logged' : 'Log poop',
+      child: Tooltip(
+        message: isLogged ? 'Poop already logged' : 'Log poop',
+        child: Stack(
+          clipBehavior: Clip.none,
+          children: [
+            Material(
+              color: const Color(0xFF49C2B8),
+              shape: const CircleBorder(),
+              elevation: 8,
+              shadowColor: Colors.black26,
+              child: InkWell(
+                customBorder: const CircleBorder(),
+                onTap: onPressed,
+                child: Container(
+                  width: 120,
+                  height: 120,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    border: Border.all(
+                      color: const Color(0xFFD8F5EC),
+                      width: 6,
+                    ),
+                  ),
+                  padding: const EdgeInsets.all(8),
+                  child: Image.asset(AppAssets.poopPal, fit: BoxFit.contain),
+                ),
+              ),
+            ),
+            Positioned(
+              top: 0,
+              right: 0,
+              child: DecoratedBox(
+                decoration: BoxDecoration(
+                  color: isLogged
+                      ? const Color(0xFF2F9D5B)
+                      : const Color(0xFFFF765F),
+                  shape: BoxShape.circle,
+                  border: Border.all(color: Colors.white, width: 3),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withValues(alpha: 0.16),
+                      blurRadius: 8,
+                      offset: const Offset(0, 3),
+                    ),
+                  ],
+                ),
+                child: SizedBox(
+                  width: 40,
+                  height: 40,
+                  child: Icon(
+                    isLogged ? Icons.check : Icons.add,
+                    color: Colors.white,
+                    size: 26,
+                  ),
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );

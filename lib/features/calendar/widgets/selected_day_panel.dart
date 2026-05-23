@@ -52,7 +52,8 @@ class SelectedDayPanel extends StatelessWidget {
                             ),
                             const SizedBox(height: 8),
                             SelectedMetric(
-                              label: 'Time',                              value: _formatTime(log!.occurredAt),
+                              label: 'Time',
+                              value: _formatTime(log!.occurredAt),
                             ),
                           ],
                         ),
