@@ -30,7 +30,12 @@ class AppHeader extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(24, 22, 24, 44),
               child: Row(
                 children: [
-                  SvgPicture.asset(AppAssets.poopMascot, width: 70, height: 70),
+                  Image.asset(
+                    AppAssets.poopPal,
+                    width: 100,
+                    height: 100,
+                    fit: BoxFit.contain,
+                  ),
                   const SizedBox(width: 16),
                   Expanded(
                     child: Text(

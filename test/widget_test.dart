@@ -28,12 +28,16 @@ void main() {
 
     expect(find.text('0 poop days'), findsOneWidget);
     expect(find.text('Log poop'), findsOneWidget);
+    expect(find.text('Poop logged 🎉'), findsNothing);
+    expect(find.text('Time of logging'), findsNothing);
 
     await tester.tap(find.text('Log poop'));
     await tester.pumpAndSettle();
 
     expect(find.text('1 poop days'), findsOneWidget);
     expect(find.text('Logged'), findsOneWidget);
+    expect(find.text('Poop logged 🎉'), findsOneWidget);
+    expect(find.text('Time of logging'), findsOneWidget);
     expect(find.byIcon(Icons.check_circle), findsOneWidget);
 
     await tester.pumpWidget(const SizedBox.shrink());
@@ -48,12 +52,16 @@ void main() {
 
     expect(find.text('1 poop days'), findsOneWidget);
     expect(find.text('Logged'), findsOneWidget);
+    expect(find.text('Poop logged 🎉'), findsOneWidget);
+    expect(find.text('Time of logging'), findsOneWidget);
 
     await tester.tap(find.text('Logged'));
     await tester.pumpAndSettle();
 
     expect(find.text('0 poop days'), findsOneWidget);
     expect(find.text('Log poop'), findsOneWidget);
+    expect(find.text('Poop logged 🎉'), findsNothing);
+    expect(find.text('Time of logging'), findsNothing);
 
     await tester.pumpWidget(const SizedBox.shrink());
     await tester.pump(const Duration(milliseconds: 1));

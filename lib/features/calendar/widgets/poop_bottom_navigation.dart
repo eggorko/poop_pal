@@ -57,11 +57,12 @@ class PoopBottomNavigation extends StatelessWidget {
                   ),
                   child: Padding(
                     padding: const EdgeInsets.all(11),
-                    child: SvgPicture.asset(
-                      AppAssets.poopMascot,
-                      width: 48,
-                      height: 48,
-                    ),
+                    child:             Image.asset(
+                    AppAssets.poopPal,
+                    width: 70,
+                    height: 70,
+                    fit: BoxFit.contain,
+                  ),
                   ),
                 ),
               ),

@@ -8,6 +8,7 @@ class AppAssets {
   static const String notesSheet = 'assets/vectors/notes_sheet.svg';
   static const String poopMarker = 'assets/vectors/poop_marker.svg';
   static const String poopMascot = 'assets/vectors/poop_mascot.svg';
+  static const String poopPal = 'assets/vectors/poop_pal.png';
   static const String streakFlame = 'assets/vectors/streak_flame.svg';
   static const String toiletPaperMascot =
       'assets/vectors/toilet_paper_mascot.svg';

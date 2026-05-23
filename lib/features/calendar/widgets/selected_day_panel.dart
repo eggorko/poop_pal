@@ -30,51 +30,41 @@ class SelectedDayPanel extends StatelessWidget {
         Card(
           child: Padding(
             padding: const EdgeInsets.all(14),
-            child: Row(
-              children: [
-                DateTile(day: day),
-                const SizedBox(width: 14),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+            child: log == null
+                ? Align(
+                    alignment: Alignment.centerLeft,
+                    child: DateTile(day: day),
+                  )
+                : Row(
                     children: [
-                      Text(
-                        'Today 🎉',
-                        style: theme.textTheme.titleLarge?.copyWith(
-                          color: const Color(0xFF10272A),
-                          fontWeight: FontWeight.w800,
+                      DateTile(day: day),
+                      const SizedBox(width: 14),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'Poop logged 🎉',
+                              style: theme.textTheme.titleLarge?.copyWith(
+                                color: const Color(0xFF10272A),
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                            const SizedBox(height: 8),
+                            SelectedMetric(
+                              label: 'Time',                              value: _formatTime(log!.occurredAt),
+                            ),
+                          ],
                         ),
                       ),
-                      const SizedBox(height: 8),
-                      Row(
-                        children: [
-                          Expanded(
-                            child: SelectedMetric(
-                              label: 'Time',
-                              value: log == null
-                                  ? '8:15 AM'
-                                  : _formatTime(log!.occurredAt),
-                            ),
-                          ),
-                          Expanded(
-                            child: SelectedMetric(
-                              label: 'Feeling',
-                              value: log?.mood ?? 'Good 🙂',
-                            ),
-                          ),
-                        ],
+                      const SizedBox(width: 10),
+                      SvgPicture.asset(
+                        AppAssets.toiletPaperMascot,
+                        width: 86,
+                        height: 86,
                       ),
                     ],
                   ),
-                ),
-                const SizedBox(width: 10),
-                SvgPicture.asset(
-                  AppAssets.toiletPaperMascot,
-                  width: 86,
-                  height: 86,
-                ),
-              ],
-            ),
           ),
         ),
         const SizedBox(height: 12),
