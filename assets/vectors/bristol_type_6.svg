@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 64" role="img" aria-label="Bristol stool type 6">
+  <defs><linearGradient id="b" x1="10" x2="82" y1="8" y2="56"><stop stop-color="#AF6936"/><stop offset="1" stop-color="#6F351D"/></linearGradient></defs>
+  <path fill="url(#b)" stroke="#603018" stroke-linejoin="round" stroke-width="2" d="M14 44c4-12 17-12 24-6 4-13 20-14 28-4 10-1 17 4 17 12 0 7-8 10-17 8H27c-10 0-15-3-13-10Z"/>
+  <circle cx="32" cy="30" r="7" fill="url(#b)" stroke="#603018" stroke-width="2"/>
+  <circle cx="57" cy="27" r="7" fill="url(#b)" stroke="#603018" stroke-width="2"/>
+</svg>

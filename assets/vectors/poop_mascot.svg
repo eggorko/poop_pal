@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="PoopPal mascot">
+  <defs>
+    <linearGradient id="body" x1="24" x2="104" y1="18" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C57937"/>
+      <stop offset="0.55" stop-color="#9B5629"/>
+      <stop offset="1" stop-color="#6E351D"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="35" x2="82" y1="18" y2="65" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E4A062" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#B96530" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path fill="#BFE9DE" d="M13 102c4-22 21-35 45-35h13c24 0 41 13 45 35 2 11-7 19-18 19H31c-11 0-20-8-18-19Z" opacity=".45"/>
+  <path fill="url(#body)" stroke="#6B351F" stroke-linejoin="round" stroke-width="3" d="M31 103c-1-14 8-24 25-28-12-5-15-15-5-25 9-8 29-4 38 8 8 11 6 19-5 25 12 3 20 10 22 20 2 10-6 17-17 17H48c-10 0-18-7-17-17Z"/>
+  <path fill="url(#body)" stroke="#6B351F" stroke-linejoin="round" stroke-width="3" d="M44 78c1-13 12-23 27-23 18 0 31 10 34 25 2 8-4 14-14 14H58c-9 0-15-7-14-16Z"/>
+  <path fill="url(#body)" stroke="#6B351F" stroke-linejoin="round" stroke-width="3" d="M53 56c4-13 13-19 24-19 12 0 23 9 25 21 1 8-5 13-14 13H65c-9 0-15-6-12-15Z"/>
+  <path fill="url(#body)" stroke="#6B351F" stroke-linejoin="round" stroke-width="3" d="M64 38c6-5 7-13 4-21 11 3 21 11 23 22 1 8-5 13-14 13H65c-8 0-10-8-1-14Z"/>
+  <path fill="url(#shine)" d="M45 81c3-18 16-31 32-33 9-1 16 1 22 6-10-18-36-20-47-4-6 8-5 19 3 25-4 1-7 3-10 6Z"/>
+  <circle cx="50" cy="88" r="11" fill="#1C2422"/>
+  <circle cx="78" cy="88" r="11" fill="#1C2422"/>
+  <circle cx="54" cy="84" r="3.5" fill="#fff"/>
+  <circle cx="82" cy="84" r="3.5" fill="#fff"/>
+  <path fill="#FF7B73" d="M58 101c4 8 14 8 18 0-4 2-14 2-18 0Z"/>
+  <path fill="none" stroke="#4B2618" stroke-linecap="round" stroke-width="3" d="M42 102c-5 2-10 1-13-2M99 100c-4 3-9 4-14 2"/>
+  <path fill="#FF7B93" d="M103 27c0-5 7-7 10-2 3-5 10-3 10 2 0 8-10 13-10 13s-10-5-10-13Z"/>
+  <path fill="#fff" d="m24 30 3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7Z" opacity=".9"/>
+</svg>
