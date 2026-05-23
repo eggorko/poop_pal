@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:pt/main.dart';
+import 'package:pt/app/poop_tracker_app.dart';
 
 void main() {
   testWidgets('marks and removes the selected poop day', (
