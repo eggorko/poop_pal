@@ -3,10 +3,12 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../shared/app_assets.dart';
 import '../../../shared/date_helpers.dart';
+import '../models/poop_log.dart';
 
 class SelectedDayPanel extends StatelessWidget {
   const SelectedDayPanel({
     required this.day,
+    required this.log,
     required this.isMarked,
     required this.monthLogCount,
     required this.onToggle,
@@ -14,9 +16,10 @@ class SelectedDayPanel extends StatelessWidget {
   });
 
   final DateTime day;
+  final PoopLog? log;
   final bool isMarked;
   final int monthLogCount;
-  final VoidCallback onToggle;
+  final VoidCallback? onToggle;
 
   @override
   Widget build(BuildContext context) {
@@ -43,18 +46,20 @@ class SelectedDayPanel extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 8),
-                      const Row(
+                      Row(
                         children: [
                           Expanded(
                             child: SelectedMetric(
                               label: 'Time',
-                              value: '8:15 AM',
+                              value: log == null
+                                  ? '8:15 AM'
+                                  : _formatTime(log!.occurredAt),
                             ),
                           ),
                           Expanded(
                             child: SelectedMetric(
                               label: 'Feeling',
-                              value: 'Good 🙂',
+                              value: log?.mood ?? 'Good 🙂',
                             ),
                           ),
                         ],
@@ -116,6 +121,19 @@ class SelectedDayPanel extends StatelessWidget {
       ],
     );
   }
+}
+
+String _formatTime(DateTime date) {
+  final int hour = date.hour;
+  final int displayHour = hour == 0
+      ? 12
+      : hour > 12
+      ? hour - 12
+      : hour;
+  final String minute = date.minute.toString().padLeft(2, '0');
+  final String period = hour >= 12 ? 'PM' : 'AM';
+
+  return '$displayHour:$minute $period';
 }
 
 class DateTile extends StatelessWidget {

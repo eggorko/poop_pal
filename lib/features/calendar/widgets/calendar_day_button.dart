@@ -78,13 +78,6 @@ class CalendarDayButton extends StatelessWidget {
                               width: 18,
                               height: 18,
                             )
-                          : isInVisibleMonth && day.day % 4 == 0
-                          ? const Icon(
-                              Icons.circle,
-                              key: ValueKey<String>('dot'),
-                              size: 8,
-                              color: Color(0xFF2AA9A4),
-                            )
                           : const SizedBox.shrink(
                               key: ValueKey<String>('empty'),
                             ),

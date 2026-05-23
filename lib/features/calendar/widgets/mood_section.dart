@@ -25,7 +25,7 @@ class MoodSection extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Mood',
+              'After Poop Mood',
               style: theme.textTheme.titleLarge?.copyWith(
                 color: const Color(0xFF10272A),
                 fontWeight: FontWeight.w800,
