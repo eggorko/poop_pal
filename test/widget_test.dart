@@ -10,6 +10,15 @@ void main() {
     await tester.pumpWidget(const PoopTrackerApp());
 
     expect(find.text('PoopPal'), findsOneWidget);
+    expect(find.text('Calendar'), findsOneWidget);
+
+    await tester.scrollUntilVisible(
+      find.text('Log poop'),
+      300,
+      scrollable: find.byType(Scrollable).first,
+    );
+    await tester.pumpAndSettle();
+
     expect(find.text('0 poop days'), findsOneWidget);
     expect(find.text('Log poop'), findsOneWidget);
 
