@@ -1775,7 +1775,7 @@
       "source_file": "lib/features/calendar/widgets/selected_day_panel.dart",
       "source_location": null,
       "id": "models_poop_log_dart",
-      "community": 20,
+      "community": 1,
       "norm_label": "../models/poop_log.dart"
     },
     {
@@ -1784,7 +1784,7 @@
       "source_file": "lib/features/calendar/widgets/selected_day_panel.dart",
       "source_location": null,
       "id": "shared_app_assets_dart",
-      "community": 58,
+      "community": 16,
       "norm_label": "../../../shared/app_assets.dart"
     },
     {
@@ -1793,7 +1793,7 @@
       "source_file": "lib/features/calendar/widgets/selected_day_panel.dart",
       "source_location": null,
       "id": "shared_date_helpers_dart",
-      "community": 58,
+      "community": 1,
       "norm_label": "../../../shared/date_helpers.dart"
     },
     {
@@ -1874,7 +1874,7 @@
       "source_file": "lib/features/calendar/data/app_database.dart",
       "source_location": null,
       "id": "lib_features_calendar_data_app_database_dart",
-      "community": 20,
+      "community": 7,
       "norm_label": "app_database.dart"
     },
     {
@@ -1883,7 +1883,7 @@
       "source_file": "lib/features/calendar/data/app_database.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_data_app_database_dart_pooplogs",
-      "community": 20,
+      "community": 7,
       "norm_label": "pooplogs"
     },
     {
@@ -1892,7 +1892,7 @@
       "source_file": "lib/features/calendar/data/app_database.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_data_app_database_dart_appdatabase",
-      "community": 20,
+      "community": 7,
       "norm_label": "appdatabase"
     },
     {
@@ -1901,7 +1901,7 @@
       "source_file": "lib/features/calendar/data/app_database.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_data_app_database_dart_openconnection",
-      "community": 20,
+      "community": 7,
       "norm_label": "_openconnection"
     },
     {
@@ -1910,7 +1910,7 @@
       "source_file": "lib/features/calendar/data/app_database.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_data_app_database_dart_lazydatabase",
-      "community": 20,
+      "community": 7,
       "norm_label": "lazydatabase"
     },
     {
@@ -1919,7 +1919,7 @@
       "source_file": "lib/features/calendar/data/app_database.dart",
       "source_location": null,
       "id": "dart_io",
-      "community": 20,
+      "community": 7,
       "norm_label": "dart:io"
     },
     {
@@ -1928,7 +1928,7 @@
       "source_file": "lib/features/calendar/data/poop_log_repository.dart",
       "source_location": null,
       "id": "package_drift_drift_dart",
-      "community": 20,
+      "community": 1,
       "norm_label": "package:drift/drift.dart"
     },
     {
@@ -1937,7 +1937,7 @@
       "source_file": "lib/features/calendar/data/app_database.dart",
       "source_location": null,
       "id": "package_path_path_dart",
-      "community": 20,
+      "community": 7,
       "norm_label": "package:path/path.dart"
     },
     {
@@ -1946,7 +1946,7 @@
       "source_file": "lib/features/calendar/data/app_database.dart",
       "source_location": null,
       "id": "package_path_provider_path_provider_dart",
-      "community": 20,
+      "community": 7,
       "norm_label": "package:path_provider/path_provider.dart"
     },
     {
@@ -1955,7 +1955,7 @@
       "source_file": "lib/features/calendar/data/poop_log_repository.dart",
       "source_location": null,
       "id": "lib_features_calendar_data_poop_log_repository_dart",
-      "community": 20,
+      "community": 1,
       "norm_label": "poop_log_repository.dart"
     },
     {
@@ -1964,7 +1964,7 @@
       "source_file": "lib/features/calendar/data/poop_log_repository.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_data_poop_log_repository_dart_pooplogrepository",
-      "community": 20,
+      "community": 1,
       "norm_label": "pooplogrepository"
     },
     {
@@ -1973,7 +1973,7 @@
       "source_file": "lib/features/calendar/data/poop_log_repository.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_data_poop_log_repository_dart_maplog",
-      "community": 20,
+      "community": 1,
       "norm_label": "_maplog"
     },
     {
@@ -1982,7 +1982,7 @@
       "source_file": "lib/features/calendar/data/poop_log_repository.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_data_poop_log_repository_dart_logdatekey",
-      "community": 20,
+      "community": 1,
       "norm_label": "_logdatekey"
     },
     {
@@ -1991,7 +1991,7 @@
       "source_file": "lib/features/calendar/data/poop_log_repository.dart",
       "source_location": null,
       "id": "app_database_dart",
-      "community": 20,
+      "community": 1,
       "norm_label": "app_database.dart"
     },
     {
@@ -2099,7 +2099,7 @@
       "source_file": "lib/features/calendar/widgets/mood_section.dart",
       "source_location": null,
       "id": "lib_features_calendar_widgets_mood_section_dart",
-      "community": 22,
+      "community": 16,
       "norm_label": "mood_section.dart"
     },
     {
@@ -2108,7 +2108,7 @@
       "source_file": "lib/features/calendar/widgets/mood_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_mood_section_dart_moodsection",
-      "community": 22,
+      "community": 16,
       "norm_label": "moodsection"
     },
     {
@@ -2117,7 +2117,7 @@
       "source_file": "lib/features/calendar/widgets/mood_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_mood_section_dart_moodbutton",
-      "community": 22,
+      "community": 16,
       "norm_label": "moodbutton"
     },
     {
@@ -2126,7 +2126,7 @@
       "source_file": "lib/features/calendar/widgets/mood_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_mood_section_dart_build",
-      "community": 22,
+      "community": 16,
       "norm_label": "build"
     },
     {
@@ -2135,7 +2135,7 @@
       "source_file": "lib/features/calendar/widgets/mood_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_mood_section_dart_card",
-      "community": 22,
+      "community": 16,
       "norm_label": "card"
     },
     {
@@ -2144,7 +2144,7 @@
       "source_file": "lib/features/calendar/widgets/mood_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_mood_section_dart_sizedbox",
-      "community": 22,
+      "community": 16,
       "norm_label": "sizedbox"
     },
     {
@@ -2153,7 +2153,7 @@
       "source_file": "lib/features/calendar/widgets/mood_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_mood_section_dart_column",
-      "community": 22,
+      "community": 16,
       "norm_label": "column"
     },
     {
@@ -2162,7 +2162,7 @@
       "source_file": "lib/features/calendar/widgets/progress_card.dart",
       "source_location": null,
       "id": "package_flutter_svg_flutter_svg_dart",
-      "community": 14,
+      "community": 16,
       "norm_label": "package:flutter_svg/flutter_svg.dart"
     },
     {
@@ -2171,7 +2171,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "lib_features_calendar_widgets_calendar_section_dart",
-      "community": 57,
+      "community": 1,
       "norm_label": "calendar_section.dart"
     },
     {
@@ -2180,7 +2180,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_section_dart_calendarsection",
-      "community": 57,
+      "community": 1,
       "norm_label": "calendarsection"
     },
     {
@@ -2189,7 +2189,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_section_dart_build",
-      "community": 57,
+      "community": 1,
       "norm_label": "build"
     },
     {
@@ -2198,7 +2198,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_section_dart_column",
-      "community": 57,
+      "community": 1,
       "norm_label": "column"
     },
     {
@@ -2207,7 +2207,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_section_dart_sizedbox",
-      "community": 57,
+      "community": 1,
       "norm_label": "sizedbox"
     },
     {
@@ -2216,7 +2216,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_section_dart_center",
-      "community": 57,
+      "community": 1,
       "norm_label": "center"
     },
     {
@@ -2225,7 +2225,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_section_dart_calendardaybutton",
-      "community": 57,
+      "community": 1,
       "norm_label": "calendardaybutton"
     },
     {
@@ -2234,7 +2234,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "calendar_day_button_dart",
-      "community": 57,
+      "community": 1,
       "norm_label": "calendar_day_button.dart"
     },
     {
@@ -2243,7 +2243,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "round_icon_button_dart",
-      "community": 57,
+      "community": 1,
       "norm_label": "round_icon_button.dart"
     },
     {
@@ -2342,7 +2342,7 @@
       "source_file": "lib/features/calendar/widgets/notes_card.dart",
       "source_location": null,
       "id": "lib_features_calendar_widgets_notes_card_dart",
-      "community": 14,
+      "community": 16,
       "norm_label": "notes_card.dart"
     },
     {
@@ -2351,7 +2351,7 @@
       "source_file": "lib/features/calendar/widgets/notes_card.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_notes_card_dart_notescard",
-      "community": 14,
+      "community": 16,
       "norm_label": "notescard"
     },
     {
@@ -2360,7 +2360,7 @@
       "source_file": "lib/features/calendar/widgets/notes_card.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_notes_card_dart_build",
-      "community": 14,
+      "community": 16,
       "norm_label": "build"
     },
     {
@@ -2369,7 +2369,7 @@
       "source_file": "lib/features/calendar/widgets/notes_card.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_notes_card_dart_card",
-      "community": 14,
+      "community": 16,
       "norm_label": "card"
     },
     {
@@ -2378,7 +2378,7 @@
       "source_file": "lib/features/calendar/widgets/app_header.dart",
       "source_location": null,
       "id": "lib_features_calendar_widgets_app_header_dart",
-      "community": 21,
+      "community": 16,
       "norm_label": "app_header.dart"
     },
     {
@@ -2387,7 +2387,7 @@
       "source_file": "lib/features/calendar/widgets/app_header.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_app_header_dart_appheader",
-      "community": 21,
+      "community": 16,
       "norm_label": "appheader"
     },
     {
@@ -2396,7 +2396,7 @@
       "source_file": "lib/features/calendar/widgets/app_header.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_app_header_dart_headerclipper",
-      "community": 21,
+      "community": 16,
       "norm_label": "headerclipper"
     },
     {
@@ -2405,7 +2405,7 @@
       "source_file": "lib/features/calendar/widgets/app_header.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_app_header_dart_build",
-      "community": 21,
+      "community": 16,
       "norm_label": "build"
     },
     {
@@ -2414,7 +2414,7 @@
       "source_file": "lib/features/calendar/widgets/app_header.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_app_header_dart_sizedbox",
-      "community": 21,
+      "community": 16,
       "norm_label": "sizedbox"
     },
     {
@@ -2423,7 +2423,7 @@
       "source_file": "lib/features/calendar/widgets/app_header.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_app_header_dart_getclip",
-      "community": 21,
+      "community": 16,
       "norm_label": "getclip"
     },
     {
@@ -2432,7 +2432,7 @@
       "source_file": "lib/features/calendar/widgets/app_header.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_app_header_dart_shouldreclip",
-      "community": 21,
+      "community": 16,
       "norm_label": "shouldreclip"
     },
     {
@@ -2441,7 +2441,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
       "source_location": null,
       "id": "lib_features_calendar_widgets_calendar_day_button_dart",
-      "community": 58,
+      "community": 1,
       "norm_label": "calendar_day_button.dart"
     },
     {
@@ -2450,7 +2450,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_day_button_dart_calendardaybutton",
-      "community": 58,
+      "community": 1,
       "norm_label": "calendardaybutton"
     },
     {
@@ -2459,7 +2459,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_day_button_dart_build",
-      "community": 58,
+      "community": 1,
       "norm_label": "build"
     },
     {
@@ -2468,7 +2468,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_day_button_dart_decoratedbox",
-      "community": 58,
+      "community": 1,
       "norm_label": "decoratedbox"
     },
     {
@@ -2477,7 +2477,7 @@
       "source_file": "lib/features/calendar/widgets/bristol_section.dart",
       "source_location": null,
       "id": "lib_features_calendar_widgets_bristol_section_dart",
-      "community": 19,
+      "community": 16,
       "norm_label": "bristol_section.dart"
     },
     {
@@ -2486,7 +2486,7 @@
       "source_file": "lib/features/calendar/widgets/bristol_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_bristol_section_dart_bristolsection",
-      "community": 19,
+      "community": 16,
       "norm_label": "bristolsection"
     },
     {
@@ -2495,7 +2495,7 @@
       "source_file": "lib/features/calendar/widgets/bristol_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_bristol_section_dart_bristoltypebutton",
-      "community": 19,
+      "community": 16,
       "norm_label": "bristoltypebutton"
     },
     {
@@ -2504,7 +2504,7 @@
       "source_file": "lib/features/calendar/widgets/bristol_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_bristol_section_dart_build",
-      "community": 19,
+      "community": 16,
       "norm_label": "build"
     },
     {
@@ -2513,7 +2513,7 @@
       "source_file": "lib/features/calendar/widgets/bristol_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_bristol_section_dart_card",
-      "community": 19,
+      "community": 16,
       "norm_label": "card"
     },
     {
@@ -2522,7 +2522,7 @@
       "source_file": "lib/features/calendar/widgets/bristol_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_bristol_section_dart_sizedbox",
-      "community": 19,
+      "community": 16,
       "norm_label": "sizedbox"
     },
     {
@@ -2531,7 +2531,7 @@
       "source_file": "lib/features/calendar/widgets/bristol_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_bristol_section_dart_icon",
-      "community": 19,
+      "community": 16,
       "norm_label": "icon"
     },
     {
@@ -2540,7 +2540,7 @@
       "source_file": "lib/features/calendar/widgets/bristol_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_bristol_section_dart_container",
-      "community": 19,
+      "community": 16,
       "norm_label": "container"
     },
     {
@@ -2693,7 +2693,7 @@
       "source_file": "lib/features/calendar/widgets/progress_card.dart",
       "source_location": null,
       "id": "lib_features_calendar_widgets_progress_card_dart",
-      "community": 28,
+      "community": 16,
       "norm_label": "progress_card.dart"
     },
     {
@@ -2702,7 +2702,7 @@
       "source_file": "lib/features/calendar/widgets/progress_card.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_progress_card_dart_progresscard",
-      "community": 28,
+      "community": 16,
       "norm_label": "progresscard"
     },
     {
@@ -2711,7 +2711,7 @@
       "source_file": "lib/features/calendar/widgets/progress_card.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_progress_card_dart_build",
-      "community": 28,
+      "community": 16,
       "norm_label": "build"
     },
     {
@@ -2720,7 +2720,7 @@
       "source_file": "lib/features/calendar/widgets/progress_card.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_progress_card_dart_card",
-      "community": 28,
+      "community": 16,
       "norm_label": "card"
     },
     {
@@ -2729,7 +2729,7 @@
       "source_file": "lib/features/calendar/widgets/progress_card.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_progress_card_dart_sizedbox",
-      "community": 28,
+      "community": 16,
       "norm_label": "sizedbox"
     },
     {
@@ -3228,22 +3228,103 @@
       "norm_label": "readme.md"
     },
     {
-      "label": "pt",
+      "label": "Poop Pal",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
-      "id": "pt_readme_pt",
+      "id": "pt_readme_poop_pal",
       "community": 53,
-      "norm_label": "pt"
+      "norm_label": "poop pal"
     },
     {
-      "label": "Getting Started",
+      "label": "What It Does",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L5",
-      "id": "pt_readme_getting_started",
+      "id": "pt_readme_what_it_does",
       "community": 53,
-      "norm_label": "getting started"
+      "norm_label": "what it does"
+    },
+    {
+      "label": "Project Structure",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "id": "pt_readme_project_structure",
+      "community": 53,
+      "norm_label": "project structure"
+    },
+    {
+      "label": "Data Model",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "id": "pt_readme_data_model",
+      "community": 53,
+      "norm_label": "data model"
+    },
+    {
+      "label": "Development",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "id": "pt_readme_development",
+      "community": 53,
+      "norm_label": "development"
+    },
+    {
+      "label": "code:sh (flutter pub get)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "id": "pt_readme_codeblock_1",
+      "community": 53,
+      "norm_label": "code:sh (flutter pub get)"
+    },
+    {
+      "label": "code:sh (flutter run)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L46",
+      "id": "pt_readme_codeblock_2",
+      "community": 53,
+      "norm_label": "code:sh (flutter run)"
+    },
+    {
+      "label": "code:sh (flutter test)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L52",
+      "id": "pt_readme_codeblock_3",
+      "community": 53,
+      "norm_label": "code:sh (flutter test)"
+    },
+    {
+      "label": "code:sh (flutter analyze)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L58",
+      "id": "pt_readme_codeblock_4",
+      "community": 53,
+      "norm_label": "code:sh (flutter analyze)"
+    },
+    {
+      "label": "code:sh (dart run build_runner build)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L64",
+      "id": "pt_readme_codeblock_5",
+      "community": 53,
+      "norm_label": "code:sh (dart run build_runner build)"
+    },
+    {
+      "label": "Notes",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L68",
+      "id": "pt_readme_notes",
+      "community": 53,
+      "norm_label": "notes"
     },
     {
       "label": "AGENTS.md",
@@ -3282,11 +3363,29 @@
       "norm_label": "launch screen assets"
     },
     {
+      "label": "pt",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "community": 53,
+      "norm_label": "pt",
+      "id": "pt_readme_pt"
+    },
+    {
+      "label": "Getting Started",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "community": 53,
+      "norm_label": "getting started",
+      "id": "pt_readme_getting_started"
+    },
+    {
       "label": "SizedBox",
       "file_type": "code",
       "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
       "source_location": null,
-      "community": 58,
+      "community": 1,
       "norm_label": "sizedbox",
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_day_button_dart_sizedbox"
     },
@@ -8342,6 +8441,16 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "source": "readme_md",
+      "target": "pt_readme_poop_pal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "readme_md",
       "target": "pt_readme_pt"
@@ -8352,9 +8461,99 @@
       "source_file": "README.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pt_readme_pt",
-      "target": "pt_readme_getting_started"
+      "source": "pt_readme_poop_pal",
+      "target": "pt_readme_what_it_does",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "pt_readme_poop_pal",
+      "target": "pt_readme_project_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "pt_readme_poop_pal",
+      "target": "pt_readme_data_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "pt_readme_poop_pal",
+      "target": "pt_readme_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "pt_readme_poop_pal",
+      "target": "pt_readme_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "pt_readme_development",
+      "target": "pt_readme_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "pt_readme_development",
+      "target": "pt_readme_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "pt_readme_development",
+      "target": "pt_readme_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "pt_readme_development",
+      "target": "pt_readme_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "pt_readme_development",
+      "target": "pt_readme_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -8375,6 +8574,16 @@
       "confidence_score": 1.0,
       "source": "ios_runner_assets_xcassets_launchimage_imageset_readme_md",
       "target": "launchimage_imageset_readme_launch_screen_assets"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pt_readme_pt",
+      "target": "pt_readme_getting_started"
     },
     {
       "relation": "references",
@@ -10301,5 +10510,5 @@
       "source_file": "assets/vectors/poop_marker.svg"
     }
   ],
-  "built_at_commit": "7a7efc095c9e00e3e7c5cc514e52707d2c84c696"
+  "built_at_commit": "08f208fb98d23f969816f32f5be68cfa47da14a0"
 }
