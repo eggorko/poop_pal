@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Great mood">
+  <circle cx="40" cy="40" r="33" fill="#FFD85A" stroke="#24B9B1" stroke-width="5"/>
+  <circle cx="29" cy="31" r="5" fill="#42372C"/>
+  <circle cx="51" cy="31" r="5" fill="#42372C"/>
+  <path fill="#fff" d="M21 43h38c-1 13-9 22-19 22s-18-9-19-22Z"/>
+  <path fill="#42372C" d="M25 43h30c-2 8-7 13-15 13s-13-5-15-13Z"/>
+  <path fill="#FF7B73" d="M33 55c5-3 10-3 15 0-3 4-12 4-15 0Z"/>
+</svg>

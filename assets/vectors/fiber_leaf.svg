@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Fiber">
+  <path fill="#69B85B" stroke="#347E35" stroke-linejoin="round" stroke-width="3" d="M56 8C34 9 14 21 10 44c23 5 38-9 46-36Z"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4" d="M13 51C25 34 38 23 51 13"/>
+  <path fill="none" stroke="#347E35" stroke-linecap="round" stroke-width="3" d="M20 39c6 0 10 1 15 4M30 29c5 0 9 1 13 3"/>
+</svg>

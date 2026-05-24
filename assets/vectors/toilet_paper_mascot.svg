@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Toilet paper mascot">
+  <defs>
+    <linearGradient id="roll" x1="21" x2="104" y1="16" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#E5DED2"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="54" fill="#D6F1EA"/>
+  <path fill="#F5EEE4" d="M36 30h50c14 0 24 8 24 19v38c0 11-10 19-24 19H36V30Z"/>
+  <ellipse cx="37" cy="49" fill="url(#roll)" rx="26" ry="19"/>
+  <ellipse cx="37" cy="49" fill="#D8CFC1" rx="15" ry="8"/>
+  <path fill="url(#roll)" d="M11 49c0-11 12-19 26-19s26 8 26 19v38c0 11-12 19-26 19s-26-8-26-19V49Z"/>
+  <path fill="#E9E1D6" d="M63 53h35v9H63zM63 75h35v9H63z" opacity=".7"/>
+  <circle cx="31" cy="77" r="5" fill="#1C2422"/>
+  <circle cx="48" cy="77" r="5" fill="#1C2422"/>
+  <circle cx="33" cy="75" r="1.7" fill="#fff"/>
+  <circle cx="50" cy="75" r="1.7" fill="#fff"/>
+  <path fill="none" stroke="#FF7B73" stroke-linecap="round" stroke-width="3" d="M34 88c4 4 9 4 13 0"/>
+  <path fill="#FF7B93" d="M93 28c0-5 7-7 10-2 3-5 10-3 10 2 0 8-10 13-10 13s-10-5-10-13Z"/>
+</svg>

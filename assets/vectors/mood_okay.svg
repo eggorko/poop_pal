@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Okay mood">
+  <circle cx="40" cy="40" r="33" fill="#FFD85A" stroke="#F1BF3A" stroke-width="3"/>
+  <circle cx="29" cy="33" r="4.5" fill="#42372C"/>
+  <circle cx="51" cy="33" r="4.5" fill="#42372C"/>
+  <path fill="none" stroke="#42372C" stroke-linecap="round" stroke-width="5" d="M27 52h26"/>
+</svg>

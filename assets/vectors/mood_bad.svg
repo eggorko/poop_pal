@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Bad mood">
+  <circle cx="40" cy="40" r="33" fill="#B6D84A" stroke="#8CAB2D" stroke-width="3"/>
+  <path fill="none" stroke="#42372C" stroke-linecap="round" stroke-width="5" d="M22 28l10 10M32 28 22 38M48 28l10 10M58 28 48 38M25 58c8-12 22-12 30 0"/>
+</svg>

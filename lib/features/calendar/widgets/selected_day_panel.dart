@@ -1,0 +1,303 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+
+import '../../../shared/app_assets.dart';
+import '../../../shared/date_helpers.dart';
+import '../models/poop_log.dart';
+
+class SelectedDayPanel extends StatelessWidget {
+  const SelectedDayPanel({
+    required this.day,
+    required this.log,
+    required this.isMarked,
+    required this.isFutureDate,
+    required this.monthLogCount,
+    required this.showStreak,
+    required this.showLogButton,
+    required this.onToggle,
+    required this.onRemoveLogPressed,
+    super.key,
+  });
+
+  final DateTime day;
+  final PoopLog? log;
+  final bool isMarked;
+  final bool isFutureDate;
+  final int monthLogCount;
+  final bool showStreak;
+  final bool showLogButton;
+  final VoidCallback? onToggle;
+  final VoidCallback? onRemoveLogPressed;
+
+  @override
+  Widget build(BuildContext context) {
+    final ThemeData theme = Theme.of(context);
+
+    return Column(
+      children: [
+        Card(
+          child: Padding(
+            padding: const EdgeInsets.all(14),
+            child: log == null
+                ? Align(
+                    alignment: Alignment.centerLeft,
+                    child: DateTile(day: day),
+                  )
+                : Row(
+                    children: [
+                      DateTile(day: day),
+                      const SizedBox(width: 14),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'Poop logged 🎉',
+                              style: theme.textTheme.titleLarge?.copyWith(
+                                color: const Color(0xFF10272A),
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                            const SizedBox(height: 8),
+                            SelectedMetric(
+                              label: 'Time',
+                              value: _formatTime(log!.occurredAt),
+                            ),
+                          ],
+                        ),
+                      ),
+                      Tooltip(
+                        message: 'Remove log',
+                        child: OutlinedButton(
+                          onPressed: onRemoveLogPressed,
+                          style: OutlinedButton.styleFrom(
+                            foregroundColor: const Color(0xFF10272A),
+                            side: const BorderSide(color: Color(0xFFE6D8C6)),
+                            shape: const StadiumBorder(),
+                            padding: const EdgeInsets.symmetric(horizontal: 14),
+                            minimumSize: const Size(0, 36),
+                            tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                          ),
+                          child: const Text('Remove'),
+                        ),
+                      ),
+                    ],
+                  ),
+          ),
+        ),
+        if (showStreak || showLogButton) const SizedBox(height: 12),
+        if (showStreak && showLogButton)
+          Row(
+            children: [
+              Expanded(child: StreakCard(monthLogCount: monthLogCount)),
+              const SizedBox(width: 10),
+              Expanded(
+                child: LogButton(
+                  isMarked: isMarked,
+                  isFutureDate: isFutureDate,
+                  onToggle: onToggle,
+                ),
+              ),
+            ],
+          )
+        else if (showStreak)
+          StreakCard(monthLogCount: monthLogCount)
+        else if (showLogButton)
+          LogButton(
+            isMarked: isMarked,
+            isFutureDate: isFutureDate,
+            onToggle: onToggle,
+          ),
+      ],
+    );
+  }
+}
+
+class LogButton extends StatelessWidget {
+  const LogButton({
+    required this.isMarked,
+    required this.isFutureDate,
+    required this.onToggle,
+    super.key,
+  });
+
+  final bool isMarked;
+  final bool isFutureDate;
+  final VoidCallback? onToggle;
+
+  @override
+  Widget build(BuildContext context) {
+    final ThemeData theme = Theme.of(context);
+
+    return FilledButton(
+      onPressed: isMarked ? onToggle : null,
+
+      style: FilledButton.styleFrom(
+        backgroundColor: Colors.green,
+        foregroundColor: Colors.white,
+        minimumSize: const Size.fromHeight(56),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+      ),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(isMarked ? Icons.check_circle : null, size: 34),
+          const SizedBox(width: 12),
+          Flexible(
+            child: Text(
+              isMarked
+                  ? 'Logged'
+                  : isFutureDate
+                  ? 'Future date'
+                  : 'No poop logged',
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: theme.textTheme.titleLarge?.copyWith(
+                color: Colors.white,
+                fontWeight: FontWeight.w800,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+String _formatTime(DateTime date) {
+  final int hour = date.hour;
+  final int displayHour = hour == 0
+      ? 12
+      : hour > 12
+      ? hour - 12
+      : hour;
+  final String minute = date.minute.toString().padLeft(2, '0');
+  final String period = hour >= 12 ? 'PM' : 'AM';
+
+  return '$displayHour:$minute $period';
+}
+
+class DateTile extends StatelessWidget {
+  const DateTile({required this.day, super.key});
+
+  final DateTime day;
+
+  @override
+  Widget build(BuildContext context) {
+    final ThemeData theme = Theme.of(context);
+
+    return Container(
+      width: 102,
+      height: 102,
+      decoration: BoxDecoration(
+        color: const Color(0xFFD8F5EC),
+        borderRadius: BorderRadius.circular(20),
+      ),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text(
+            weekdayShort(day).toUpperCase(),
+            style: theme.textTheme.labelLarge?.copyWith(
+              color: const Color(0xFF10272A),
+              fontWeight: FontWeight.w700,
+            ),
+          ),
+          Text(
+            '${day.day}',
+            style: theme.textTheme.headlineLarge?.copyWith(
+              color: const Color(0xFF084B52),
+              fontWeight: FontWeight.w900,
+              letterSpacing: 0,
+            ),
+          ),
+          Text(
+            shortMonthTitle(day),
+            style: theme.textTheme.bodyMedium?.copyWith(
+              color: const Color(0xFF10272A),
+              fontWeight: FontWeight.w500,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class SelectedMetric extends StatelessWidget {
+  const SelectedMetric({required this.label, required this.value, super.key});
+
+  final String label;
+  final String value;
+
+  @override
+  Widget build(BuildContext context) {
+    final ThemeData theme = Theme.of(context);
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(label, style: theme.textTheme.bodyLarge),
+        Text(
+          value,
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
+          style: theme.textTheme.titleLarge?.copyWith(
+            color: const Color(0xFF10272A),
+            fontWeight: FontWeight.w700,
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+class StreakCard extends StatelessWidget {
+  const StreakCard({required this.monthLogCount, super.key});
+
+  final int monthLogCount;
+
+  @override
+  Widget build(BuildContext context) {
+    final ThemeData theme = Theme.of(context);
+
+    return Card(
+      color: const Color(0xFFFFFCF5),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(20),
+        side: const BorderSide(color: Color(0xFFF4DDBB)),
+      ),
+      child: SizedBox(
+        height: 76,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 14),
+          child: Row(
+            children: [
+              Text(
+                'Streak',
+                style: theme.textTheme.titleMedium?.copyWith(
+                  color: const Color(0xFFA34E1D),
+                  fontWeight: FontWeight.w800,
+                ),
+              ),
+              const SizedBox(width: 12),
+              SvgPicture.asset(AppAssets.streakFlame, width: 38, height: 38),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Text(
+                  '$monthLogCount poop days',
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  style: theme.textTheme.titleMedium?.copyWith(
+                    color: const Color(0xFFA34E1D),
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
