@@ -56,10 +56,10 @@ class PoopBottomNavigation extends StatelessWidget {
               SizedBox(
                 width: 96,
                 child: OverflowBox(
-                  minWidth: 120,
-                  maxWidth: 120,
-                  minHeight: 120,
-                  maxHeight: 120,
+                  minWidth: 100,
+                  maxWidth: 100,
+                  minHeight: 100,
+                  maxHeight: 100,
                   alignment: Alignment.center,
                   child: Transform.translate(
                     offset: const Offset(0, -28),

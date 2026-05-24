@@ -93,21 +93,22 @@ class LogButton extends StatelessWidget {
     final ThemeData theme = Theme.of(context);
 
     return FilledButton(
-      onPressed: onToggle,
+      onPressed: isMarked ? onToggle : null,
+      
       style: FilledButton.styleFrom(
         backgroundColor: const Color(0xFFFF765F),
         foregroundColor: Colors.white,
-        minimumSize: const Size.fromHeight(76),
+        minimumSize: const Size.fromHeight(56),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(isMarked ? Icons.check_circle : Icons.add_circle, size: 34),
+          Icon(isMarked ? Icons.check_circle : null, size: 34),
           const SizedBox(width: 12),
           Flexible(
             child: Text(
-              isMarked ? 'Logged' : 'Log poop',
+              isMarked ? 'Logged' : 'No poop logged',
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               style: theme.textTheme.titleLarge?.copyWith(
