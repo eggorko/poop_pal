@@ -1,53 +1,62 @@
-# Graph Report - .  (2026-05-24)
+# Graph Report - pt  (2026-05-24)
 
 ## Corpus Check
-- 139 files · ~105,235 words
+- 73 files · ~105,560 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 427 nodes · 473 edges · 53 communities (44 shown, 9 thin omitted)
-- Extraction: 88% EXTRACTED · 12% INFERRED · 0% AMBIGUOUS · INFERRED: 55 edges (avg confidence: 0.84)
+- 448 nodes · 490 edges · 57 communities (44 shown, 13 thin omitted)
+- Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 55 edges (avg confidence: 0.84)
 - Token cost: 0 input · 0 output
 
+## Graph Freshness
+- Built from commit: `fb7e23c4`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
+
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_Windows Runtime|Windows Runtime]]
-- [[_COMMUNITY_Calendar Persistence|Calendar Persistence]]
-- [[_COMMUNITY_Project Tooling|Project Tooling]]
-- [[_COMMUNITY_Calendar Screen State|Calendar Screen State]]
-- [[_COMMUNITY_macOS App Icons|macOS App Icons]]
-- [[_COMMUNITY_Health Tracking Assets|Health Tracking Assets]]
-- [[_COMMUNITY_Linux Runtime|Linux Runtime]]
-- [[_COMMUNITY_Persistence Imports|Persistence Imports]]
-- [[_COMMUNITY_Launcher Icons|Launcher Icons]]
-- [[_COMMUNITY_Windows Windowing|Windows Windowing]]
-- [[_COMMUNITY_Windows Build|Windows Build]]
-- [[_COMMUNITY_Linux Build|Linux Build]]
-- [[_COMMUNITY_App Root Injection|App Root Injection]]
-- [[_COMMUNITY_Drift Generated Model|Drift Generated Model]]
-- [[_COMMUNITY_SVG UI Widgets|SVG UI Widgets]]
-- [[_COMMUNITY_Web Manifest|Web Manifest]]
-- [[_COMMUNITY_Theme And Bootstrap|Theme And Bootstrap]]
-- [[_COMMUNITY_PoopPal Branding|PoopPal Branding]]
-- [[_COMMUNITY_Apple App Delegates|Apple App Delegates]]
-- [[_COMMUNITY_Bristol UI|Bristol UI]]
-- [[_COMMUNITY_Bottom Navigation|Bottom Navigation]]
-- [[_COMMUNITY_Header UI|Header UI]]
-- [[_COMMUNITY_Mood UI|Mood UI]]
-- [[_COMMUNITY_Asset Catalog Metadata|Asset Catalog Metadata]]
-- [[_COMMUNITY_macOS Generated Plugins|macOS Generated Plugins]]
-- [[_COMMUNITY_Date Helpers|Date Helpers]]
-- [[_COMMUNITY_Runner Tests|Runner Tests]]
-- [[_COMMUNITY_Catalog Contents|Catalog Contents]]
-- [[_COMMUNITY_Progress Cards|Progress Cards]]
-- [[_COMMUNITY_Launch Images|Launch Images]]
-- [[_COMMUNITY_LLDB Helper|LLDB Helper]]
-- [[_COMMUNITY_Agent Hooks|Agent Hooks]]
-- [[_COMMUNITY_Asset Constants|Asset Constants]]
-- [[_COMMUNITY_Android Plugin Registrant|Android Plugin Registrant]]
-- [[_COMMUNITY_iOS Plugin Registrant|iOS Plugin Registrant]]
-- [[_COMMUNITY_Scene Delegate|Scene Delegate]]
-- [[_COMMUNITY_PoopLog Model|PoopLog Model]]
-- [[_COMMUNITY_Android Activity|Android Activity]]
+- [[_COMMUNITY_Community 0|Community 0]]
+- [[_COMMUNITY_Community 1|Community 1]]
+- [[_COMMUNITY_Community 2|Community 2]]
+- [[_COMMUNITY_Community 3|Community 3]]
+- [[_COMMUNITY_Community 4|Community 4]]
+- [[_COMMUNITY_Community 5|Community 5]]
+- [[_COMMUNITY_Community 6|Community 6]]
+- [[_COMMUNITY_Community 7|Community 7]]
+- [[_COMMUNITY_Community 8|Community 8]]
+- [[_COMMUNITY_Community 9|Community 9]]
+- [[_COMMUNITY_Community 10|Community 10]]
+- [[_COMMUNITY_Community 11|Community 11]]
+- [[_COMMUNITY_Community 12|Community 12]]
+- [[_COMMUNITY_Community 13|Community 13]]
+- [[_COMMUNITY_Community 14|Community 14]]
+- [[_COMMUNITY_Community 15|Community 15]]
+- [[_COMMUNITY_Community 16|Community 16]]
+- [[_COMMUNITY_Community 17|Community 17]]
+- [[_COMMUNITY_Community 18|Community 18]]
+- [[_COMMUNITY_Community 19|Community 19]]
+- [[_COMMUNITY_Community 20|Community 20]]
+- [[_COMMUNITY_Community 21|Community 21]]
+- [[_COMMUNITY_Community 22|Community 22]]
+- [[_COMMUNITY_Community 23|Community 23]]
+- [[_COMMUNITY_Community 24|Community 24]]
+- [[_COMMUNITY_Community 25|Community 25]]
+- [[_COMMUNITY_Community 26|Community 26]]
+- [[_COMMUNITY_Community 27|Community 27]]
+- [[_COMMUNITY_Community 28|Community 28]]
+- [[_COMMUNITY_Community 29|Community 29]]
+- [[_COMMUNITY_Community 30|Community 30]]
+- [[_COMMUNITY_Community 31|Community 31]]
+- [[_COMMUNITY_Community 32|Community 32]]
+- [[_COMMUNITY_Community 33|Community 33]]
+- [[_COMMUNITY_Community 34|Community 34]]
+- [[_COMMUNITY_Community 35|Community 35]]
+- [[_COMMUNITY_Community 36|Community 36]]
+- [[_COMMUNITY_Community 37|Community 37]]
+- [[_COMMUNITY_Community 53|Community 53]]
+- [[_COMMUNITY_Community 54|Community 54]]
+- [[_COMMUNITY_Community 55|Community 55]]
+- [[_COMMUNITY_Community 56|Community 56]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `pt Flutter Project` - 21 edges
@@ -96,143 +105,143 @@
 - **Health Metric Visuals** — poop_marker_poop_day_marker, fiber_leaf_fiber, streak_flame_streak_flame, ui_health_metrics, ui_progress_tracking [INFERRED 0.78]
 - **Friendly Rounded Vector Language** — poop_marker_poop_day_marker, mood_great_great_mood, mood_good_good_mood, fiber_leaf_fiber, streak_flame_streak_flame, ui_friendly_digestive_design_language [INFERRED 0.74]
 
-## Communities (53 total, 9 thin omitted)
+## Communities (57 total, 13 thin omitted)
 
-### Community 0 - "Windows Runtime"
+### Community 0 - "Community 0"
 Cohesion: 0.10
 Nodes (22): RegisterPlugins(), OnCreate(), Create(), Destroy(), EnableFullDpiSupportIfAvailable(), GetClientArea(), GetThisFromHandle(), GetWindowClass() (+14 more)
 
-### Community 1 - "Calendar Persistence"
-Cohesion: 0.08
-Nodes (24): app_database.dart, calendar_day_button.dart, ../models/poop_log.dart, round_icon_button.dart, ../../../shared/date_helpers.dart, _logDateKey, _mapLog, PoopLogRepository (+16 more)
+### Community 1 - "Community 1"
+Cohesion: 0.06
+Nodes (31): app_database.dart, calendar_day_button.dart, ../models/poop_log.dart, package:drift/drift.dart, round_icon_button.dart, ../../../shared/date_helpers.dart, _logDateKey, _mapLog (+23 more)
 
-### Community 2 - "Project Tooling"
+### Community 2 - "Community 2"
 Cohesion: 0.09
 Nodes (27): Graphify Query First Rule, Graphify Workflow Instructions, Dart Static Analyzer, Flutter Lints Analyzer Configuration, Drift DevTools Extension Enabled, iOS Launch Screen Assets, Build Runner Dependency, Cupertino Icons Dependency (+19 more)
 
-### Community 3 - "Calendar Screen State"
-Cohesion: 0.08
-Nodes (25): ../data/poop_log_repository.dart, BristolSection, build, _clampSelectedDayToVisibleMonth, DateTime, _goToNextMonth, _goToPreviousMonth, initState (+17 more)
+### Community 3 - "Community 3"
+Cohesion: 0.06
+Nodes (30): ../../../app/feature_flags.dart, ../data/poop_log_repository.dart, BristolSection, build, _clampSelectedDayToVisibleMonth, Column, DateTime, Expanded (+22 more)
 
-### Community 4 - "macOS App Icons"
+### Community 4 - "Community 4"
 Cohesion: 0.09
 Nodes (25): macOS App Icon 1024px, macOS App Icon 128px, macOS App Icon 16px, macOS App Icon 256px, macOS App Icon 32px, macOS App Icon 512px, macOS App Icon 64px, Flutter Brand Icon Family (+17 more)
 
-### Community 5 - "Health Tracking Assets"
+### Community 5 - "Community 5"
 Cohesion: 0.16
 Nodes (20): Bristol Stool Type 1, Bristol Stool Type 2, Bristol Stool Type 3, Bristol Stool Type 4, Bristol Stool Type 5, Bristol Stool Type 6, Bristol Stool Type 7, Fiber (+12 more)
 
-### Community 6 - "Linux Runtime"
+### Community 6 - "Community 6"
 Cohesion: 0.11
 Nodes (7): fl_register_plugins(), main(), my_application_activate(), my_application_new(), _MyApplication, dart_entrypoint_arguments, parent_instance
 
-### Community 7 - "Persistence Imports"
-Cohesion: 0.12
-Nodes (16): dart:io, package:drift/drift.dart, package:drift/native.dart, package:flutter_test/flutter_test.dart, package:path/path.dart, package:path_provider/path_provider.dart, package:pt/app/poop_tracker_app.dart, package:pt/features/calendar/data/app_database.dart (+8 more)
+### Community 7 - "Community 7"
+Cohesion: 0.10
+Nodes (19): dart:io, package:drift/native.dart, package:flutter_test/flutter_test.dart, package:path/path.dart, package:path_provider/path_provider.dart, package:pt/app/feature_flags.dart, package:pt/app/poop_tracker_app.dart, package:pt/features/calendar/data/app_database.dart (+11 more)
 
-### Community 8 - "Launcher Icons"
+### Community 8 - "Community 8"
 Cohesion: 0.13
 Nodes (16): Android Launcher Icon Family, Flutter Default Brand Mark, Android Launcher Icon hdpi, Android Launcher Icon mdpi, Android Launcher Icon xhdpi, Android Launcher Icon xxhdpi, Android Launcher Icon xxxhdpi, iOS App Icon 20pt @2x (+8 more)
 
-### Community 9 - "Windows Windowing"
+### Community 9 - "Community 9"
 Cohesion: 0.21
 Nodes (5): FlutterWindow(), wWinMain(), CreateAndAttachConsole(), GetCommandLineArguments(), Utf8FromUtf16()
 
-### Community 10 - "Windows Build"
+### Community 10 - "Community 10"
 Cohesion: 0.18
 Nodes (13): Windows pt Executable Target, Windows Flutter Managed Directory, Windows Runtime Install Layout, Windows pt CMake Project, Windows Standard CMake Settings, Windows Unicode Definitions, Windows Flutter C++ Wrapper Libraries, Windows Flutter Ephemeral Configuration (+5 more)
 
-### Community 11 - "Linux Build"
+### Community 11 - "Community 11"
 Cohesion: 0.23
 Nodes (12): Linux GTK Application ID, Linux pt Executable Target, Linux Relocatable Bundle Install, Linux Flutter Managed Directory, Linux GTK Dependency, Linux Runner CMake Project, Linux Standard CMake Settings, Linux Flutter Ephemeral Configuration (+4 more)
 
-### Community 12 - "App Root Injection"
-Cohesion: 0.18
-Nodes (10): ../features/calendar/data/app_database.dart, ../features/calendar/data/poop_log_repository.dart, ../features/calendar/screens/poop_calendar_screen.dart, theme.dart, build, dispose, initState, MaterialApp (+2 more)
+### Community 12 - "Community 12"
+Cohesion: 0.17
+Nodes (11): feature_flags.dart, ../features/calendar/data/app_database.dart, ../features/calendar/data/poop_log_repository.dart, ../features/calendar/screens/poop_calendar_screen.dart, theme.dart, build, dispose, initState (+3 more)
 
-### Community 13 - "Drift Generated Model"
+### Community 13 - "Community 13"
 Cohesion: 0.20
 Nodes (11): _, copyWith, copyWithCompanion, Function, map, PoopLog, PoopLogsCompanion, RawValuesInsertable (+3 more)
 
-### Community 14 - "SVG UI Widgets"
-Cohesion: 0.20
-Nodes (9): package:flutter_svg/flutter_svg.dart, ../../../shared/app_assets.dart, build, CalendarDayButton, DecoratedBox, SizedBox, build, Card (+1 more)
+### Community 14 - "Community 14"
+Cohesion: 0.40
+Nodes (4): ../../../shared/app_assets.dart, build, Card, NotesCard
 
-### Community 15 - "Web Manifest"
+### Community 15 - "Community 15"
 Cohesion: 0.18
 Nodes (10): background_color, description, display, icons, name, orientation, prefer_related_applications, short_name (+2 more)
 
-### Community 16 - "Theme And Bootstrap"
+### Community 16 - "Community 16"
 Cohesion: 0.20
 Nodes (7): app/poop_tracker_app.dart, package:flutter/material.dart, AppTheme, ThemeData, build, RoundIconButton, main
 
-### Community 17 - "PoopPal Branding"
+### Community 17 - "Community 17"
 Cohesion: 0.40
 Nodes (10): Calendar Tab Icon, Hydration Drop Icon, Insights Bars Icon, Notes Sheet Icon, PoopPal Poop Mascot SVG, PoopPal Kawaii Mascot PNG, PoopPal Character System, PoopPal Friendly Wellness Visual Language (+2 more)
 
-### Community 18 - "Apple App Delegates"
+### Community 18 - "Community 18"
 Cohesion: 0.22
 Nodes (3): FlutterAppDelegate, FlutterImplicitEngineDelegate, AppDelegate
 
-### Community 19 - "Bristol UI"
+### Community 19 - "Community 19"
 Cohesion: 0.25
 Nodes (7): BristolSection, BristolTypeButton, build, Card, Container, Icon, SizedBox
 
-### Community 20 - "Bottom Navigation"
+### Community 20 - "Community 20"
 Cohesion: 0.25
 Nodes (7): build, CenterLogButton, NavItem, Padding, PoopBottomNavigation, Semantics, SizedBox
 
-### Community 21 - "Header UI"
+### Community 21 - "Community 21"
 Cohesion: 0.29
 Nodes (6): AppHeader, build, getClip, HeaderClipper, shouldReclip, SizedBox
 
-### Community 22 - "Mood UI"
+### Community 22 - "Community 22"
 Cohesion: 0.29
 Nodes (6): build, Card, Column, MoodButton, MoodSection, SizedBox
 
-### Community 23 - "Asset Catalog Metadata"
+### Community 23 - "Community 23"
 Cohesion: 0.40
 Nodes (4): images, info, author, version
 
-### Community 24 - "macOS Generated Plugins"
+### Community 24 - "Community 24"
 Cohesion: 0.33
 Nodes (3): RegisterGeneratedPlugins(), NSWindow, MainFlutterWindow
 
-### Community 25 - "Date Helpers"
+### Community 25 - "Community 25"
 Cohesion: 0.33
 Nodes (5): dateOnly, isSameDay, monthTitle, shortMonthTitle, weekdayShort
 
-### Community 27 - "Catalog Contents"
+### Community 27 - "Community 27"
 Cohesion: 0.40
 Nodes (4): images, info, author, version
 
-### Community 28 - "Progress Cards"
-Cohesion: 0.40
-Nodes (4): build, Card, ProgressCard, SizedBox
+### Community 28 - "Community 28"
+Cohesion: 0.33
+Nodes (5): package:flutter_svg/flutter_svg.dart, build, Card, ProgressCard, SizedBox
 
-### Community 29 - "Launch Images"
+### Community 29 - "Community 29"
 Cohesion: 0.83
 Nodes (4): iOS Launch Image Placeholder Variants, iOS Launch Image 1x Placeholder, iOS Launch Image 2x Placeholder, iOS Launch Image 3x Placeholder
 
 ## Knowledge Gaps
-- **205 isolated node(s):** `version`, `author`, `main`, `package:pt/features/calendar/models/poop_log.dart`, `main` (+200 more)
+- **221 isolated node(s):** `version`, `author`, `main`, `package:pt/features/calendar/models/poop_log.dart`, `main` (+216 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `package:flutter/material.dart` connect `Theme And Bootstrap` to `Calendar Persistence`, `Calendar Screen State`, `Persistence Imports`, `App Root Injection`, `SVG UI Widgets`, `Bristol UI`, `Bottom Navigation`, `Header UI`, `Mood UI`, `Progress Cards`?**
-  _High betweenness centrality (0.065) - this node is a cross-community bridge._
-- **Why does `pt Flutter Project` connect `Project Tooling` to `Windows Build`, `Linux Build`?**
+- **Why does `package:flutter/material.dart` connect `Community 16` to `Community 1`, `Community 3`, `Community 7`, `Community 12`, `Community 14`, `Community 19`, `Community 20`, `Community 21`, `Community 22`, `Community 28`?**
+  _High betweenness centrality (0.070) - this node is a cross-community bridge._
+- **Why does `../../../shared/app_assets.dart` connect `Community 14` to `Community 1`, `Community 3`, `Community 19`, `Community 20`, `Community 21`, `Community 22`?**
   _High betweenness centrality (0.012) - this node is a cross-community bridge._
-- **Why does `../../../shared/app_assets.dart` connect `SVG UI Widgets` to `Calendar Persistence`, `Calendar Screen State`, `Bristol UI`, `Bottom Navigation`, `Header UI`, `Mood UI`?**
-  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+- **Why does `pt Flutter Project` connect `Community 2` to `Community 10`, `Community 11`?**
+  _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **Are the 5 inferred relationships involving `pt Flutter Project` (e.g. with `Graphify Query First Rule` and `Flutter Web HTML Shell`) actually correct?**
   _`pt Flutter Project` has 5 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 2 inferred relationships involving `iOS App Icon Family` (e.g. with `Flutter Default Brand Mark` and `Android Launcher Icon Family`) actually correct?**
   _`iOS App Icon Family` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `version`, `author`, `main` to the rest of the system?**
-  _209 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Windows Runtime` be split into smaller, more focused modules?**
+  _225 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.1032258064516129 - nodes in this community are weakly interconnected._

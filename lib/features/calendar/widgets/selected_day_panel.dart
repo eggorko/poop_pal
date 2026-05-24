@@ -11,6 +11,7 @@ class SelectedDayPanel extends StatelessWidget {
     required this.log,
     required this.isMarked,
     required this.monthLogCount,
+    required this.showStreak,
     required this.onToggle,
     super.key,
   });
@@ -19,6 +20,7 @@ class SelectedDayPanel extends StatelessWidget {
   final PoopLog? log;
   final bool isMarked;
   final int monthLogCount;
+  final bool showStreak;
   final VoidCallback? onToggle;
 
   @override
@@ -69,47 +71,59 @@ class SelectedDayPanel extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 12),
-        Row(
-          children: [
-            Expanded(child: StreakCard(monthLogCount: monthLogCount)),
-            const SizedBox(width: 10),
-            Expanded(
-              child: FilledButton(
-                onPressed: onToggle,
-                style: FilledButton.styleFrom(
-                  backgroundColor: const Color(0xFFFF765F),
-                  foregroundColor: Colors.white,
-                  minimumSize: const Size.fromHeight(76),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20),
-                  ),
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Icon(
-                      isMarked ? Icons.check_circle : Icons.add_circle,
-                      size: 34,
-                    ),
-                    const SizedBox(width: 12),
-                    Flexible(
-                      child: Text(
-                        isMarked ? 'Logged' : 'Log poop',
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                        style: theme.textTheme.titleLarge?.copyWith(
-                          color: Colors.white,
-                          fontWeight: FontWeight.w800,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
+        if (showStreak)
+          Row(
+            children: [
+              Expanded(child: StreakCard(monthLogCount: monthLogCount)),
+              const SizedBox(width: 10),
+              Expanded(
+                child: LogButton(isMarked: isMarked, onToggle: onToggle),
+              ),
+            ],
+          )
+        else
+          LogButton(isMarked: isMarked, onToggle: onToggle),
+      ],
+    );
+  }
+}
+
+class LogButton extends StatelessWidget {
+  const LogButton({required this.isMarked, required this.onToggle, super.key});
+
+  final bool isMarked;
+  final VoidCallback? onToggle;
+
+  @override
+  Widget build(BuildContext context) {
+    final ThemeData theme = Theme.of(context);
+
+    return FilledButton(
+      onPressed: onToggle,
+      style: FilledButton.styleFrom(
+        backgroundColor: const Color(0xFFFF765F),
+        foregroundColor: Colors.white,
+        minimumSize: const Size.fromHeight(76),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+      ),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(isMarked ? Icons.check_circle : Icons.add_circle, size: 34),
+          const SizedBox(width: 12),
+          Flexible(
+            child: Text(
+              isMarked ? 'Logged' : 'Log poop',
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: theme.textTheme.titleLarge?.copyWith(
+                color: Colors.white,
+                fontWeight: FontWeight.w800,
               ),
             ),
-          ],
-        ),
-      ],
+          ),
+        ],
+      ),
     );
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../app/feature_flags.dart';
 import '../data/poop_log_repository.dart';
 import '../models/poop_log.dart';
 import '../../../shared/app_assets.dart';
@@ -14,9 +15,14 @@ import '../widgets/progress_card.dart';
 import '../widgets/selected_day_panel.dart';
 
 class PoopCalendarScreen extends StatefulWidget {
-  const PoopCalendarScreen({required this.repository, super.key});
+  const PoopCalendarScreen({
+    required this.repository,
+    required this.featureFlags,
+    super.key,
+  });
 
   final PoopLogRepository repository;
+  final FeatureFlags featureFlags;
 
   @override
   State<PoopCalendarScreen> createState() => _PoopCalendarScreenState();
@@ -144,40 +150,14 @@ class _PoopCalendarScreenState extends State<PoopCalendarScreen> {
                           log: selectedLog,
                           isMarked: selectedDayIsMarked,
                           monthLogCount: logs.length,
+                          showStreak: widget.featureFlags.streaks,
                           onToggle: _isSaving
                               ? null
                               : () => _toggleSelectedDay(selectedLog),
                         ),
-                        const SizedBox(height: 16),
-                        const BristolSection(),
-                        const SizedBox(height: 12),
-                        const MoodSection(),
-                        const SizedBox(height: 12),
-                        const Row(
-                          children: [
-                            Expanded(
-                              child: ProgressCard(
-                                asset: AppAssets.hydrationDrop,
-                                title: 'Hydration',
-                                value: '6 / 8 cups',
-                                progress: 0.75,
-                                color: Color(0xFF22A9A4),
-                              ),
-                            ),
-                            SizedBox(width: 10),
-                            Expanded(
-                              child: ProgressCard(
-                                asset: AppAssets.fiberLeaf,
-                                title: 'Fiber',
-                                value: '18 / 25 g',
-                                progress: 0.72,
-                                color: Color(0xFF3F8E2E),
-                              ),
-                            ),
-                          ],
+                        OptionalFeatureSections(
+                          featureFlags: widget.featureFlags,
                         ),
-                        const SizedBox(height: 12),
-                        const NotesCard(),
                       ],
                     ),
                     Align(
@@ -195,6 +175,72 @@ class _PoopCalendarScreenState extends State<PoopCalendarScreen> {
         ),
       ),
     );
+  }
+}
+
+class OptionalFeatureSections extends StatelessWidget {
+  const OptionalFeatureSections({required this.featureFlags, super.key});
+
+  final FeatureFlags featureFlags;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        if (featureFlags.bristol) ...[
+          const SizedBox(height: 16),
+          const BristolSection(),
+        ],
+        if (featureFlags.mood) ...[
+          const SizedBox(height: 12),
+          const MoodSection(),
+        ],
+        if (featureFlags.hasHealthProgress) ...[
+          const SizedBox(height: 12),
+          _HealthProgressRow(featureFlags: featureFlags),
+        ],
+        if (featureFlags.notes) ...[
+          const SizedBox(height: 12),
+          const NotesCard(),
+        ],
+      ],
+    );
+  }
+}
+
+class _HealthProgressRow extends StatelessWidget {
+  const _HealthProgressRow({required this.featureFlags});
+
+  final FeatureFlags featureFlags;
+
+  @override
+  Widget build(BuildContext context) {
+    final List<Widget> cards = [
+      if (featureFlags.hydration)
+        const Expanded(
+          child: ProgressCard(
+            asset: AppAssets.hydrationDrop,
+            title: 'Hydration',
+            value: '6 / 8 cups',
+            progress: 0.75,
+            color: Color(0xFF22A9A4),
+          ),
+        ),
+      if (featureFlags.hydration && featureFlags.fiber)
+        const SizedBox(width: 10),
+      if (featureFlags.fiber)
+        const Expanded(
+          child: ProgressCard(
+            asset: AppAssets.fiberLeaf,
+            title: 'Fiber',
+            value: '18 / 25 g',
+            progress: 0.72,
+            color: Color(0xFF3F8E2E),
+          ),
+        ),
+    ];
+
+    return Row(children: cards);
   }
 }
 

@@ -645,6 +645,15 @@
       "norm_label": "main"
     },
     {
+      "label": "OptionalFeatureSections",
+      "file_type": "code",
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_test_widget_test_dart_optionalfeaturesections",
+      "community": 7,
+      "norm_label": "optionalfeaturesections"
+    },
+    {
       "label": "package:flutter/material.dart",
       "file_type": "code",
       "source_file": "lib/features/calendar/widgets/progress_card.dart",
@@ -654,6 +663,15 @@
       "norm_label": "package:flutter/material.dart"
     },
     {
+      "label": "package:pt/app/feature_flags.dart",
+      "file_type": "code",
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "id": "package_pt_app_feature_flags_dart",
+      "community": 7,
+      "norm_label": "package:pt/app/feature_flags.dart"
+    },
+    {
       "label": "package:pt/app/poop_tracker_app.dart",
       "file_type": "code",
       "source_file": "test/widget_test.dart",
@@ -661,6 +679,24 @@
       "id": "package_pt_app_poop_tracker_app_dart",
       "community": 7,
       "norm_label": "package:pt/app/poop_tracker_app.dart"
+    },
+    {
+      "label": "package:pt/features/calendar/screens/poop_calendar_screen.dart",
+      "file_type": "code",
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "id": "package_pt_features_calendar_screens_poop_calendar_screen_dart",
+      "community": 7,
+      "norm_label": "package:pt/features/calendar/screens/poop_calendar_screen.dart"
+    },
+    {
+      "label": "package:pt/features/calendar/widgets/selected_day_panel.dart",
+      "file_type": "code",
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "id": "package_pt_features_calendar_widgets_selected_day_panel_dart",
+      "community": 7,
+      "norm_label": "package:pt/features/calendar/widgets/selected_day_panel.dart"
     },
     {
       "label": "manifest.json",
@@ -1401,6 +1437,15 @@
       "norm_label": "../features/calendar/screens/poop_calendar_screen.dart"
     },
     {
+      "label": "feature_flags.dart",
+      "file_type": "code",
+      "source_file": "lib/app/poop_tracker_app.dart",
+      "source_location": null,
+      "id": "feature_flags_dart",
+      "community": 12,
+      "norm_label": "feature_flags.dart"
+    },
+    {
       "label": "theme.dart",
       "file_type": "code",
       "source_file": "lib/app/poop_tracker_app.dart",
@@ -1408,6 +1453,24 @@
       "id": "theme_dart",
       "community": 12,
       "norm_label": "theme.dart"
+    },
+    {
+      "label": "feature_flags.dart",
+      "file_type": "code",
+      "source_file": "lib/app/feature_flags.dart",
+      "source_location": null,
+      "id": "lib_app_feature_flags_dart",
+      "community": 56,
+      "norm_label": "feature_flags.dart"
+    },
+    {
+      "label": "FeatureFlags",
+      "file_type": "code",
+      "source_file": "lib/app/feature_flags.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_app_feature_flags_dart_featureflags",
+      "community": 56,
+      "norm_label": "featureflags"
     },
     {
       "label": "theme.dart",
@@ -1489,6 +1552,24 @@
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_poopcalendarscreenstate",
       "community": 3,
       "norm_label": "_poopcalendarscreenstate"
+    },
+    {
+      "label": "OptionalFeatureSections",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_optionalfeaturesections",
+      "community": 3,
+      "norm_label": "optionalfeaturesections"
+    },
+    {
+      "label": "_HealthProgressRow",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_healthprogressrow",
+      "community": 3,
+      "norm_label": "_healthprogressrow"
     },
     {
       "label": "initState",
@@ -1581,6 +1662,15 @@
       "norm_label": "sizedbox"
     },
     {
+      "label": "Column",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_column",
+      "community": 3,
+      "norm_label": "column"
+    },
+    {
       "label": "BristolSection",
       "file_type": "code",
       "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
@@ -1599,6 +1689,24 @@
       "norm_label": "moodsection"
     },
     {
+      "label": "NotesCard",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_notescard",
+      "community": 3,
+      "norm_label": "notescard"
+    },
+    {
+      "label": "Expanded",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_expanded",
+      "community": 3,
+      "norm_label": "expanded"
+    },
+    {
       "label": "Row",
       "file_type": "code",
       "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
@@ -1608,13 +1716,13 @@
       "norm_label": "row"
     },
     {
-      "label": "NotesCard",
+      "label": "../../../app/feature_flags.dart",
       "file_type": "code",
       "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
       "source_location": null,
-      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_notescard",
+      "id": "app_feature_flags_dart",
       "community": 3,
-      "norm_label": "notescard"
+      "norm_label": "../../../app/feature_flags.dart"
     },
     {
       "label": "../data/poop_log_repository.dart",
@@ -1784,7 +1892,7 @@
       "source_file": "lib/features/calendar/data/poop_log_repository.dart",
       "source_location": null,
       "id": "package_drift_drift_dart",
-      "community": 7,
+      "community": 1,
       "norm_label": "package:drift/drift.dart"
     },
     {
@@ -2018,7 +2126,7 @@
       "source_file": "lib/features/calendar/widgets/progress_card.dart",
       "source_location": null,
       "id": "package_flutter_svg_flutter_svg_dart",
-      "community": 14,
+      "community": 28,
       "norm_label": "package:flutter_svg/flutter_svg.dart"
     },
     {
@@ -2279,7 +2387,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
       "source_location": null,
       "id": "lib_features_calendar_widgets_calendar_day_button_dart",
-      "community": 14,
+      "community": 1,
       "norm_label": "calendar_day_button.dart"
     },
     {
@@ -2288,7 +2396,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_day_button_dart_calendardaybutton",
-      "community": 14,
+      "community": 1,
       "norm_label": "calendardaybutton"
     },
     {
@@ -2297,7 +2405,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_day_button_dart_build",
-      "community": 14,
+      "community": 1,
       "norm_label": "build"
     },
     {
@@ -2306,17 +2414,8 @@
       "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_day_button_dart_decoratedbox",
-      "community": 14,
+      "community": 1,
       "norm_label": "decoratedbox"
-    },
-    {
-      "label": "SizedBox",
-      "file_type": "code",
-      "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
-      "source_location": null,
-      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_day_button_dart_sizedbox",
-      "community": 14,
-      "norm_label": "sizedbox"
     },
     {
       "label": "bristol_section.dart",
@@ -2409,6 +2508,15 @@
       "norm_label": "selecteddaypanel"
     },
     {
+      "label": "LogButton",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/widgets/selected_day_panel.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_selected_day_panel_dart_logbutton",
+      "community": 1,
+      "norm_label": "logbutton"
+    },
+    {
       "label": "DateTile",
       "file_type": "code",
       "source_file": "lib/features/calendar/widgets/selected_day_panel.dart",
@@ -2461,6 +2569,15 @@
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_selected_day_panel_dart_sizedbox",
       "community": 1,
       "norm_label": "sizedbox"
+    },
+    {
+      "label": "FilledButton",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/widgets/selected_day_panel.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_selected_day_panel_dart_filledbutton",
+      "community": 1,
+      "norm_label": "filledbutton"
     },
     {
       "label": "_formatTime",
@@ -3039,6 +3156,78 @@
       "norm_label": "generated_plugin_registrant.h"
     },
     {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 53,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "pt",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "pt_readme_pt",
+      "community": 53,
+      "norm_label": "pt"
+    },
+    {
+      "label": "Getting Started",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "id": "pt_readme_getting_started",
+      "community": 53,
+      "norm_label": "getting started"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "id": "agents_md",
+      "community": 54,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "id": "pt_agents_graphify",
+      "community": 54,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
+      "source_location": "L1",
+      "id": "ios_runner_assets_xcassets_launchimage_imageset_readme_md",
+      "community": 55,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Launch Screen Assets",
+      "file_type": "document",
+      "source_file": "ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
+      "source_location": "L1",
+      "id": "launchimage_imageset_readme_launch_screen_assets",
+      "community": 55,
+      "norm_label": "launch screen assets"
+    },
+    {
+      "label": "SizedBox",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
+      "source_location": null,
+      "community": 1,
+      "norm_label": "sizedbox",
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_day_button_dart_sizedbox"
+    },
+    {
       "label": "pt Flutter Project",
       "file_type": "document",
       "source_file": "pubspec.yaml",
@@ -3047,9 +3236,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pubspec_pt_flutter_project",
       "community": 2,
-      "norm_label": "pt flutter project"
+      "norm_label": "pt flutter project",
+      "id": "pubspec_pt_flutter_project"
     },
     {
       "label": "Flutter Starter Project Documentation",
@@ -3060,9 +3249,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_flutter_starter_project",
       "community": 2,
-      "norm_label": "flutter starter project documentation"
+      "norm_label": "flutter starter project documentation",
+      "id": "readme_flutter_starter_project"
     },
     {
       "label": "Private Package Publish Policy",
@@ -3073,9 +3262,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pubspec_private_package_policy",
       "community": 2,
-      "norm_label": "private package publish policy"
+      "norm_label": "private package publish policy",
+      "id": "pubspec_private_package_policy"
     },
     {
       "label": "Dart SDK 3.12 Constraint",
@@ -3086,9 +3275,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pubspec_dart_sdk_3_12",
       "community": 2,
-      "norm_label": "dart sdk 3.12 constraint"
+      "norm_label": "dart sdk 3.12 constraint",
+      "id": "pubspec_dart_sdk_3_12"
     },
     {
       "label": "Flutter SDK Dependency",
@@ -3099,9 +3288,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pubspec_flutter_sdk_dependency",
       "community": 2,
-      "norm_label": "flutter sdk dependency"
+      "norm_label": "flutter sdk dependency",
+      "id": "pubspec_flutter_sdk_dependency"
     },
     {
       "label": "Cupertino Icons Dependency",
@@ -3112,9 +3301,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pubspec_cupertino_icons_dependency",
       "community": 2,
-      "norm_label": "cupertino icons dependency"
+      "norm_label": "cupertino icons dependency",
+      "id": "pubspec_cupertino_icons_dependency"
     },
     {
       "label": "Flutter SVG Dependency",
@@ -3125,9 +3314,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pubspec_flutter_svg_dependency",
       "community": 2,
-      "norm_label": "flutter svg dependency"
+      "norm_label": "flutter svg dependency",
+      "id": "pubspec_flutter_svg_dependency"
     },
     {
       "label": "Drift Database Dependency",
@@ -3138,9 +3327,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pubspec_drift_dependency",
       "community": 2,
-      "norm_label": "drift database dependency"
+      "norm_label": "drift database dependency",
+      "id": "pubspec_drift_dependency"
     },
     {
       "label": "SQLite3 Flutter Libs Dependency",
@@ -3151,9 +3340,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pubspec_sqlite3_flutter_libs_dependency",
       "community": 2,
-      "norm_label": "sqlite3 flutter libs dependency"
+      "norm_label": "sqlite3 flutter libs dependency",
+      "id": "pubspec_sqlite3_flutter_libs_dependency"
     },
     {
       "label": "Path Provider Dependency",
@@ -3164,9 +3353,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pubspec_path_provider_dependency",
       "community": 2,
-      "norm_label": "path provider dependency"
+      "norm_label": "path provider dependency",
+      "id": "pubspec_path_provider_dependency"
     },
     {
       "label": "Path Dependency",
@@ -3177,9 +3366,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pubspec_path_dependency",
       "community": 2,
-      "norm_label": "path dependency"
+      "norm_label": "path dependency",
+      "id": "pubspec_path_dependency"
     },
     {
       "label": "Flutter Test Dependency",
@@ -3190,9 +3379,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pubspec_flutter_test_dependency",
       "community": 2,
-      "norm_label": "flutter test dependency"
+      "norm_label": "flutter test dependency",
+      "id": "pubspec_flutter_test_dependency"
     },
     {
       "label": "Flutter Lints Dependency",
@@ -3203,9 +3392,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pubspec_flutter_lints_dependency",
       "community": 2,
-      "norm_label": "flutter lints dependency"
+      "norm_label": "flutter lints dependency",
+      "id": "pubspec_flutter_lints_dependency"
     },
     {
       "label": "Drift Dev Dependency",
@@ -3216,9 +3405,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pubspec_drift_dev_dependency",
       "community": 2,
-      "norm_label": "drift dev dependency"
+      "norm_label": "drift dev dependency",
+      "id": "pubspec_drift_dev_dependency"
     },
     {
       "label": "Build Runner Dependency",
@@ -3229,9 +3418,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pubspec_build_runner_dependency",
       "community": 2,
-      "norm_label": "build runner dependency"
+      "norm_label": "build runner dependency",
+      "id": "pubspec_build_runner_dependency"
     },
     {
       "label": "Material Icons Enabled",
@@ -3242,9 +3431,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pubspec_material_icons",
       "community": 2,
-      "norm_label": "material icons enabled"
+      "norm_label": "material icons enabled",
+      "id": "pubspec_material_icons"
     },
     {
       "label": "Vector Assets Directory",
@@ -3255,9 +3444,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pubspec_vector_assets",
       "community": 2,
-      "norm_label": "vector assets directory"
+      "norm_label": "vector assets directory",
+      "id": "pubspec_vector_assets"
     },
     {
       "label": "Flutter Lints Analyzer Configuration",
@@ -3268,9 +3457,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "analysis_options_flutter_lints",
       "community": 2,
-      "norm_label": "flutter lints analyzer configuration"
+      "norm_label": "flutter lints analyzer configuration",
+      "id": "analysis_options_flutter_lints"
     },
     {
       "label": "Dart Static Analyzer",
@@ -3281,9 +3470,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "analysis_options_dart_analyzer",
       "community": 2,
-      "norm_label": "dart static analyzer"
+      "norm_label": "dart static analyzer",
+      "id": "analysis_options_dart_analyzer"
     },
     {
       "label": "Drift DevTools Extension Enabled",
@@ -3294,9 +3483,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "devtools_options_drift_extension",
       "community": 2,
-      "norm_label": "drift devtools extension enabled"
+      "norm_label": "drift devtools extension enabled",
+      "id": "devtools_options_drift_extension"
     },
     {
       "label": "Graphify Workflow Instructions",
@@ -3307,9 +3496,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_graphify_workflow",
       "community": 2,
-      "norm_label": "graphify workflow instructions"
+      "norm_label": "graphify workflow instructions",
+      "id": "agents_graphify_workflow"
     },
     {
       "label": "Graphify Query First Rule",
@@ -3320,9 +3509,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_graphify_query_first_rule",
       "community": 2,
-      "norm_label": "graphify query first rule"
+      "norm_label": "graphify query first rule",
+      "id": "agents_graphify_query_first_rule"
     },
     {
       "label": "Flutter Web HTML Shell",
@@ -3333,9 +3522,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "web_index_flutter_web_shell",
       "community": 2,
-      "norm_label": "flutter web html shell"
+      "norm_label": "flutter web html shell",
+      "id": "web_index_flutter_web_shell"
     },
     {
       "label": "Flutter Base Href Placeholder",
@@ -3346,9 +3535,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "web_index_base_href_placeholder",
       "community": 2,
-      "norm_label": "flutter base href placeholder"
+      "norm_label": "flutter base href placeholder",
+      "id": "web_index_base_href_placeholder"
     },
     {
       "label": "Web App Manifest Link",
@@ -3359,9 +3548,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "web_index_manifest",
       "community": 2,
-      "norm_label": "web app manifest link"
+      "norm_label": "web app manifest link",
+      "id": "web_index_manifest"
     },
     {
       "label": "Flutter Bootstrap Script",
@@ -3372,9 +3561,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "web_index_flutter_bootstrap",
       "community": 2,
-      "norm_label": "flutter bootstrap script"
+      "norm_label": "flutter bootstrap script",
+      "id": "web_index_flutter_bootstrap"
     },
     {
       "label": "iOS Launch Screen Assets",
@@ -3385,9 +3574,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ios_launch_image_assets",
       "community": 2,
-      "norm_label": "ios launch screen assets"
+      "norm_label": "ios launch screen assets",
+      "id": "ios_launch_image_assets"
     },
     {
       "label": "Linux Runner CMake Project",
@@ -3398,9 +3587,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "linux_cmake_project_runner",
       "community": 11,
-      "norm_label": "linux runner cmake project"
+      "norm_label": "linux runner cmake project",
+      "id": "linux_cmake_project_runner"
     },
     {
       "label": "Linux pt Executable Target",
@@ -3411,9 +3600,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "linux_cmake_binary_pt",
       "community": 11,
-      "norm_label": "linux pt executable target"
+      "norm_label": "linux pt executable target",
+      "id": "linux_cmake_binary_pt"
     },
     {
       "label": "Linux GTK Application ID",
@@ -3424,9 +3613,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "linux_cmake_application_id",
       "community": 11,
-      "norm_label": "linux gtk application id"
+      "norm_label": "linux gtk application id",
+      "id": "linux_cmake_application_id"
     },
     {
       "label": "Linux Standard CMake Settings",
@@ -3437,9 +3626,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "linux_cmake_standard_settings",
       "community": 11,
-      "norm_label": "linux standard cmake settings"
+      "norm_label": "linux standard cmake settings",
+      "id": "linux_cmake_standard_settings"
     },
     {
       "label": "Linux Flutter Managed Directory",
@@ -3450,9 +3639,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "linux_cmake_flutter_managed_dir",
       "community": 11,
-      "norm_label": "linux flutter managed directory"
+      "norm_label": "linux flutter managed directory",
+      "id": "linux_cmake_flutter_managed_dir"
     },
     {
       "label": "Linux GTK Dependency",
@@ -3463,9 +3652,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "linux_cmake_gtk_dependency",
       "community": 11,
-      "norm_label": "linux gtk dependency"
+      "norm_label": "linux gtk dependency",
+      "id": "linux_cmake_gtk_dependency"
     },
     {
       "label": "Linux Relocatable Bundle Install",
@@ -3476,9 +3665,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "linux_cmake_bundle_install",
       "community": 11,
-      "norm_label": "linux relocatable bundle install"
+      "norm_label": "linux relocatable bundle install",
+      "id": "linux_cmake_bundle_install"
     },
     {
       "label": "Linux Runner Executable Definition",
@@ -3489,9 +3678,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "linux_runner_cmake_executable",
       "community": 11,
-      "norm_label": "linux runner executable definition"
+      "norm_label": "linux runner executable definition",
+      "id": "linux_runner_cmake_executable"
     },
     {
       "label": "Linux Generated Plugin Registrant",
@@ -3502,9 +3691,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "linux_runner_generated_plugin_registrant",
       "community": 11,
-      "norm_label": "linux generated plugin registrant"
+      "norm_label": "linux generated plugin registrant",
+      "id": "linux_runner_generated_plugin_registrant"
     },
     {
       "label": "Linux Flutter Library Interface",
@@ -3515,9 +3704,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "linux_flutter_cmake_flutter_library",
       "community": 11,
-      "norm_label": "linux flutter library interface"
+      "norm_label": "linux flutter library interface",
+      "id": "linux_flutter_cmake_flutter_library"
     },
     {
       "label": "Linux Flutter Tool Backend",
@@ -3528,9 +3717,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "linux_flutter_cmake_tool_backend",
       "community": 11,
-      "norm_label": "linux flutter tool backend"
+      "norm_label": "linux flutter tool backend",
+      "id": "linux_flutter_cmake_tool_backend"
     },
     {
       "label": "Linux Flutter Ephemeral Configuration",
@@ -3541,9 +3730,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "linux_flutter_cmake_ephemeral_config",
       "community": 11,
-      "norm_label": "linux flutter ephemeral configuration"
+      "norm_label": "linux flutter ephemeral configuration",
+      "id": "linux_flutter_cmake_ephemeral_config"
     },
     {
       "label": "Windows pt CMake Project",
@@ -3554,9 +3743,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "windows_cmake_project_pt",
       "community": 10,
-      "norm_label": "windows pt cmake project"
+      "norm_label": "windows pt cmake project",
+      "id": "windows_cmake_project_pt"
     },
     {
       "label": "Windows pt Executable Target",
@@ -3567,9 +3756,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "windows_cmake_binary_pt",
       "community": 10,
-      "norm_label": "windows pt executable target"
+      "norm_label": "windows pt executable target",
+      "id": "windows_cmake_binary_pt"
     },
     {
       "label": "Windows Unicode Definitions",
@@ -3580,9 +3769,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "windows_cmake_unicode_definitions",
       "community": 10,
-      "norm_label": "windows unicode definitions"
+      "norm_label": "windows unicode definitions",
+      "id": "windows_cmake_unicode_definitions"
     },
     {
       "label": "Windows Standard CMake Settings",
@@ -3593,9 +3782,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "windows_cmake_standard_settings",
       "community": 10,
-      "norm_label": "windows standard cmake settings"
+      "norm_label": "windows standard cmake settings",
+      "id": "windows_cmake_standard_settings"
     },
     {
       "label": "Windows Flutter Managed Directory",
@@ -3606,9 +3795,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "windows_cmake_flutter_managed_dir",
       "community": 10,
-      "norm_label": "windows flutter managed directory"
+      "norm_label": "windows flutter managed directory",
+      "id": "windows_cmake_flutter_managed_dir"
     },
     {
       "label": "Windows Runtime Install Layout",
@@ -3619,9 +3808,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "windows_cmake_install_runtime",
       "community": 10,
-      "norm_label": "windows runtime install layout"
+      "norm_label": "windows runtime install layout",
+      "id": "windows_cmake_install_runtime"
     },
     {
       "label": "Windows Runner Executable Definition",
@@ -3632,9 +3821,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "windows_runner_cmake_executable",
       "community": 10,
-      "norm_label": "windows runner executable definition"
+      "norm_label": "windows runner executable definition",
+      "id": "windows_runner_cmake_executable"
     },
     {
       "label": "Windows Runner Version Definitions",
@@ -3645,9 +3834,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "windows_runner_version_definitions",
       "community": 10,
-      "norm_label": "windows runner version definitions"
+      "norm_label": "windows runner version definitions",
+      "id": "windows_runner_version_definitions"
     },
     {
       "label": "Windows DWM API Dependency",
@@ -3658,9 +3847,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "windows_runner_dwmapi_dependency",
       "community": 10,
-      "norm_label": "windows dwm api dependency"
+      "norm_label": "windows dwm api dependency",
+      "id": "windows_runner_dwmapi_dependency"
     },
     {
       "label": "Windows Flutter Library Interface",
@@ -3671,9 +3860,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "windows_flutter_cmake_flutter_library",
       "community": 10,
-      "norm_label": "windows flutter library interface"
+      "norm_label": "windows flutter library interface",
+      "id": "windows_flutter_cmake_flutter_library"
     },
     {
       "label": "Windows Flutter C++ Wrapper Libraries",
@@ -3684,9 +3873,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "windows_flutter_cmake_cpp_wrapper",
       "community": 10,
-      "norm_label": "windows flutter c++ wrapper libraries"
+      "norm_label": "windows flutter c++ wrapper libraries",
+      "id": "windows_flutter_cmake_cpp_wrapper"
     },
     {
       "label": "Windows Flutter Tool Backend",
@@ -3697,9 +3886,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "windows_flutter_cmake_tool_backend",
       "community": 10,
-      "norm_label": "windows flutter tool backend"
+      "norm_label": "windows flutter tool backend",
+      "id": "windows_flutter_cmake_tool_backend"
     },
     {
       "label": "Windows Flutter Ephemeral Configuration",
@@ -3710,9 +3899,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "windows_flutter_cmake_ephemeral_config",
       "community": 10,
-      "norm_label": "windows flutter ephemeral configuration"
+      "norm_label": "windows flutter ephemeral configuration",
+      "id": "windows_flutter_cmake_ephemeral_config"
     },
     {
       "label": "macOS App Icon 16px",
@@ -3723,9 +3912,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "app_icon_16_macos_icon_16",
       "community": 4,
-      "norm_label": "macos app icon 16px"
+      "norm_label": "macos app icon 16px",
+      "id": "app_icon_16_macos_icon_16"
     },
     {
       "label": "macOS App Icon 1024px",
@@ -3736,9 +3925,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "app_icon_1024_macos_icon_1024",
       "community": 4,
-      "norm_label": "macos app icon 1024px"
+      "norm_label": "macos app icon 1024px",
+      "id": "app_icon_1024_macos_icon_1024"
     },
     {
       "label": "macOS App Icon 256px",
@@ -3749,9 +3938,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "app_icon_256_macos_icon_256",
       "community": 4,
-      "norm_label": "macos app icon 256px"
+      "norm_label": "macos app icon 256px",
+      "id": "app_icon_256_macos_icon_256"
     },
     {
       "label": "macOS App Icon 64px",
@@ -3762,9 +3951,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "app_icon_64_macos_icon_64",
       "community": 4,
-      "norm_label": "macos app icon 64px"
+      "norm_label": "macos app icon 64px",
+      "id": "app_icon_64_macos_icon_64"
     },
     {
       "label": "macOS App Icon 512px",
@@ -3775,9 +3964,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "app_icon_512_macos_icon_512",
       "community": 4,
-      "norm_label": "macos app icon 512px"
+      "norm_label": "macos app icon 512px",
+      "id": "app_icon_512_macos_icon_512"
     },
     {
       "label": "macOS App Icon 128px",
@@ -3788,9 +3977,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "app_icon_128_macos_icon_128",
       "community": 4,
-      "norm_label": "macos app icon 128px"
+      "norm_label": "macos app icon 128px",
+      "id": "app_icon_128_macos_icon_128"
     },
     {
       "label": "macOS App Icon 32px",
@@ -3801,9 +3990,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "app_icon_32_macos_icon_32",
       "community": 4,
-      "norm_label": "macos app icon 32px"
+      "norm_label": "macos app icon 32px",
+      "id": "app_icon_32_macos_icon_32"
     },
     {
       "label": "Web Favicon 16px",
@@ -3814,9 +4003,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "favicon_web_favicon",
       "community": 4,
-      "norm_label": "web favicon 16px"
+      "norm_label": "web favicon 16px",
+      "id": "favicon_web_favicon"
     },
     {
       "label": "Web App Icon 192px",
@@ -3827,9 +4016,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_192_web_icon_192",
       "community": 4,
-      "norm_label": "web app icon 192px"
+      "norm_label": "web app icon 192px",
+      "id": "icon_192_web_icon_192"
     },
     {
       "label": "Web Maskable Icon 192px",
@@ -3840,9 +4029,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_maskable_192_web_maskable_icon_192",
       "community": 4,
-      "norm_label": "web maskable icon 192px"
+      "norm_label": "web maskable icon 192px",
+      "id": "icon_maskable_192_web_maskable_icon_192"
     },
     {
       "label": "Web Maskable Icon 512px",
@@ -3853,9 +4042,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_maskable_512_web_maskable_icon_512",
       "community": 4,
-      "norm_label": "web maskable icon 512px"
+      "norm_label": "web maskable icon 512px",
+      "id": "icon_maskable_512_web_maskable_icon_512"
     },
     {
       "label": "Web App Icon 512px",
@@ -3866,9 +4055,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_512_web_icon_512",
       "community": 4,
-      "norm_label": "web app icon 512px"
+      "norm_label": "web app icon 512px",
+      "id": "icon_512_web_icon_512"
     },
     {
       "label": "iOS Launch Image 2x Placeholder",
@@ -3879,9 +4068,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "launchimage_ios_launch_image_2x",
       "community": 29,
-      "norm_label": "ios launch image 2x placeholder"
+      "norm_label": "ios launch image 2x placeholder",
+      "id": "launchimage_ios_launch_image_2x"
     },
     {
       "label": "iOS Launch Image 3x Placeholder",
@@ -3892,9 +4081,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "launchimage_ios_launch_image_3x",
       "community": 29,
-      "norm_label": "ios launch image 3x placeholder"
+      "norm_label": "ios launch image 3x placeholder",
+      "id": "launchimage_ios_launch_image_3x"
     },
     {
       "label": "iOS Launch Image 1x Placeholder",
@@ -3905,9 +4094,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "launchimage_ios_launch_image_1x",
       "community": 29,
-      "norm_label": "ios launch image 1x placeholder"
+      "norm_label": "ios launch image 1x placeholder",
+      "id": "launchimage_ios_launch_image_1x"
     },
     {
       "label": "iOS App Icon 76pt 2x",
@@ -3918,9 +4107,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_app_76x76_2x_ios_icon_152",
       "community": 4,
-      "norm_label": "ios app icon 76pt 2x"
+      "norm_label": "ios app icon 76pt 2x",
+      "id": "icon_app_76x76_2x_ios_icon_152"
     },
     {
       "label": "iOS App Icon 29pt 1x",
@@ -3931,9 +4120,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_app_29x29_1x_ios_icon_29",
       "community": 4,
-      "norm_label": "ios app icon 29pt 1x"
+      "norm_label": "ios app icon 29pt 1x",
+      "id": "icon_app_29x29_1x_ios_icon_29"
     },
     {
       "label": "iOS App Icon 40pt 1x",
@@ -3944,9 +4133,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_app_40x40_1x_ios_icon_40",
       "community": 4,
-      "norm_label": "ios app icon 40pt 1x"
+      "norm_label": "ios app icon 40pt 1x",
+      "id": "icon_app_40x40_1x_ios_icon_40"
     },
     {
       "label": "iOS App Icon 20pt 1x",
@@ -3957,9 +4146,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_app_20x20_1x_ios_icon_20",
       "community": 4,
-      "norm_label": "ios app icon 20pt 1x"
+      "norm_label": "ios app icon 20pt 1x",
+      "id": "icon_app_20x20_1x_ios_icon_20"
     },
     {
       "label": "iOS App Icon 1024pt 1x",
@@ -3970,9 +4159,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_app_1024x1024_1x_ios_icon_1024",
       "community": 4,
-      "norm_label": "ios app icon 1024pt 1x"
+      "norm_label": "ios app icon 1024pt 1x",
+      "id": "icon_app_1024x1024_1x_ios_icon_1024"
     },
     {
       "label": "iOS App Icon 83.5pt 2x",
@@ -3983,9 +4172,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_app_83_5x83_5_2x_ios_icon_167",
       "community": 4,
-      "norm_label": "ios app icon 83.5pt 2x"
+      "norm_label": "ios app icon 83.5pt 2x",
+      "id": "icon_app_83_5x83_5_2x_ios_icon_167"
     },
     {
       "label": "iOS App Icon 20pt 3x",
@@ -3996,9 +4185,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_app_20x20_3x_ios_icon_60",
       "community": 4,
-      "norm_label": "ios app icon 20pt 3x"
+      "norm_label": "ios app icon 20pt 3x",
+      "id": "icon_app_20x20_3x_ios_icon_60"
     },
     {
       "label": "Flutter Brand Icon Family",
@@ -4009,9 +4198,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "asset_family_flutter_brand_icon",
       "community": 4,
-      "norm_label": "flutter brand icon family"
+      "norm_label": "flutter brand icon family",
+      "id": "asset_family_flutter_brand_icon"
     },
     {
       "label": "Blue Flutter Mark on White Field",
@@ -4022,9 +4211,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "visual_motif_flutter_mark",
       "community": 4,
-      "norm_label": "blue flutter mark on white field"
+      "norm_label": "blue flutter mark on white field",
+      "id": "visual_motif_flutter_mark"
     },
     {
       "label": "macOS AppIcon Asset Catalog Variants",
@@ -4035,9 +4224,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "asset_role_macos_app_iconset",
       "community": 4,
-      "norm_label": "macos appicon asset catalog variants"
+      "norm_label": "macos appicon asset catalog variants",
+      "id": "asset_role_macos_app_iconset"
     },
     {
       "label": "iOS AppIcon Asset Catalog Variants",
@@ -4048,9 +4237,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "asset_role_ios_app_iconset",
       "community": 4,
-      "norm_label": "ios appicon asset catalog variants"
+      "norm_label": "ios appicon asset catalog variants",
+      "id": "asset_role_ios_app_iconset"
     },
     {
       "label": "Web PWA Icon Variants",
@@ -4061,9 +4250,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "asset_role_web_pwa_icons",
       "community": 4,
-      "norm_label": "web pwa icon variants"
+      "norm_label": "web pwa icon variants",
+      "id": "asset_role_web_pwa_icons"
     },
     {
       "label": "Web Maskable Icon Safe-Area Variants",
@@ -4074,9 +4263,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "asset_role_web_maskable_icons",
       "community": 4,
-      "norm_label": "web maskable icon safe-area variants"
+      "norm_label": "web maskable icon safe-area variants",
+      "id": "asset_role_web_maskable_icons"
     },
     {
       "label": "iOS Launch Image Placeholder Variants",
@@ -4087,9 +4276,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "asset_role_ios_launch_placeholders",
       "community": 29,
-      "norm_label": "ios launch image placeholder variants"
+      "norm_label": "ios launch image placeholder variants",
+      "id": "asset_role_ios_launch_placeholders"
     },
     {
       "label": "iOS App Icon 20pt @2x",
@@ -4100,9 +4289,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_app_20x20_2x_ios_app_icon",
       "community": 8,
-      "norm_label": "ios app icon 20pt @2x"
+      "norm_label": "ios app icon 20pt @2x",
+      "id": "icon_app_20x20_2x_ios_app_icon"
     },
     {
       "label": "iOS App Icon 29pt @3x",
@@ -4113,9 +4302,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_app_29x29_3x_ios_app_icon",
       "community": 8,
-      "norm_label": "ios app icon 29pt @3x"
+      "norm_label": "ios app icon 29pt @3x",
+      "id": "icon_app_29x29_3x_ios_app_icon"
     },
     {
       "label": "iOS App Icon 40pt @2x",
@@ -4126,9 +4315,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_app_40x40_2x_ios_app_icon",
       "community": 8,
-      "norm_label": "ios app icon 40pt @2x"
+      "norm_label": "ios app icon 40pt @2x",
+      "id": "icon_app_40x40_2x_ios_app_icon"
     },
     {
       "label": "iOS App Icon 60pt @3x",
@@ -4139,9 +4328,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_app_60x60_3x_ios_app_icon",
       "community": 8,
-      "norm_label": "ios app icon 60pt @3x"
+      "norm_label": "ios app icon 60pt @3x",
+      "id": "icon_app_60x60_3x_ios_app_icon"
     },
     {
       "label": "iOS App Icon 60pt @2x",
@@ -4152,9 +4341,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_app_60x60_2x_ios_app_icon",
       "community": 8,
-      "norm_label": "ios app icon 60pt @2x"
+      "norm_label": "ios app icon 60pt @2x",
+      "id": "icon_app_60x60_2x_ios_app_icon"
     },
     {
       "label": "iOS App Icon 76pt @1x",
@@ -4165,9 +4354,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_app_76x76_1x_ios_app_icon",
       "community": 8,
-      "norm_label": "ios app icon 76pt @1x"
+      "norm_label": "ios app icon 76pt @1x",
+      "id": "icon_app_76x76_1x_ios_app_icon"
     },
     {
       "label": "iOS App Icon 40pt @3x",
@@ -4178,9 +4367,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_app_40x40_3x_ios_app_icon",
       "community": 8,
-      "norm_label": "ios app icon 40pt @3x"
+      "norm_label": "ios app icon 40pt @3x",
+      "id": "icon_app_40x40_3x_ios_app_icon"
     },
     {
       "label": "iOS App Icon 29pt @2x",
@@ -4191,9 +4380,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "icon_app_29x29_2x_ios_app_icon",
       "community": 8,
-      "norm_label": "ios app icon 29pt @2x"
+      "norm_label": "ios app icon 29pt @2x",
+      "id": "icon_app_29x29_2x_ios_app_icon"
     },
     {
       "label": "Android Launcher Icon mdpi",
@@ -4204,9 +4393,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ic_launcher_mdpi_android_launcher_icon",
       "community": 8,
-      "norm_label": "android launcher icon mdpi"
+      "norm_label": "android launcher icon mdpi",
+      "id": "ic_launcher_mdpi_android_launcher_icon"
     },
     {
       "label": "Android Launcher Icon hdpi",
@@ -4217,9 +4406,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ic_launcher_hdpi_android_launcher_icon",
       "community": 8,
-      "norm_label": "android launcher icon hdpi"
+      "norm_label": "android launcher icon hdpi",
+      "id": "ic_launcher_hdpi_android_launcher_icon"
     },
     {
       "label": "Android Launcher Icon xxxhdpi",
@@ -4230,9 +4419,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ic_launcher_xxxhdpi_android_launcher_icon",
       "community": 8,
-      "norm_label": "android launcher icon xxxhdpi"
+      "norm_label": "android launcher icon xxxhdpi",
+      "id": "ic_launcher_xxxhdpi_android_launcher_icon"
     },
     {
       "label": "Android Launcher Icon xxhdpi",
@@ -4243,9 +4432,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ic_launcher_xxhdpi_android_launcher_icon",
       "community": 8,
-      "norm_label": "android launcher icon xxhdpi"
+      "norm_label": "android launcher icon xxhdpi",
+      "id": "ic_launcher_xxhdpi_android_launcher_icon"
     },
     {
       "label": "Android Launcher Icon xhdpi",
@@ -4256,9 +4445,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ic_launcher_xhdpi_android_launcher_icon",
       "community": 8,
-      "norm_label": "android launcher icon xhdpi"
+      "norm_label": "android launcher icon xhdpi",
+      "id": "ic_launcher_xhdpi_android_launcher_icon"
     },
     {
       "label": "PoopPal Poop Mascot SVG",
@@ -4269,9 +4458,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "poop_mascot_pooppal_mascot_svg",
       "community": 17,
-      "norm_label": "pooppal poop mascot svg"
+      "norm_label": "pooppal poop mascot svg",
+      "id": "poop_mascot_pooppal_mascot_svg"
     },
     {
       "label": "Toilet Paper Companion Mascot SVG",
@@ -4282,9 +4471,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "toilet_paper_mascot_companion_svg",
       "community": 17,
-      "norm_label": "toilet paper companion mascot svg"
+      "norm_label": "toilet paper companion mascot svg",
+      "id": "toilet_paper_mascot_companion_svg"
     },
     {
       "label": "Notes Sheet Icon",
@@ -4295,9 +4484,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "notes_sheet_notes_icon",
       "community": 17,
-      "norm_label": "notes sheet icon"
+      "norm_label": "notes sheet icon",
+      "id": "notes_sheet_notes_icon"
     },
     {
       "label": "Insights Bars Icon",
@@ -4308,9 +4497,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "insights_bars_analytics_icon",
       "community": 17,
-      "norm_label": "insights bars icon"
+      "norm_label": "insights bars icon",
+      "id": "insights_bars_analytics_icon"
     },
     {
       "label": "Hydration Drop Icon",
@@ -4321,9 +4510,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "hydration_drop_hydration_icon",
       "community": 17,
-      "norm_label": "hydration drop icon"
+      "norm_label": "hydration drop icon",
+      "id": "hydration_drop_hydration_icon"
     },
     {
       "label": "Calendar Tab Icon",
@@ -4334,9 +4523,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "calendar_tab_calendar_icon",
       "community": 17,
-      "norm_label": "calendar tab icon"
+      "norm_label": "calendar tab icon",
+      "id": "calendar_tab_calendar_icon"
     },
     {
       "label": "PoopPal Kawaii Mascot PNG",
@@ -4347,9 +4536,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "poop_pal_kawaii_mascot_png",
       "community": 17,
-      "norm_label": "pooppal kawaii mascot png"
+      "norm_label": "pooppal kawaii mascot png",
+      "id": "poop_pal_kawaii_mascot_png"
     },
     {
       "label": "iOS App Icon Family",
@@ -4360,9 +4549,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ios_app_icon_family",
       "community": 8,
-      "norm_label": "ios app icon family"
+      "norm_label": "ios app icon family",
+      "id": "ios_app_icon_family"
     },
     {
       "label": "Android Launcher Icon Family",
@@ -4373,9 +4562,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "android_launcher_icon_family",
       "community": 8,
-      "norm_label": "android launcher icon family"
+      "norm_label": "android launcher icon family",
+      "id": "android_launcher_icon_family"
     },
     {
       "label": "Flutter Default Brand Mark",
@@ -4386,9 +4575,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "flutter_default_brand_mark",
       "community": 8,
-      "norm_label": "flutter default brand mark"
+      "norm_label": "flutter default brand mark",
+      "id": "flutter_default_brand_mark"
     },
     {
       "label": "PoopPal Friendly Wellness Visual Language",
@@ -4399,9 +4588,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pooppal_friendly_wellness_visual_language",
       "community": 17,
-      "norm_label": "pooppal friendly wellness visual language"
+      "norm_label": "pooppal friendly wellness visual language",
+      "id": "pooppal_friendly_wellness_visual_language"
     },
     {
       "label": "PoopPal Character System",
@@ -4412,9 +4601,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pooppal_character_system",
       "community": 17,
-      "norm_label": "pooppal character system"
+      "norm_label": "pooppal character system",
+      "id": "pooppal_character_system"
     },
     {
       "label": "PoopPal Tracking Feature Icons",
@@ -4425,9 +4614,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pooppal_tracking_feature_icons",
       "community": 17,
-      "norm_label": "pooppal tracking feature icons"
+      "norm_label": "pooppal tracking feature icons",
+      "id": "pooppal_tracking_feature_icons"
     },
     {
       "label": "Poop Day Marker",
@@ -4438,9 +4627,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "poop_marker_poop_day_marker",
       "community": 5,
-      "norm_label": "poop day marker"
+      "norm_label": "poop day marker",
+      "id": "poop_marker_poop_day_marker"
     },
     {
       "label": "Streak Flame",
@@ -4451,9 +4640,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "streak_flame_streak_flame",
       "community": 5,
-      "norm_label": "streak flame"
+      "norm_label": "streak flame",
+      "id": "streak_flame_streak_flame"
     },
     {
       "label": "Not Great Mood",
@@ -4464,9 +4653,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mood_not_great_not_great_mood",
       "community": 5,
-      "norm_label": "not great mood"
+      "norm_label": "not great mood",
+      "id": "mood_not_great_not_great_mood"
     },
     {
       "label": "Bristol Stool Type 2",
@@ -4477,9 +4666,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bristol_type_2_bristol_stool_type_2",
       "community": 5,
-      "norm_label": "bristol stool type 2"
+      "norm_label": "bristol stool type 2",
+      "id": "bristol_type_2_bristol_stool_type_2"
     },
     {
       "label": "Bristol Stool Type 3",
@@ -4490,9 +4679,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bristol_type_3_bristol_stool_type_3",
       "community": 5,
-      "norm_label": "bristol stool type 3"
+      "norm_label": "bristol stool type 3",
+      "id": "bristol_type_3_bristol_stool_type_3"
     },
     {
       "label": "Good Mood",
@@ -4503,9 +4692,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mood_good_good_mood",
       "community": 5,
-      "norm_label": "good mood"
+      "norm_label": "good mood",
+      "id": "mood_good_good_mood"
     },
     {
       "label": "Bristol Stool Type 1",
@@ -4516,9 +4705,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bristol_type_1_bristol_stool_type_1",
       "community": 5,
-      "norm_label": "bristol stool type 1"
+      "norm_label": "bristol stool type 1",
+      "id": "bristol_type_1_bristol_stool_type_1"
     },
     {
       "label": "Bristol Stool Type 4",
@@ -4529,9 +4718,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bristol_type_4_bristol_stool_type_4",
       "community": 5,
-      "norm_label": "bristol stool type 4"
+      "norm_label": "bristol stool type 4",
+      "id": "bristol_type_4_bristol_stool_type_4"
     },
     {
       "label": "Bristol Stool Type 5",
@@ -4542,9 +4731,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bristol_type_5_bristol_stool_type_5",
       "community": 5,
-      "norm_label": "bristol stool type 5"
+      "norm_label": "bristol stool type 5",
+      "id": "bristol_type_5_bristol_stool_type_5"
     },
     {
       "label": "Bristol Stool Type 7",
@@ -4555,9 +4744,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bristol_type_7_bristol_stool_type_7",
       "community": 5,
-      "norm_label": "bristol stool type 7"
+      "norm_label": "bristol stool type 7",
+      "id": "bristol_type_7_bristol_stool_type_7"
     },
     {
       "label": "Bristol Stool Type 6",
@@ -4568,9 +4757,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bristol_type_6_bristol_stool_type_6",
       "community": 5,
-      "norm_label": "bristol stool type 6"
+      "norm_label": "bristol stool type 6",
+      "id": "bristol_type_6_bristol_stool_type_6"
     },
     {
       "label": "Fiber",
@@ -4581,9 +4770,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fiber_leaf_fiber",
       "community": 5,
-      "norm_label": "fiber"
+      "norm_label": "fiber",
+      "id": "fiber_leaf_fiber"
     },
     {
       "label": "Okay Mood",
@@ -4594,9 +4783,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mood_okay_okay_mood",
       "community": 5,
-      "norm_label": "okay mood"
+      "norm_label": "okay mood",
+      "id": "mood_okay_okay_mood"
     },
     {
       "label": "Bad Mood",
@@ -4607,9 +4796,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mood_bad_bad_mood",
       "community": 5,
-      "norm_label": "bad mood"
+      "norm_label": "bad mood",
+      "id": "mood_bad_bad_mood"
     },
     {
       "label": "Great Mood",
@@ -4620,9 +4809,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mood_great_great_mood",
       "community": 5,
-      "norm_label": "great mood"
+      "norm_label": "great mood",
+      "id": "mood_great_great_mood"
     },
     {
       "label": "Mood Scale",
@@ -4633,9 +4822,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ui_mood_scale",
       "community": 5,
-      "norm_label": "mood scale"
+      "norm_label": "mood scale",
+      "id": "ui_mood_scale"
     },
     {
       "label": "Bristol Stool Scale",
@@ -4646,9 +4835,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ui_bristol_stool_scale",
       "community": 5,
-      "norm_label": "bristol stool scale"
+      "norm_label": "bristol stool scale",
+      "id": "ui_bristol_stool_scale"
     },
     {
       "label": "Health Metrics",
@@ -4659,9 +4848,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ui_health_metrics",
       "community": 5,
-      "norm_label": "health metrics"
+      "norm_label": "health metrics",
+      "id": "ui_health_metrics"
     },
     {
       "label": "Progress Tracking",
@@ -4672,9 +4861,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ui_progress_tracking",
       "community": 5,
-      "norm_label": "progress tracking"
+      "norm_label": "progress tracking",
+      "id": "ui_progress_tracking"
     },
     {
       "label": "Friendly Digestive Design Language",
@@ -4685,9 +4874,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ui_friendly_digestive_design_language",
       "community": 5,
-      "norm_label": "friendly digestive design language"
+      "norm_label": "friendly digestive design language",
+      "id": "ui_friendly_digestive_design_language"
     }
   ],
   "links": [
@@ -4697,9 +4886,9 @@
       "source_file": "macos/RunnerTests/RunnerTests.swift",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "macos_runnertests_runnertests_swift",
-      "target": "runnertests_runnertests_runnertests",
-      "confidence_score": 1.0
+      "target": "runnertests_runnertests_runnertests"
     },
     {
       "relation": "inherits",
@@ -4707,9 +4896,9 @@
       "source_file": "ios/RunnerTests/RunnerTests.swift",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runnertests_runnertests_runnertests",
-      "target": "xctestcase",
-      "confidence_score": 1.0
+      "target": "xctestcase"
     },
     {
       "relation": "method",
@@ -4717,9 +4906,9 @@
       "source_file": "ios/RunnerTests/RunnerTests.swift",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runnertests_runnertests_runnertests",
-      "target": "runnertests_runnertests_runnertests_testexample",
-      "confidence_score": 1.0
+      "target": "runnertests_runnertests_runnertests_testexample"
     },
     {
       "relation": "contains",
@@ -4727,9 +4916,9 @@
       "source_file": "ios/RunnerTests/RunnerTests.swift",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ios_runnertests_runnertests_swift",
-      "target": "runnertests_runnertests_runnertests",
-      "confidence_score": 1.0
+      "target": "runnertests_runnertests_runnertests"
     },
     {
       "relation": "contains",
@@ -4737,9 +4926,9 @@
       "source_file": "macos/Runner/MainFlutterWindow.swift",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "macos_runner_mainflutterwindow_swift",
-      "target": "runner_mainflutterwindow_mainflutterwindow",
-      "confidence_score": 1.0
+      "target": "runner_mainflutterwindow_mainflutterwindow"
     },
     {
       "relation": "inherits",
@@ -4747,9 +4936,9 @@
       "source_file": "macos/Runner/MainFlutterWindow.swift",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_mainflutterwindow_mainflutterwindow",
-      "target": "nswindow",
-      "confidence_score": 1.0
+      "target": "nswindow"
     },
     {
       "relation": "method",
@@ -4757,9 +4946,9 @@
       "source_file": "macos/Runner/MainFlutterWindow.swift",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_mainflutterwindow_mainflutterwindow",
-      "target": "runner_mainflutterwindow_mainflutterwindow_awakefromnib",
-      "confidence_score": 1.0
+      "target": "runner_mainflutterwindow_mainflutterwindow_awakefromnib"
     },
     {
       "relation": "calls",
@@ -4778,9 +4967,9 @@
       "source_file": "macos/Runner/AppDelegate.swift",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "macos_runner_appdelegate_swift",
-      "target": "runner_appdelegate_appdelegate",
-      "confidence_score": 1.0
+      "target": "runner_appdelegate_appdelegate"
     },
     {
       "relation": "inherits",
@@ -4788,9 +4977,9 @@
       "source_file": "ios/Runner/AppDelegate.swift",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_appdelegate_appdelegate",
-      "target": "flutterappdelegate",
-      "confidence_score": 1.0
+      "target": "flutterappdelegate"
     },
     {
       "relation": "method",
@@ -4798,9 +4987,9 @@
       "source_file": "macos/Runner/AppDelegate.swift",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_appdelegate_appdelegate",
-      "target": "runner_appdelegate_appdelegate_applicationshouldterminateafterlastwindowclosed",
-      "confidence_score": 1.0
+      "target": "runner_appdelegate_appdelegate_applicationshouldterminateafterlastwindowclosed"
     },
     {
       "relation": "method",
@@ -4808,9 +4997,9 @@
       "source_file": "macos/Runner/AppDelegate.swift",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_appdelegate_appdelegate",
-      "target": "runner_appdelegate_appdelegate_applicationsupportssecurerestorablestate",
-      "confidence_score": 1.0
+      "target": "runner_appdelegate_appdelegate_applicationsupportssecurerestorablestate"
     },
     {
       "relation": "contains",
@@ -4818,9 +5007,9 @@
       "source_file": "ios/Runner/AppDelegate.swift",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ios_runner_appdelegate_swift",
-      "target": "runner_appdelegate_appdelegate",
-      "confidence_score": 1.0
+      "target": "runner_appdelegate_appdelegate"
     },
     {
       "relation": "inherits",
@@ -4828,9 +5017,9 @@
       "source_file": "ios/Runner/AppDelegate.swift",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_appdelegate_appdelegate",
-      "target": "flutterimplicitenginedelegate",
-      "confidence_score": 1.0
+      "target": "flutterimplicitenginedelegate"
     },
     {
       "relation": "method",
@@ -4838,9 +5027,9 @@
       "source_file": "ios/Runner/AppDelegate.swift",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_appdelegate_appdelegate",
-      "target": "runner_appdelegate_appdelegate_application",
-      "confidence_score": 1.0
+      "target": "runner_appdelegate_appdelegate_application"
     },
     {
       "relation": "method",
@@ -4848,9 +5037,9 @@
       "source_file": "ios/Runner/AppDelegate.swift",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_appdelegate_appdelegate",
-      "target": "runner_appdelegate_appdelegate_didinitializeimplicitflutterengine",
-      "confidence_score": 1.0
+      "target": "runner_appdelegate_appdelegate_didinitializeimplicitflutterengine"
     },
     {
       "relation": "contains",
@@ -4858,9 +5047,9 @@
       "source_file": "macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "macos_runner_assets_xcassets_appicon_appiconset_contents_json",
-      "target": "appicon_appiconset_contents_images",
-      "confidence_score": 1.0
+      "target": "appicon_appiconset_contents_images"
     },
     {
       "relation": "contains",
@@ -4868,9 +5057,9 @@
       "source_file": "macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "macos_runner_assets_xcassets_appicon_appiconset_contents_json",
-      "target": "appicon_appiconset_contents_info",
-      "confidence_score": 1.0
+      "target": "appicon_appiconset_contents_info"
     },
     {
       "relation": "contains",
@@ -4878,9 +5067,9 @@
       "source_file": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ios_runner_assets_xcassets_appicon_appiconset_contents_json",
-      "target": "appicon_appiconset_contents_images",
-      "confidence_score": 1.0
+      "target": "appicon_appiconset_contents_images"
     },
     {
       "relation": "contains",
@@ -4888,9 +5077,9 @@
       "source_file": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
       "source_location": "L119",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "appicon_appiconset_contents_info",
-      "target": "appicon_appiconset_contents_info_version",
-      "confidence_score": 1.0
+      "target": "appicon_appiconset_contents_info_version"
     },
     {
       "relation": "contains",
@@ -4898,9 +5087,9 @@
       "source_file": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
       "source_location": "L120",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "appicon_appiconset_contents_info",
-      "target": "appicon_appiconset_contents_info_author",
-      "confidence_score": 1.0
+      "target": "appicon_appiconset_contents_info_author"
     },
     {
       "relation": "contains",
@@ -4908,9 +5097,9 @@
       "source_file": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
       "source_location": "L118",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ios_runner_assets_xcassets_appicon_appiconset_contents_json",
-      "target": "appicon_appiconset_contents_info",
-      "confidence_score": 1.0
+      "target": "appicon_appiconset_contents_info"
     },
     {
       "relation": "contains",
@@ -4918,9 +5107,9 @@
       "source_file": "macos/Flutter/GeneratedPluginRegistrant.swift",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "macos_flutter_generatedpluginregistrant_swift",
-      "target": "flutter_generatedpluginregistrant_registergeneratedplugins",
-      "confidence_score": 1.0
+      "target": "flutter_generatedpluginregistrant_registergeneratedplugins"
     },
     {
       "relation": "defines",
@@ -5043,6 +5232,16 @@
       "target": "users_e_gorko_projectspersonal_pt_pt_test_widget_test_dart_main"
     },
     {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_widget_test_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_test_widget_test_dart_optionalfeaturesections"
+    },
+    {
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5060,7 +5259,37 @@
       "source_location": null,
       "weight": 1.0,
       "source": "test_widget_test_dart",
+      "target": "package_pt_app_feature_flags_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_widget_test_dart",
       "target": "package_pt_app_poop_tracker_app_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_widget_test_dart",
+      "target": "package_pt_features_calendar_screens_poop_calendar_screen_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_widget_test_dart",
+      "target": "package_pt_features_calendar_widgets_selected_day_panel_dart"
     },
     {
       "relation": "imports",
@@ -5208,9 +5437,9 @@
       "source_file": "web/manifest.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_manifest_json",
-      "target": "web_manifest_name",
-      "confidence_score": 1.0
+      "target": "web_manifest_name"
     },
     {
       "relation": "contains",
@@ -5218,9 +5447,9 @@
       "source_file": "web/manifest.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_manifest_json",
-      "target": "web_manifest_short_name",
-      "confidence_score": 1.0
+      "target": "web_manifest_short_name"
     },
     {
       "relation": "contains",
@@ -5228,9 +5457,9 @@
       "source_file": "web/manifest.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_manifest_json",
-      "target": "web_manifest_start_url",
-      "confidence_score": 1.0
+      "target": "web_manifest_start_url"
     },
     {
       "relation": "contains",
@@ -5238,9 +5467,9 @@
       "source_file": "web/manifest.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_manifest_json",
-      "target": "web_manifest_display",
-      "confidence_score": 1.0
+      "target": "web_manifest_display"
     },
     {
       "relation": "contains",
@@ -5248,9 +5477,9 @@
       "source_file": "web/manifest.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_manifest_json",
-      "target": "web_manifest_background_color",
-      "confidence_score": 1.0
+      "target": "web_manifest_background_color"
     },
     {
       "relation": "contains",
@@ -5258,9 +5487,9 @@
       "source_file": "web/manifest.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_manifest_json",
-      "target": "web_manifest_theme_color",
-      "confidence_score": 1.0
+      "target": "web_manifest_theme_color"
     },
     {
       "relation": "contains",
@@ -5268,9 +5497,9 @@
       "source_file": "web/manifest.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_manifest_json",
-      "target": "web_manifest_description",
-      "confidence_score": 1.0
+      "target": "web_manifest_description"
     },
     {
       "relation": "contains",
@@ -5278,9 +5507,9 @@
       "source_file": "web/manifest.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_manifest_json",
-      "target": "web_manifest_orientation",
-      "confidence_score": 1.0
+      "target": "web_manifest_orientation"
     },
     {
       "relation": "contains",
@@ -5288,9 +5517,9 @@
       "source_file": "web/manifest.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_manifest_json",
-      "target": "web_manifest_prefer_related_applications",
-      "confidence_score": 1.0
+      "target": "web_manifest_prefer_related_applications"
     },
     {
       "relation": "contains",
@@ -5298,9 +5527,9 @@
       "source_file": "web/manifest.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_manifest_json",
-      "target": "web_manifest_icons",
-      "confidence_score": 1.0
+      "target": "web_manifest_icons"
     },
     {
       "relation": "contains",
@@ -5308,9 +5537,9 @@
       "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ios_runner_generatedpluginregistrant_m",
-      "target": "runner_generatedpluginregistrant_generatedpluginregistrant",
-      "confidence_score": 1.0
+      "target": "runner_generatedpluginregistrant_generatedpluginregistrant"
     },
     {
       "relation": "method",
@@ -5318,9 +5547,9 @@
       "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_generatedpluginregistrant_generatedpluginregistrant",
-      "target": "runner_generatedpluginregistrant_generatedpluginregistrant_registerwithregistry",
-      "confidence_score": 1.0
+      "target": "runner_generatedpluginregistrant_generatedpluginregistrant_registerwithregistry"
     },
     {
       "relation": "contains",
@@ -5328,9 +5557,9 @@
       "source_file": "ios/Runner/SceneDelegate.swift",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ios_runner_scenedelegate_swift",
-      "target": "runner_scenedelegate_scenedelegate",
-      "confidence_score": 1.0
+      "target": "runner_scenedelegate_scenedelegate"
     },
     {
       "relation": "inherits",
@@ -5338,9 +5567,9 @@
       "source_file": "ios/Runner/SceneDelegate.swift",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_scenedelegate_scenedelegate",
-      "target": "flutterscenedelegate",
-      "confidence_score": 1.0
+      "target": "flutterscenedelegate"
     },
     {
       "relation": "contains",
@@ -5348,9 +5577,9 @@
       "source_file": "ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ios_runner_assets_xcassets_launchimage_imageset_contents_json",
-      "target": "launchimage_imageset_contents_images",
-      "confidence_score": 1.0
+      "target": "launchimage_imageset_contents_images"
     },
     {
       "relation": "contains",
@@ -5358,9 +5587,9 @@
       "source_file": "ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ios_runner_assets_xcassets_launchimage_imageset_contents_json",
-      "target": "launchimage_imageset_contents_info",
-      "confidence_score": 1.0
+      "target": "launchimage_imageset_contents_info"
     },
     {
       "relation": "contains",
@@ -5368,9 +5597,9 @@
       "source_file": "ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "launchimage_imageset_contents_info",
-      "target": "launchimage_imageset_contents_info_version",
-      "confidence_score": 1.0
+      "target": "launchimage_imageset_contents_info_version"
     },
     {
       "relation": "contains",
@@ -5378,9 +5607,9 @@
       "source_file": "ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "launchimage_imageset_contents_info",
-      "target": "launchimage_imageset_contents_info_author",
-      "confidence_score": 1.0
+      "target": "launchimage_imageset_contents_info_author"
     },
     {
       "relation": "contains",
@@ -5388,9 +5617,9 @@
       "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ios_flutter_ephemeral_flutter_lldb_helper_py",
-      "target": "ephemeral_flutter_lldb_helper_handle_new_rx_page",
-      "confidence_score": 1.0
+      "target": "ephemeral_flutter_lldb_helper_handle_new_rx_page"
     },
     {
       "relation": "contains",
@@ -5398,9 +5627,9 @@
       "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ios_flutter_ephemeral_flutter_lldb_helper_py",
-      "target": "ephemeral_flutter_lldb_helper_lldb_init_module",
-      "confidence_score": 1.0
+      "target": "ephemeral_flutter_lldb_helper_lldb_init_module"
     },
     {
       "relation": "rationale_for",
@@ -5408,9 +5637,9 @@
       "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ephemeral_flutter_lldb_helper_rationale_8",
-      "target": "ephemeral_flutter_lldb_helper_handle_new_rx_page",
-      "confidence_score": 1.0
+      "target": "ephemeral_flutter_lldb_helper_handle_new_rx_page"
     },
     {
       "relation": "contains",
@@ -5418,9 +5647,9 @@
       "source_file": ".codex/hooks.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_hooks_json",
-      "target": "codex_hooks_hooks",
-      "confidence_score": 1.0
+      "target": "codex_hooks_hooks"
     },
     {
       "relation": "contains",
@@ -5428,9 +5657,9 @@
       "source_file": ".codex/hooks.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "codex_hooks_hooks",
-      "target": "codex_hooks_hooks_pretooluse",
-      "confidence_score": 1.0
+      "target": "codex_hooks_hooks_pretooluse"
     },
     {
       "relation": "imports",
@@ -5439,9 +5668,9 @@
       "source_file": "linux/runner/main.cc",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "linux_runner_main_cc",
-      "target": "linux_runner_my_application_h",
-      "confidence_score": 1.0
+      "target": "linux_runner_my_application_h"
     },
     {
       "relation": "contains",
@@ -5449,9 +5678,9 @@
       "source_file": "linux/runner/main.cc",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "linux_runner_main_cc",
-      "target": "runner_main_main",
-      "confidence_score": 1.0
+      "target": "runner_main_main"
     },
     {
       "relation": "calls",
@@ -5471,9 +5700,9 @@
       "source_file": "linux/runner/my_application.cc",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "linux_runner_my_application_cc",
-      "target": "linux_runner_my_application_h",
-      "confidence_score": 1.0
+      "target": "linux_runner_my_application_h"
     },
     {
       "relation": "contains",
@@ -5481,9 +5710,9 @@
       "source_file": "linux/runner/my_application.cc",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "linux_runner_my_application_cc",
-      "target": "runner_my_application_myapplication",
-      "confidence_score": 1.0
+      "target": "runner_my_application_myapplication"
     },
     {
       "relation": "contains",
@@ -5491,9 +5720,9 @@
       "source_file": "linux/runner/my_application.cc",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "linux_runner_my_application_cc",
-      "target": "runner_my_application_first_frame_cb",
-      "confidence_score": 1.0
+      "target": "runner_my_application_first_frame_cb"
     },
     {
       "relation": "contains",
@@ -5501,9 +5730,9 @@
       "source_file": "linux/runner/my_application.cc",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "linux_runner_my_application_cc",
-      "target": "runner_my_application_my_application_activate",
-      "confidence_score": 1.0
+      "target": "runner_my_application_my_application_activate"
     },
     {
       "relation": "contains",
@@ -5511,9 +5740,9 @@
       "source_file": "linux/runner/my_application.cc",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "linux_runner_my_application_cc",
-      "target": "runner_my_application_my_application_local_command_line",
-      "confidence_score": 1.0
+      "target": "runner_my_application_my_application_local_command_line"
     },
     {
       "relation": "contains",
@@ -5521,9 +5750,9 @@
       "source_file": "linux/runner/my_application.cc",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "linux_runner_my_application_cc",
-      "target": "runner_my_application_my_application_startup",
-      "confidence_score": 1.0
+      "target": "runner_my_application_my_application_startup"
     },
     {
       "relation": "contains",
@@ -5531,9 +5760,9 @@
       "source_file": "linux/runner/my_application.cc",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "linux_runner_my_application_cc",
-      "target": "runner_my_application_my_application_shutdown",
-      "confidence_score": 1.0
+      "target": "runner_my_application_my_application_shutdown"
     },
     {
       "relation": "contains",
@@ -5541,9 +5770,9 @@
       "source_file": "linux/runner/my_application.cc",
       "source_location": "L121",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "linux_runner_my_application_cc",
-      "target": "runner_my_application_my_application_dispose",
-      "confidence_score": 1.0
+      "target": "runner_my_application_my_application_dispose"
     },
     {
       "relation": "contains",
@@ -5551,9 +5780,9 @@
       "source_file": "linux/runner/my_application.cc",
       "source_location": "L127",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "linux_runner_my_application_cc",
-      "target": "runner_my_application_my_application_class_init",
-      "confidence_score": 1.0
+      "target": "runner_my_application_my_application_class_init"
     },
     {
       "relation": "contains",
@@ -5561,9 +5790,9 @@
       "source_file": "linux/runner/my_application.cc",
       "source_location": "L136",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "linux_runner_my_application_cc",
-      "target": "runner_my_application_my_application_init",
-      "confidence_score": 1.0
+      "target": "runner_my_application_my_application_init"
     },
     {
       "relation": "contains",
@@ -5571,9 +5800,9 @@
       "source_file": "linux/runner/my_application.cc",
       "source_location": "L138",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "linux_runner_my_application_cc",
-      "target": "runner_my_application_my_application_new",
-      "confidence_score": 1.0
+      "target": "runner_my_application_my_application_new"
     },
     {
       "relation": "defines",
@@ -5582,9 +5811,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "runner_my_application_myapplication",
-      "target": "runner_my_application_myapplication_parent_instance",
-      "confidence_score": 1.0
+      "target": "runner_my_application_myapplication_parent_instance"
     },
     {
       "relation": "defines",
@@ -5593,9 +5822,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "runner_my_application_myapplication",
-      "target": "runner_my_application_myapplication_dart_entrypoint_arguments",
-      "confidence_score": 1.0
+      "target": "runner_my_application_myapplication_dart_entrypoint_arguments"
     },
     {
       "relation": "calls",
@@ -5615,9 +5844,9 @@
       "source_file": "linux/flutter/generated_plugin_registrant.cc",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "linux_flutter_generated_plugin_registrant_cc",
-      "target": "linux_flutter_generated_plugin_registrant_h",
-      "confidence_score": 1.0
+      "target": "linux_flutter_generated_plugin_registrant_h"
     },
     {
       "relation": "contains",
@@ -5625,9 +5854,9 @@
       "source_file": "linux/flutter/generated_plugin_registrant.cc",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "linux_flutter_generated_plugin_registrant_cc",
-      "target": "flutter_generated_plugin_registrant_fl_register_plugins",
-      "confidence_score": 1.0
+      "target": "flutter_generated_plugin_registrant_fl_register_plugins"
     },
     {
       "relation": "contains",
@@ -5635,9 +5864,9 @@
       "source_file": "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "android_app_src_main_java_io_flutter_plugins_generatedpluginregistrant_java",
-      "target": "plugins_generatedpluginregistrant_generatedpluginregistrant",
-      "confidence_score": 1.0
+      "target": "plugins_generatedpluginregistrant_generatedpluginregistrant"
     },
     {
       "relation": "method",
@@ -5645,9 +5874,9 @@
       "source_file": "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "plugins_generatedpluginregistrant_generatedpluginregistrant",
-      "target": "plugins_generatedpluginregistrant_generatedpluginregistrant_registerwith",
-      "confidence_score": 1.0
+      "target": "plugins_generatedpluginregistrant_generatedpluginregistrant_registerwith"
     },
     {
       "relation": "contains",
@@ -5655,9 +5884,9 @@
       "source_file": "android/app/src/main/kotlin/com/example/pt/MainActivity.kt",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "android_app_src_main_kotlin_com_example_pt_mainactivity_kt",
-      "target": "pt_mainactivity_mainactivity",
-      "confidence_score": 1.0
+      "target": "pt_mainactivity_mainactivity"
     },
     {
       "relation": "defines",
@@ -5777,7 +6006,27 @@
       "source_location": null,
       "weight": 1.0,
       "source": "lib_app_poop_tracker_app_dart",
+      "target": "feature_flags_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/app/poop_tracker_app.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_app_poop_tracker_app_dart",
       "target": "theme_dart"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/app/feature_flags.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_app_feature_flags_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_app_feature_flags_dart_featureflags"
     },
     {
       "relation": "defines",
@@ -5838,6 +6087,26 @@
       "weight": 1.0,
       "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
       "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_poopcalendarscreenstate"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_optionalfeaturesections"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_healthprogressrow"
     },
     {
       "relation": "defines",
@@ -5947,6 +6216,16 @@
       "source_location": null,
       "weight": 1.0,
       "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_column"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
       "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_bristolsection"
     },
     {
@@ -5967,7 +6246,7 @@
       "source_location": null,
       "weight": 1.0,
       "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
-      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_row"
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_notescard"
     },
     {
       "relation": "defines",
@@ -5977,7 +6256,27 @@
       "source_location": null,
       "weight": 1.0,
       "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
-      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_notescard"
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_expanded"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_row"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
+      "target": "app_feature_flags_dart"
     },
     {
       "relation": "imports",
@@ -6563,16 +6862,6 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "lib_features_calendar_widgets_calendar_day_button_dart",
-      "target": "package_flutter_svg_flutter_svg_dart"
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "lib/features/calendar/widgets/bristol_section.dart",
       "source_location": null,
       "weight": 1.0,
@@ -6597,6 +6886,16 @@
       "source_location": null,
       "weight": 1.0,
       "source": "lib_features_calendar_widgets_progress_card_dart",
+      "target": "package_flutter_svg_flutter_svg_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_widgets_calendar_day_button_dart",
       "target": "package_flutter_svg_flutter_svg_dart"
     },
     {
@@ -6967,6 +7266,16 @@
       "source_location": null,
       "weight": 1.0,
       "source": "lib_features_calendar_widgets_selected_day_panel_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_selected_day_panel_dart_logbutton"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/widgets/selected_day_panel.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_widgets_selected_day_panel_dart",
       "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_selected_day_panel_dart_datetile"
     },
     {
@@ -7018,6 +7327,16 @@
       "weight": 1.0,
       "source": "lib_features_calendar_widgets_selected_day_panel_dart",
       "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_selected_day_panel_dart_sizedbox"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/widgets/selected_day_panel.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_widgets_selected_day_panel_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_selected_day_panel_dart_filledbutton"
     },
     {
       "relation": "defines",
@@ -7186,9 +7505,9 @@
       "source_file": "windows/runner/flutter_window.cpp",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_flutter_window_cpp",
-      "target": "windows_runner_flutter_window_h",
-      "confidence_score": 1.0
+      "target": "windows_runner_flutter_window_h"
     },
     {
       "relation": "contains",
@@ -7196,9 +7515,9 @@
       "source_file": "windows/runner/flutter_window.cpp",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_flutter_window_cpp",
-      "target": "runner_flutter_window_flutterwindow",
-      "confidence_score": 1.0
+      "target": "runner_flutter_window_flutterwindow"
     },
     {
       "relation": "contains",
@@ -7206,9 +7525,9 @@
       "source_file": "windows/runner/flutter_window.cpp",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_flutter_window_cpp",
-      "target": "runner_flutter_window_oncreate",
-      "confidence_score": 1.0
+      "target": "runner_flutter_window_oncreate"
     },
     {
       "relation": "contains",
@@ -7216,9 +7535,9 @@
       "source_file": "windows/runner/flutter_window.cpp",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_flutter_window_cpp",
-      "target": "runner_flutter_window_ondestroy",
-      "confidence_score": 1.0
+      "target": "runner_flutter_window_ondestroy"
     },
     {
       "relation": "contains",
@@ -7226,9 +7545,9 @@
       "source_file": "windows/runner/flutter_window.cpp",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_flutter_window_cpp",
-      "target": "runner_flutter_window_messagehandler",
-      "confidence_score": 1.0
+      "target": "runner_flutter_window_messagehandler"
     },
     {
       "relation": "contains",
@@ -7236,9 +7555,9 @@
       "source_file": "windows/runner/flutter_window.h",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_flutter_window_h",
-      "target": "runner_flutter_window_flutterwindow",
-      "confidence_score": 1.0
+      "target": "runner_flutter_window_flutterwindow"
     },
     {
       "relation": "calls",
@@ -7280,9 +7599,9 @@
       "source_file": "windows/runner/utils.cpp",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_utils_cpp",
-      "target": "windows_runner_utils_h",
-      "confidence_score": 1.0
+      "target": "windows_runner_utils_h"
     },
     {
       "relation": "imports",
@@ -7291,9 +7610,9 @@
       "source_file": "windows/runner/main.cpp",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_main_cpp",
-      "target": "windows_runner_utils_h",
-      "confidence_score": 1.0
+      "target": "windows_runner_utils_h"
     },
     {
       "relation": "contains",
@@ -7301,9 +7620,9 @@
       "source_file": "windows/runner/utils.cpp",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_utils_cpp",
-      "target": "runner_utils_createandattachconsole",
-      "confidence_score": 1.0
+      "target": "runner_utils_createandattachconsole"
     },
     {
       "relation": "contains",
@@ -7311,9 +7630,9 @@
       "source_file": "windows/runner/utils.cpp",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_utils_cpp",
-      "target": "runner_utils_getcommandlinearguments",
-      "confidence_score": 1.0
+      "target": "runner_utils_getcommandlinearguments"
     },
     {
       "relation": "contains",
@@ -7321,9 +7640,9 @@
       "source_file": "windows/runner/utils.cpp",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_utils_cpp",
-      "target": "runner_utils_utf8fromutf16",
-      "confidence_score": 1.0
+      "target": "runner_utils_utf8fromutf16"
     },
     {
       "relation": "calls",
@@ -7343,9 +7662,9 @@
       "source_file": "windows/runner/utils.cpp",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_utils_getcommandlinearguments",
-      "target": "runner_utils_utf8fromutf16",
-      "confidence_score": 1.0
+      "target": "runner_utils_utf8fromutf16"
     },
     {
       "relation": "calls",
@@ -7365,9 +7684,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "windows_runner_win32_window_h",
-      "confidence_score": 1.0
+      "target": "windows_runner_win32_window_h"
     },
     {
       "relation": "imports",
@@ -7376,9 +7695,9 @@
       "source_file": "windows/runner/flutter_window.h",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_flutter_window_h",
-      "target": "windows_runner_win32_window_h",
-      "confidence_score": 1.0
+      "target": "windows_runner_win32_window_h"
     },
     {
       "relation": "imports",
@@ -7387,9 +7706,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "windows_runner_resource_h",
-      "confidence_score": 1.0
+      "target": "windows_runner_resource_h"
     },
     {
       "relation": "contains",
@@ -7397,9 +7716,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_scale",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_scale"
     },
     {
       "relation": "contains",
@@ -7407,9 +7726,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_enablefulldpisupportifavailable",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_enablefulldpisupportifavailable"
     },
     {
       "relation": "contains",
@@ -7417,9 +7736,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_windowclassregistrar",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_windowclassregistrar"
     },
     {
       "relation": "contains",
@@ -7427,9 +7746,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_getwindowclass",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_getwindowclass"
     },
     {
       "relation": "contains",
@@ -7437,9 +7756,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_unregisterwindowclass",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_unregisterwindowclass"
     },
     {
       "relation": "contains",
@@ -7447,9 +7766,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L118",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_win32window",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_win32window"
     },
     {
       "relation": "contains",
@@ -7457,9 +7776,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L123",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_create",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_create"
     },
     {
       "relation": "contains",
@@ -7467,9 +7786,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L152",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_show",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_show"
     },
     {
       "relation": "contains",
@@ -7477,9 +7796,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L157",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_wndproc",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_wndproc"
     },
     {
       "relation": "contains",
@@ -7487,9 +7806,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L176",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_messagehandler",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_messagehandler"
     },
     {
       "relation": "contains",
@@ -7497,9 +7816,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L224",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_destroy",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_destroy"
     },
     {
       "relation": "contains",
@@ -7507,9 +7826,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L236",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_getthisfromhandle",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_getthisfromhandle"
     },
     {
       "relation": "contains",
@@ -7517,9 +7836,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L241",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_setchildcontent",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_setchildcontent"
     },
     {
       "relation": "contains",
@@ -7527,9 +7846,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L252",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_getclientarea",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_getclientarea"
     },
     {
       "relation": "contains",
@@ -7537,9 +7856,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L258",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_gethandle",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_gethandle"
     },
     {
       "relation": "contains",
@@ -7547,9 +7866,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L262",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_setquitonclose",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_setquitonclose"
     },
     {
       "relation": "contains",
@@ -7557,9 +7876,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L266",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_oncreate",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_oncreate"
     },
     {
       "relation": "contains",
@@ -7567,9 +7886,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L271",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_ondestroy",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_ondestroy"
     },
     {
       "relation": "contains",
@@ -7577,9 +7896,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L275",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_win32_window_cpp",
-      "target": "runner_win32_window_updatetheme",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_updatetheme"
     },
     {
       "relation": "calls",
@@ -7588,9 +7907,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L139",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_create",
-      "target": "runner_win32_window_scale",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_scale"
     },
     {
       "relation": "calls",
@@ -7599,9 +7918,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L167",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_wndproc",
-      "target": "runner_win32_window_enablefulldpisupportifavailable",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_enablefulldpisupportifavailable"
     },
     {
       "relation": "method",
@@ -7609,9 +7928,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_windowclassregistrar",
-      "target": "runner_win32_window_windowclassregistrar_windowclassregistrar",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_windowclassregistrar_windowclassregistrar"
     },
     {
       "relation": "method",
@@ -7619,9 +7938,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_windowclassregistrar",
-      "target": "runner_win32_window_windowclassregistrar_getinstance",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_windowclassregistrar_getinstance"
     },
     {
       "relation": "defines",
@@ -7630,9 +7949,9 @@
       "source_location": "L73",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "runner_win32_window_windowclassregistrar",
-      "target": "runner_win32_window_windowclassregistrar_getwindowclass",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_windowclassregistrar_getwindowclass"
     },
     {
       "relation": "defines",
@@ -7641,9 +7960,9 @@
       "source_location": "L77",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "runner_win32_window_windowclassregistrar",
-      "target": "runner_win32_window_windowclassregistrar_unregisterwindowclass",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_windowclassregistrar_unregisterwindowclass"
     },
     {
       "relation": "defines",
@@ -7652,9 +7971,9 @@
       "source_location": "L82",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "runner_win32_window_windowclassregistrar",
-      "target": "runner_win32_window_windowclassregistrar_instance",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_windowclassregistrar_instance"
     },
     {
       "relation": "defines",
@@ -7663,9 +7982,9 @@
       "source_location": "L84",
       "weight": 1.0,
       "context": "field",
+      "confidence_score": 1.0,
       "source": "runner_win32_window_windowclassregistrar",
-      "target": "runner_win32_window_windowclassregistrar_class_registered",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_windowclassregistrar_class_registered"
     },
     {
       "relation": "calls",
@@ -7674,9 +7993,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_create",
-      "target": "runner_win32_window_windowclassregistrar_getinstance",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_windowclassregistrar_getinstance"
     },
     {
       "relation": "calls",
@@ -7685,9 +8004,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L232",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_destroy",
-      "target": "runner_win32_window_windowclassregistrar_getinstance",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_windowclassregistrar_getinstance"
     },
     {
       "relation": "calls",
@@ -7696,9 +8015,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_create",
-      "target": "runner_win32_window_getwindowclass",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_getwindowclass"
     },
     {
       "relation": "calls",
@@ -7707,9 +8026,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L232",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_destroy",
-      "target": "runner_win32_window_unregisterwindowclass",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_unregisterwindowclass"
     },
     {
       "relation": "calls",
@@ -7718,9 +8037,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L120",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_win32window",
-      "target": "runner_win32_window_destroy",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_destroy"
     },
     {
       "relation": "calls",
@@ -7729,9 +8048,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L126",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_create",
-      "target": "runner_win32_window_destroy",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_destroy"
     },
     {
       "relation": "calls",
@@ -7740,9 +8059,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L147",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_create",
-      "target": "runner_win32_window_updatetheme",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_updatetheme"
     },
     {
       "relation": "calls",
@@ -7751,9 +8070,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L149",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_create",
-      "target": "runner_win32_window_oncreate",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_oncreate"
     },
     {
       "relation": "calls",
@@ -7762,9 +8081,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L169",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_wndproc",
-      "target": "runner_win32_window_getthisfromhandle",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_getthisfromhandle"
     },
     {
       "relation": "calls",
@@ -7773,9 +8092,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L170",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_wndproc",
-      "target": "runner_win32_window_messagehandler",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_messagehandler"
     },
     {
       "relation": "calls",
@@ -7784,9 +8103,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L184",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_messagehandler",
-      "target": "runner_win32_window_destroy",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_destroy"
     },
     {
       "relation": "calls",
@@ -7795,9 +8114,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L201",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_messagehandler",
-      "target": "runner_win32_window_getclientarea",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_getclientarea"
     },
     {
       "relation": "calls",
@@ -7806,9 +8125,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L217",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_messagehandler",
-      "target": "runner_win32_window_updatetheme",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_updatetheme"
     },
     {
       "relation": "calls",
@@ -7817,9 +8136,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L225",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_destroy",
-      "target": "runner_win32_window_ondestroy",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_ondestroy"
     },
     {
       "relation": "calls",
@@ -7828,9 +8147,9 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L244",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_win32_window_setchildcontent",
-      "target": "runner_win32_window_getclientarea",
-      "confidence_score": 1.0
+      "target": "runner_win32_window_getclientarea"
     },
     {
       "relation": "imports",
@@ -7839,9 +8158,9 @@
       "source_file": "windows/runner/main.cpp",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_main_cpp",
-      "target": "windows_runner_flutter_window_h",
-      "confidence_score": 1.0
+      "target": "windows_runner_flutter_window_h"
     },
     {
       "relation": "contains",
@@ -7849,9 +8168,9 @@
       "source_file": "windows/runner/main.cpp",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_runner_main_cpp",
-      "target": "runner_main_wwinmain",
-      "confidence_score": 1.0
+      "target": "runner_main_wwinmain"
     },
     {
       "relation": "imports",
@@ -7860,9 +8179,9 @@
       "source_file": "windows/flutter/generated_plugin_registrant.cc",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_flutter_generated_plugin_registrant_cc",
-      "target": "windows_flutter_generated_plugin_registrant_h",
-      "confidence_score": 1.0
+      "target": "windows_flutter_generated_plugin_registrant_h"
     },
     {
       "relation": "contains",
@@ -7870,8 +8189,48 @@
       "source_file": "windows/flutter/generated_plugin_registrant.cc",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "windows_flutter_generated_plugin_registrant_cc",
-      "target": "flutter_generated_plugin_registrant_registerplugins",
+      "target": "flutter_generated_plugin_registrant_registerplugins"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "pt_readme_pt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pt_readme_pt",
+      "target": "pt_readme_getting_started",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents_md",
+      "target": "pt_agents_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "ios_runner_assets_xcassets_launchimage_imageset_readme_md",
+      "target": "launchimage_imageset_readme_launch_screen_assets",
       "confidence_score": 1.0
     },
     {
@@ -9799,5 +10158,5 @@
       "source_file": "assets/vectors/poop_marker.svg"
     }
   ],
-  "built_at_commit": "38096d1c7d5816227eb1d811c7f740d776d77b1a"
+  "built_at_commit": "fb7e23c4b98a039ed56b8ac619fe03d5f88b72ec"
 }

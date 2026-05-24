@@ -3,12 +3,18 @@ import 'package:flutter/material.dart';
 import '../features/calendar/data/app_database.dart';
 import '../features/calendar/data/poop_log_repository.dart';
 import '../features/calendar/screens/poop_calendar_screen.dart';
+import 'feature_flags.dart';
 import 'theme.dart';
 
 class PoopTrackerApp extends StatefulWidget {
-  const PoopTrackerApp({super.key, this.repository});
+  const PoopTrackerApp({
+    super.key,
+    this.repository,
+    this.featureFlags = const FeatureFlags(),
+  });
 
   final PoopLogRepository? repository;
+  final FeatureFlags featureFlags;
 
   @override
   State<PoopTrackerApp> createState() => _PoopTrackerAppState();
@@ -39,7 +45,10 @@ class _PoopTrackerAppState extends State<PoopTrackerApp> {
       title: 'PoopPal',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
-      home: PoopCalendarScreen(repository: _repository),
+      home: PoopCalendarScreen(
+        repository: _repository,
+        featureFlags: widget.featureFlags,
+      ),
     );
   }
 }
