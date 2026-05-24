@@ -10,6 +10,7 @@ class SelectedDayPanel extends StatelessWidget {
     required this.day,
     required this.log,
     required this.isMarked,
+    required this.isFutureDate,
     required this.monthLogCount,
     required this.showStreak,
     required this.onToggle,
@@ -19,6 +20,7 @@ class SelectedDayPanel extends StatelessWidget {
   final DateTime day;
   final PoopLog? log;
   final bool isMarked;
+  final bool isFutureDate;
   final int monthLogCount;
   final bool showStreak;
   final VoidCallback? onToggle;
@@ -71,21 +73,35 @@ class SelectedDayPanel extends StatelessWidget {
               Expanded(child: StreakCard(monthLogCount: monthLogCount)),
               const SizedBox(width: 10),
               Expanded(
-                child: LogButton(isMarked: isMarked, onToggle: onToggle),
+                child: LogButton(
+                  isMarked: isMarked,
+                  isFutureDate: isFutureDate,
+                  onToggle: onToggle,
+                ),
               ),
             ],
           )
         else
-          LogButton(isMarked: isMarked, onToggle: onToggle),
+          LogButton(
+            isMarked: isMarked,
+            isFutureDate: isFutureDate,
+            onToggle: onToggle,
+          ),
       ],
     );
   }
 }
 
 class LogButton extends StatelessWidget {
-  const LogButton({required this.isMarked, required this.onToggle, super.key});
+  const LogButton({
+    required this.isMarked,
+    required this.isFutureDate,
+    required this.onToggle,
+    super.key,
+  });
 
   final bool isMarked;
+  final bool isFutureDate;
   final VoidCallback? onToggle;
 
   @override
@@ -94,7 +110,7 @@ class LogButton extends StatelessWidget {
 
     return FilledButton(
       onPressed: isMarked ? onToggle : null,
-      
+
       style: FilledButton.styleFrom(
         backgroundColor: Colors.green,
         foregroundColor: Colors.white,
@@ -108,7 +124,11 @@ class LogButton extends StatelessWidget {
           const SizedBox(width: 12),
           Flexible(
             child: Text(
-              isMarked ? 'Logged' : 'No poop logged',
+              isMarked
+                  ? 'Logged'
+                  : isFutureDate
+                  ? 'Future date'
+                  : 'No poop logged',
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               style: theme.textTheme.titleLarge?.copyWith(

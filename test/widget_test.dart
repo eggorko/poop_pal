@@ -27,13 +27,13 @@ void main() {
     expect(find.text('Profile'), findsNothing);
 
     await tester.scrollUntilVisible(
-      find.text('Log poop'),
+      find.text('No poop logged'),
       300,
       scrollable: find.byType(Scrollable).first,
     );
     await tester.pumpAndSettle();
 
-    expect(find.text('Log poop'), findsOneWidget);
+    expect(find.byTooltip('Log poop'), findsOneWidget);
     expect(find.text('Streak'), findsNothing);
     expect(find.text('Bristol'), findsNothing);
     expect(find.text('After Poop Mood'), findsNothing);
@@ -68,9 +68,32 @@ void main() {
     await tester.tap(find.text('Logged'));
     await tester.pumpAndSettle();
 
-    expect(find.text('Log poop'), findsOneWidget);
+    expect(find.byTooltip('Log poop'), findsOneWidget);
     expect(find.text('Poop logged 🎉'), findsNothing);
     expect(find.text('Time'), findsNothing);
+
+    await tester.pumpWidget(const SizedBox.shrink());
+    await tester.pump(const Duration(milliseconds: 1));
+  });
+
+  testWidgets('does not allow logging a future day', (
+    WidgetTester tester,
+  ) async {
+    final AppDatabase database = AppDatabase(NativeDatabase.memory());
+    final PoopLogRepository repository = PoopLogRepository(database);
+    addTearDown(repository.close);
+
+    await tester.pumpWidget(PoopTrackerApp(repository: repository));
+
+    await tester.tap(find.byTooltip('Next month'));
+    await tester.pumpAndSettle();
+
+    expect(find.byTooltip('Cannot log a future date'), findsOneWidget);
+
+    await tester.tap(find.byTooltip('Cannot log a future date'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Poop logged 🎉'), findsNothing);
 
     await tester.pumpWidget(const SizedBox.shrink());
     await tester.pump(const Duration(milliseconds: 1));
@@ -89,6 +112,7 @@ void main() {
                   day: DateTime(2026, 5, 20),
                   log: null,
                   isMarked: false,
+                  isFutureDate: false,
                   monthLogCount: 7,
                   showStreak: true,
                   onToggle: null,
@@ -121,6 +145,7 @@ void main() {
         home: Scaffold(
           body: PoopBottomNavigation(
             isLogged: false,
+            isFutureDate: false,
             featureFlags: FeatureFlags.allEnabled(),
             onLogPressed: null,
           ),

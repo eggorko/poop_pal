@@ -37,6 +37,14 @@ class PoopLogRepository {
   }
 
   Future<domain.PoopLog> createLogForDay(DateTime day) async {
+    if (isFutureDay(day)) {
+      throw ArgumentError.value(
+        day,
+        'day',
+        'Cannot create a log for a future date.',
+      );
+    }
+
     final DateTime now = DateTime.now();
     final DateTime selectedDate = dateOnly(day);
     final DateTime occurredAt = DateTime(
@@ -75,6 +83,14 @@ class PoopLogRepository {
   }
 
   Future<domain.PoopLog> updateLog(domain.PoopLog log) async {
+    if (isFutureDay(log.occurredAt)) {
+      throw ArgumentError.value(
+        log.occurredAt,
+        'occurredAt',
+        'Cannot move a log to a future date.',
+      );
+    }
+
     final DateTime now = DateTime.now();
     final PoopLogsCompanion companion = PoopLogsCompanion(
       id: Value(log.id),

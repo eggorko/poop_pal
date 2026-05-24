@@ -7,12 +7,14 @@ class PoopBottomNavigation extends StatelessWidget {
   const PoopBottomNavigation({
     required this.onLogPressed,
     required this.isLogged,
+    required this.isFutureDate,
     required this.featureFlags,
     super.key,
   });
 
   final VoidCallback? onLogPressed;
   final bool isLogged;
+  final bool isFutureDate;
   final FeatureFlags featureFlags;
 
   @override
@@ -66,6 +68,7 @@ class PoopBottomNavigation extends StatelessWidget {
                     child: CenterLogButton(
                       onPressed: onLogPressed,
                       isLogged: isLogged,
+                      isFutureDate: isFutureDate,
                     ),
                   ),
                 ),
@@ -100,24 +103,36 @@ class CenterLogButton extends StatelessWidget {
   const CenterLogButton({
     required this.onPressed,
     required this.isLogged,
+    required this.isFutureDate,
     super.key,
   });
 
   final VoidCallback? onPressed;
   final bool isLogged;
+  final bool isFutureDate;
 
   @override
   Widget build(BuildContext context) {
     return Semantics(
       button: true,
-      label: isLogged ? 'Poop already logged' : 'Log poop',
+      label: isFutureDate
+          ? 'Cannot log a future date'
+          : isLogged
+          ? 'Poop already logged'
+          : 'Log poop',
       child: Tooltip(
-        message: isLogged ? 'Poop already logged' : 'Log poop',
+        message: isFutureDate
+            ? 'Cannot log a future date'
+            : isLogged
+            ? 'Poop already logged'
+            : 'Log poop',
         child: Stack(
           clipBehavior: Clip.none,
           children: [
             Material(
-              color: const Color(0xFF49C2B8),
+              color: isFutureDate
+                  ? const Color(0xFF9AA4A3)
+                  : const Color(0xFF49C2B8),
               shape: const CircleBorder(),
               elevation: 8,
               shadowColor: Colors.black26,
@@ -146,6 +161,8 @@ class CenterLogButton extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: isLogged
                       ? const Color(0xFF2F9D5B)
+                      : isFutureDate
+                      ? const Color(0xFF737B7A)
                       : const Color(0xFFFF765F),
                   shape: BoxShape.circle,
                   border: Border.all(color: Colors.white, width: 3),

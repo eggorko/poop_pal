@@ -1,5 +1,9 @@
 DateTime dateOnly(DateTime date) => DateTime(date.year, date.month, date.day);
 
+bool isFutureDay(DateTime date, [DateTime? today]) {
+  return dateOnly(date).isAfter(dateOnly(today ?? DateTime.now()));
+}
+
 bool isSameDay(DateTime first, DateTime second) {
   return first.year == second.year &&
       first.month == second.month &&

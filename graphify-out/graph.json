@@ -1757,7 +1757,7 @@
       "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
       "source_location": null,
       "id": "app_feature_flags_dart",
-      "community": 3,
+      "community": 59,
       "norm_label": "../../../app/feature_flags.dart"
     },
     {
@@ -2252,7 +2252,7 @@
       "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
       "source_location": null,
       "id": "lib_features_calendar_widgets_poop_bottom_navigation_dart",
-      "community": 3,
+      "community": 59,
       "norm_label": "poop_bottom_navigation.dart"
     },
     {
@@ -2261,7 +2261,7 @@
       "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_poop_bottom_navigation_dart_poopbottomnavigation",
-      "community": 3,
+      "community": 59,
       "norm_label": "poopbottomnavigation"
     },
     {
@@ -2270,7 +2270,7 @@
       "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_poop_bottom_navigation_dart_centerlogbutton",
-      "community": 3,
+      "community": 59,
       "norm_label": "centerlogbutton"
     },
     {
@@ -2279,7 +2279,7 @@
       "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_poop_bottom_navigation_dart_navitemgroup",
-      "community": 3,
+      "community": 59,
       "norm_label": "navitemgroup"
     },
     {
@@ -2288,7 +2288,7 @@
       "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_poop_bottom_navigation_dart_navitem",
-      "community": 3,
+      "community": 59,
       "norm_label": "navitem"
     },
     {
@@ -2297,7 +2297,7 @@
       "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_poop_bottom_navigation_dart_build",
-      "community": 3,
+      "community": 59,
       "norm_label": "build"
     },
     {
@@ -2306,7 +2306,7 @@
       "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_poop_bottom_navigation_dart_padding",
-      "community": 3,
+      "community": 59,
       "norm_label": "padding"
     },
     {
@@ -2315,7 +2315,7 @@
       "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_poop_bottom_navigation_dart_semantics",
-      "community": 3,
+      "community": 59,
       "norm_label": "semantics"
     },
     {
@@ -2324,7 +2324,7 @@
       "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_poop_bottom_navigation_dart_row",
-      "community": 3,
+      "community": 59,
       "norm_label": "row"
     },
     {
@@ -2333,7 +2333,7 @@
       "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_poop_bottom_navigation_dart_sizedbox",
-      "community": 3,
+      "community": 59,
       "norm_label": "sizedbox"
     },
     {
@@ -2749,6 +2749,15 @@
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_shared_date_helpers_dart_dateonly",
       "community": 25,
       "norm_label": "dateonly"
+    },
+    {
+      "label": "isFutureDay",
+      "file_type": "code",
+      "source_file": "lib/shared/date_helpers.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_shared_date_helpers_dart_isfutureday",
+      "community": 25,
+      "norm_label": "isfutureday"
     },
     {
       "label": "isSameDay",
@@ -7570,6 +7579,16 @@
       "source_location": null,
       "weight": 1.0,
       "source": "lib_shared_date_helpers_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_shared_date_helpers_dart_isfutureday"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/shared/date_helpers.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_shared_date_helpers_dart",
       "target": "users_e_gorko_projectspersonal_pt_pt_lib_shared_date_helpers_dart_issameday"
     },
     {
@@ -10282,5 +10301,5 @@
       "source_file": "assets/vectors/poop_marker.svg"
     }
   ],
-  "built_at_commit": "74046c6734016654d5a59c13d2120003c3e5ab72"
+  "built_at_commit": "7a7efc095c9e00e3e7c5cc514e52707d2c84c696"
 }

@@ -127,6 +127,7 @@ class _PoopCalendarScreenState extends State<PoopCalendarScreen> {
                     .toSet();
                 final PoopLog? selectedLog = _logForDay(logs, _selectedDay);
                 final bool selectedDayIsMarked = selectedLog != null;
+                final bool selectedDayIsInFuture = isFutureDay(_selectedDay);
 
                 return Stack(
                   children: [
@@ -153,9 +154,13 @@ class _PoopCalendarScreenState extends State<PoopCalendarScreen> {
                                 day: _selectedDay,
                                 log: selectedLog,
                                 isMarked: selectedDayIsMarked,
+                                isFutureDate: selectedDayIsInFuture,
                                 monthLogCount: logs.length,
                                 showStreak: widget.featureFlags.streaks,
-                                onToggle: _isSaving
+                                onToggle:
+                                    _isSaving ||
+                                        (selectedDayIsInFuture &&
+                                            selectedLog == null)
                                     ? null
                                     : () => _toggleSelectedDay(selectedLog),
                               ),
@@ -171,8 +176,12 @@ class _PoopCalendarScreenState extends State<PoopCalendarScreen> {
                       alignment: Alignment.bottomCenter,
                       child: PoopBottomNavigation(
                         isLogged: selectedDayIsMarked,
+                        isFutureDate: selectedDayIsInFuture,
                         featureFlags: widget.featureFlags,
-                        onLogPressed: _isSaving || selectedDayIsMarked
+                        onLogPressed:
+                            _isSaving ||
+                                selectedDayIsMarked ||
+                                selectedDayIsInFuture
                             ? null
                             : () => _toggleSelectedDay(null),
                       ),
