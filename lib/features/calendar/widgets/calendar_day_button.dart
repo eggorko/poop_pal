@@ -89,7 +89,7 @@ class CalendarDayButton extends StatelessWidget {
                             '${day.day}',
                             style: theme.textTheme.titleMedium?.copyWith(
                               color: textColor,
-                              fontWeight: FontWeight.w800,
+                              fontWeight: FontWeight.w400,
                             ),
                           ),
                         ),

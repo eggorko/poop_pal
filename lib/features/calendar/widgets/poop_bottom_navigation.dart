@@ -62,7 +62,7 @@ class PoopBottomNavigation extends StatelessWidget {
                   maxHeight: 100,
                   alignment: Alignment.center,
                   child: Transform.translate(
-                    offset: const Offset(0, -28),
+                    offset: const Offset(0, 0),
                     child: CenterLogButton(
                       onPressed: onLogPressed,
                       isLogged: isLogged,

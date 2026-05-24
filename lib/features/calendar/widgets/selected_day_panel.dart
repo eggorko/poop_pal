@@ -96,7 +96,7 @@ class LogButton extends StatelessWidget {
       onPressed: isMarked ? onToggle : null,
       
       style: FilledButton.styleFrom(
-        backgroundColor: const Color(0xFFFF765F),
+        backgroundColor: Colors.green,
         foregroundColor: Colors.white,
         minimumSize: const Size.fromHeight(56),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
