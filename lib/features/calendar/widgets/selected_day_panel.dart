@@ -60,12 +60,6 @@ class SelectedDayPanel extends StatelessWidget {
                           ],
                         ),
                       ),
-                      const SizedBox(width: 10),
-                      SvgPicture.asset(
-                        AppAssets.toiletPaperMascot,
-                        width: 86,
-                        height: 86,
-                      ),
                     ],
                   ),
           ),

@@ -20,8 +20,8 @@ void main() {
 
     await tester.pumpWidget(PoopTrackerApp(repository: repository));
 
-    expect(find.text('PoopPal'), findsOneWidget);
-    expect(find.text('Calendar'), findsOneWidget);
+    expect(find.text('Poop Pal'), findsOneWidget);
+    expect(find.text('Calendar'), findsNothing);
     expect(find.text('History'), findsNothing);
     expect(find.text('Insights'), findsNothing);
     expect(find.text('Profile'), findsNothing);

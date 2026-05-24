@@ -10,8 +10,6 @@ class AppAssets {
   static const String poopMascot = 'assets/vectors/poop_mascot.svg';
   static const String poopPal = 'assets/vectors/poop_pal.png';
   static const String streakFlame = 'assets/vectors/streak_flame.svg';
-  static const String toiletPaperMascot =
-      'assets/vectors/toilet_paper_mascot.svg';
 
   static String bristolType(int type) =>
       'assets/vectors/bristol_type_$type.svg';

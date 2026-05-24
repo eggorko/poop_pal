@@ -38,12 +38,12 @@ class PoopBottomNavigation extends StatelessWidget {
               Expanded(
                 child: NavItemGroup(
                   children: [
-                     if (featureFlags.calendar)
-                    const NavItem(
-                      icon: Icons.calendar_month,
-                      label: 'Calendar',
-                      selected: true,
-                    ),
+                    if (featureFlags.calendar)
+                      const NavItem(
+                        icon: Icons.calendar_month,
+                        label: 'Calendar',
+                        selected: true,
+                      ),
                     if (featureFlags.history)
                       const NavItem(
                         icon: Icons.history,

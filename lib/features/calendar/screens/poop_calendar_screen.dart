@@ -68,6 +68,15 @@ class _PoopCalendarScreenState extends State<PoopCalendarScreen> {
     });
   }
 
+  void _goToToday() {
+    final DateTime today = DateTime.now();
+    setState(() {
+      _visibleMonth = DateTime(today.year, today.month);
+      _selectedDay = dateOnly(today);
+      _visibleMonthLogs = widget.repository.watchLogsForMonth(_visibleMonth);
+    });
+  }
+
   Future<void> _toggleSelectedDay(PoopLog? selectedLog) async {
     setState(() {
       _isSaving = true;
@@ -122,41 +131,39 @@ class _PoopCalendarScreenState extends State<PoopCalendarScreen> {
                 return Stack(
                   children: [
                     ListView(
-                      padding: const EdgeInsets.fromLTRB(18, 0, 18, 118),
+                      padding: const EdgeInsets.fromLTRB(0, 0, 0, 118),
                       children: [
-                        AppHeader(
-                          onTodayPressed: () {
-                            final DateTime today = DateTime.now();
-                            setState(() {
-                              _visibleMonth = DateTime(today.year, today.month);
-                              _selectedDay = dateOnly(today);
-                              _visibleMonthLogs = widget.repository
-                                  .watchLogsForMonth(_visibleMonth);
-                            });
-                          },
-                        ),
+                        const AppHeader(),
                         const SizedBox(height: 18),
-                        CalendarSection(
-                          visibleMonth: _visibleMonth,
-                          selectedDay: _selectedDay,
-                          poopDays: poopDays,
-                          onPreviousMonth: _goToPreviousMonth,
-                          onNextMonth: _goToNextMonth,
-                          onDaySelected: _selectDay,
-                        ),
-                        const SizedBox(height: 16),
-                        SelectedDayPanel(
-                          day: _selectedDay,
-                          log: selectedLog,
-                          isMarked: selectedDayIsMarked,
-                          monthLogCount: logs.length,
-                          showStreak: widget.featureFlags.streaks,
-                          onToggle: _isSaving
-                              ? null
-                              : () => _toggleSelectedDay(selectedLog),
-                        ),
-                        OptionalFeatureSections(
-                          featureFlags: widget.featureFlags,
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 18),
+                          child: Column(
+                            children: [
+                              CalendarSection(
+                                visibleMonth: _visibleMonth,
+                                selectedDay: _selectedDay,
+                                poopDays: poopDays,
+                                onPreviousMonth: _goToPreviousMonth,
+                                onNextMonth: _goToNextMonth,
+                                onTodayPressed: _goToToday,
+                                onDaySelected: _selectDay,
+                              ),
+                              const SizedBox(height: 16),
+                              SelectedDayPanel(
+                                day: _selectedDay,
+                                log: selectedLog,
+                                isMarked: selectedDayIsMarked,
+                                monthLogCount: logs.length,
+                                showStreak: widget.featureFlags.streaks,
+                                onToggle: _isSaving
+                                    ? null
+                                    : () => _toggleSelectedDay(selectedLog),
+                              ),
+                              OptionalFeatureSections(
+                                featureFlags: widget.featureFlags,
+                              ),
+                            ],
+                          ),
                         ),
                       ],
                     ),

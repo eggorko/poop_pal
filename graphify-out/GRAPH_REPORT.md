@@ -1,16 +1,16 @@
 # Graph Report - pt  (2026-05-24)
 
 ## Corpus Check
-- 73 files · ~105,692 words
+- 73 files · ~105,717 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 452 nodes · 495 edges · 57 communities (44 shown, 13 thin omitted)
+- 454 nodes · 497 edges · 59 communities (46 shown, 13 thin omitted)
 - Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 55 edges (avg confidence: 0.84)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `39243074`
+- Built from commit: `74046c67`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -57,6 +57,8 @@
 - [[_COMMUNITY_Community 54|Community 54]]
 - [[_COMMUNITY_Community 55|Community 55]]
 - [[_COMMUNITY_Community 56|Community 56]]
+- [[_COMMUNITY_Community 57|Community 57]]
+- [[_COMMUNITY_Community 58|Community 58]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `pt Flutter Project` - 21 edges
@@ -105,23 +107,23 @@
 - **Health Metric Visuals** — poop_marker_poop_day_marker, fiber_leaf_fiber, streak_flame_streak_flame, ui_health_metrics, ui_progress_tracking [INFERRED 0.78]
 - **Friendly Rounded Vector Language** — poop_marker_poop_day_marker, mood_great_great_mood, mood_good_good_mood, fiber_leaf_fiber, streak_flame_streak_flame, ui_friendly_digestive_design_language [INFERRED 0.74]
 
-## Communities (57 total, 13 thin omitted)
+## Communities (59 total, 13 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.10
 Nodes (22): RegisterPlugins(), OnCreate(), Create(), Destroy(), EnableFullDpiSupportIfAvailable(), GetClientArea(), GetThisFromHandle(), GetWindowClass() (+14 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.06
-Nodes (31): app_database.dart, calendar_day_button.dart, ../models/poop_log.dart, package:drift/drift.dart, round_icon_button.dart, ../../../shared/date_helpers.dart, _logDateKey, _mapLog (+23 more)
+Cohesion: 0.15
+Nodes (12): build, Card, Column, Container, DateTile, FilledButton, _formatTime, LogButton (+4 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.09
 Nodes (27): Graphify Query First Rule, Graphify Workflow Instructions, Dart Static Analyzer, Flutter Lints Analyzer Configuration, Drift DevTools Extension Enabled, iOS Launch Screen Assets, Build Runner Dependency, Cupertino Icons Dependency (+19 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.07
-Nodes (29): ../data/poop_log_repository.dart, BristolSection, build, _clampSelectedDayToVisibleMonth, Column, DateTime, Expanded, _goToNextMonth (+21 more)
+Cohesion: 0.05
+Nodes (41): ../../../app/feature_flags.dart, ../data/poop_log_repository.dart, AppHeader, BristolSection, build, _clampSelectedDayToVisibleMonth, Column, DateTime (+33 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.09
@@ -136,8 +138,8 @@ Cohesion: 0.11
 Nodes (7): fl_register_plugins(), main(), my_application_activate(), my_application_new(), _MyApplication, dart_entrypoint_arguments, parent_instance
 
 ### Community 7 - "Community 7"
-Cohesion: 0.09
-Nodes (21): dart:io, package:drift/native.dart, package:flutter_test/flutter_test.dart, package:path/path.dart, package:path_provider/path_provider.dart, package:pt/app/feature_flags.dart, package:pt/app/poop_tracker_app.dart, package:pt/features/calendar/data/app_database.dart (+13 more)
+Cohesion: 0.15
+Nodes (14): package:drift/native.dart, package:flutter_test/flutter_test.dart, package:pt/app/feature_flags.dart, package:pt/app/poop_tracker_app.dart, package:pt/features/calendar/data/app_database.dart, package:pt/features/calendar/data/poop_log_repository.dart, package:pt/features/calendar/models/poop_log.dart, package:pt/features/calendar/screens/poop_calendar_screen.dart (+6 more)
 
 ### Community 8 - "Community 8"
 Cohesion: 0.13
@@ -165,7 +167,7 @@ Nodes (11): _, copyWith, copyWithCompanion, Function, map, PoopLog, PoopLogsComp
 
 ### Community 14 - "Community 14"
 Cohesion: 0.40
-Nodes (4): ../../../shared/app_assets.dart, build, Card, NotesCard
+Nodes (4): package:flutter_svg/flutter_svg.dart, build, Card, NotesCard
 
 ### Community 15 - "Community 15"
 Cohesion: 0.18
@@ -188,8 +190,8 @@ Cohesion: 0.25
 Nodes (7): BristolSection, BristolTypeButton, build, Card, Container, Icon, SizedBox
 
 ### Community 20 - "Community 20"
-Cohesion: 0.18
-Nodes (10): ../../../app/feature_flags.dart, build, CenterLogButton, NavItem, NavItemGroup, Padding, PoopBottomNavigation, Row (+2 more)
+Cohesion: 0.13
+Nodes (13): app_database.dart, dart:io, ../models/poop_log.dart, package:drift/drift.dart, package:path/path.dart, package:path_provider/path_provider.dart, AppDatabase, LazyDatabase (+5 more)
 
 ### Community 21 - "Community 21"
 Cohesion: 0.29
@@ -216,25 +218,33 @@ Cohesion: 0.40
 Nodes (4): images, info, author, version
 
 ### Community 28 - "Community 28"
-Cohesion: 0.33
-Nodes (5): package:flutter_svg/flutter_svg.dart, build, Card, ProgressCard, SizedBox
+Cohesion: 0.40
+Nodes (4): build, Card, ProgressCard, SizedBox
 
 ### Community 29 - "Community 29"
 Cohesion: 0.83
 Nodes (4): iOS Launch Image Placeholder Variants, iOS Launch Image 1x Placeholder, iOS Launch Image 2x Placeholder, iOS Launch Image 3x Placeholder
 
+### Community 57 - "Community 57"
+Cohesion: 0.22
+Nodes (8): calendar_day_button.dart, round_icon_button.dart, build, CalendarDayButton, CalendarSection, Center, Column, SizedBox
+
+### Community 58 - "Community 58"
+Cohesion: 0.29
+Nodes (6): ../../../shared/app_assets.dart, ../../../shared/date_helpers.dart, build, CalendarDayButton, DecoratedBox, SizedBox
+
 ## Knowledge Gaps
-- **224 isolated node(s):** `version`, `author`, `main`, `package:pt/features/calendar/models/poop_log.dart`, `main` (+219 more)
+- **226 isolated node(s):** `version`, `author`, `main`, `package:pt/features/calendar/models/poop_log.dart`, `main` (+221 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `package:flutter/material.dart` connect `Community 16` to `Community 1`, `Community 3`, `Community 7`, `Community 12`, `Community 14`, `Community 19`, `Community 20`, `Community 21`, `Community 22`, `Community 28`?**
+- **Why does `package:flutter/material.dart` connect `Community 16` to `Community 1`, `Community 3`, `Community 7`, `Community 12`, `Community 14`, `Community 19`, `Community 21`, `Community 22`, `Community 57`, `Community 58`, `Community 28`?**
   _High betweenness centrality (0.073) - this node is a cross-community bridge._
-- **Why does `../../../shared/app_assets.dart` connect `Community 14` to `Community 1`, `Community 3`, `Community 19`, `Community 20`, `Community 21`, `Community 22`?**
-  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+- **Why does `../../../shared/app_assets.dart` connect `Community 58` to `Community 1`, `Community 3`, `Community 14`, `Community 19`, `Community 21`, `Community 22`?**
+  _High betweenness centrality (0.013) - this node is a cross-community bridge._
 - **Why does `pt Flutter Project` connect `Community 2` to `Community 10`, `Community 11`?**
   _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **Are the 5 inferred relationships involving `pt Flutter Project` (e.g. with `Graphify Query First Rule` and `Flutter Web HTML Shell`) actually correct?**
@@ -242,6 +252,6 @@ _Questions this graph is uniquely positioned to answer:_
 - **Are the 2 inferred relationships involving `iOS App Icon Family` (e.g. with `Flutter Default Brand Mark` and `Android Launcher Icon Family`) actually correct?**
   _`iOS App Icon Family` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `version`, `author`, `main` to the rest of the system?**
-  _228 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _230 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.1032258064516129 - nodes in this community are weakly interconnected._

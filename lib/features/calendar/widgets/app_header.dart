@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../shared/app_assets.dart';
 
 class AppHeader extends StatelessWidget {
-  const AppHeader({required this.onTodayPressed, super.key});
-
-  final VoidCallback onTodayPressed;
+  const AppHeader({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -39,7 +36,7 @@ class AppHeader extends StatelessWidget {
                   const SizedBox(width: 16),
                   Expanded(
                     child: Text(
-                      'PoopPal',
+                      'Poop Pal',
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                       style: textTheme.displaySmall?.copyWith(
@@ -47,20 +44,6 @@ class AppHeader extends StatelessWidget {
                         fontWeight: FontWeight.w800,
                         letterSpacing: 0,
                       ),
-                    ),
-                  ),
-                  IconButton.filledTonal(
-                    tooltip: 'Today',
-                    onPressed: onTodayPressed,
-                    style: IconButton.styleFrom(
-                      backgroundColor: Colors.white.withValues(alpha: 0.76),
-                      foregroundColor: const Color(0xFF149994),
-                      fixedSize: const Size(58, 58),
-                    ),
-                    icon: SvgPicture.asset(
-                      AppAssets.insightsBars,
-                      width: 30,
-                      height: 30,
                     ),
                   ),
                 ],

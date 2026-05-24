@@ -11,6 +11,7 @@ class CalendarSection extends StatelessWidget {
     required this.poopDays,
     required this.onPreviousMonth,
     required this.onNextMonth,
+    required this.onTodayPressed,
     required this.onDaySelected,
     super.key,
   });
@@ -20,6 +21,7 @@ class CalendarSection extends StatelessWidget {
   final Set<DateTime> poopDays;
   final VoidCallback onPreviousMonth;
   final VoidCallback onNextMonth;
+  final VoidCallback onTodayPressed;
   final ValueChanged<DateTime> onDaySelected;
 
   static const List<String> _weekdays = <String>[
@@ -47,14 +49,35 @@ class CalendarSection extends StatelessWidget {
               onPressed: onPreviousMonth,
             ),
             Expanded(
-              child: Text(
-                monthTitle(visibleMonth),
-                textAlign: TextAlign.center,
-                style: theme.textTheme.headlineSmall?.copyWith(
-                  color: const Color(0xFF10272A),
-                  fontWeight: FontWeight.w800,
-                  letterSpacing: 0,
-                ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Flexible(
+                    child: Text(
+                      monthTitle(visibleMonth),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: theme.textTheme.headlineSmall?.copyWith(
+                        color: const Color(0xFF10272A),
+                        fontWeight: FontWeight.w800,
+                        letterSpacing: 0,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 8),
+                  TextButton(
+                    onPressed: onTodayPressed,
+                    style: TextButton.styleFrom(
+                      foregroundColor: const Color(0xFF119A95),
+                      minimumSize: const Size(58, 38),
+                      padding: const EdgeInsets.symmetric(horizontal: 12),
+                      textStyle: theme.textTheme.labelLarge?.copyWith(
+                        fontWeight: FontWeight.w800,
+                      ),
+                    ),
+                    child: const Text('Today'),
+                  ),
+                ],
               ),
             ),
             RoundIconButton(

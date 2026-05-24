@@ -71,7 +71,7 @@ class CalendarDayButton extends StatelessWidget {
                       Image.asset(AppAssets.poopPal, fit: BoxFit.cover),
                     Align(
                       alignment: isMarked
-                          ? Alignment.topLeft
+                          ? Alignment.topCenter
                           : Alignment.center,
                       child: DecoratedBox(
                         decoration: BoxDecoration(

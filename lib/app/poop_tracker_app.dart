@@ -42,7 +42,7 @@ class _PoopTrackerAppState extends State<PoopTrackerApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'PoopPal',
+      title: 'Poop Pal',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
       home: PoopCalendarScreen(
