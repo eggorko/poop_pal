@@ -13,7 +13,9 @@ class SelectedDayPanel extends StatelessWidget {
     required this.isFutureDate,
     required this.monthLogCount,
     required this.showStreak,
+    required this.showLogButton,
     required this.onToggle,
+    required this.onRemoveLogPressed,
     super.key,
   });
 
@@ -23,7 +25,9 @@ class SelectedDayPanel extends StatelessWidget {
   final bool isFutureDate;
   final int monthLogCount;
   final bool showStreak;
+  final bool showLogButton;
   final VoidCallback? onToggle;
+  final VoidCallback? onRemoveLogPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -62,12 +66,27 @@ class SelectedDayPanel extends StatelessWidget {
                           ],
                         ),
                       ),
+                      Tooltip(
+                        message: 'Remove log',
+                        child: OutlinedButton(
+                          onPressed: onRemoveLogPressed,
+                          style: OutlinedButton.styleFrom(
+                            foregroundColor: const Color(0xFF10272A),
+                            side: const BorderSide(color: Color(0xFFE6D8C6)),
+                            shape: const StadiumBorder(),
+                            padding: const EdgeInsets.symmetric(horizontal: 14),
+                            minimumSize: const Size(0, 36),
+                            tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                          ),
+                          child: const Text('Remove'),
+                        ),
+                      ),
                     ],
                   ),
           ),
         ),
-        const SizedBox(height: 12),
-        if (showStreak)
+        if (showStreak || showLogButton) const SizedBox(height: 12),
+        if (showStreak && showLogButton)
           Row(
             children: [
               Expanded(child: StreakCard(monthLogCount: monthLogCount)),
@@ -81,7 +100,9 @@ class SelectedDayPanel extends StatelessWidget {
               ),
             ],
           )
-        else
+        else if (showStreak)
+          StreakCard(monthLogCount: monthLogCount)
+        else if (showLogButton)
           LogButton(
             isMarked: isMarked,
             isFutureDate: isFutureDate,

@@ -6,6 +6,7 @@ class FeatureFlags {
     this.hydration = false,
     this.fiber = false,
     this.notes = false,
+    this.selectedDayLogButton = false,
     this.calendar = false,
     this.history = false,
     this.insights = false,
@@ -19,6 +20,7 @@ class FeatureFlags {
       hydration = true,
       fiber = true,
       notes = true,
+      selectedDayLogButton = true,
       calendar = true,
       history = true,
       insights = true,
@@ -30,6 +32,7 @@ class FeatureFlags {
   final bool hydration;
   final bool fiber;
   final bool notes;
+  final bool selectedDayLogButton;
   final bool calendar;
   final bool history;
   final bool insights;

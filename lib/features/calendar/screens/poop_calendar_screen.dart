@@ -97,6 +97,34 @@ class _PoopCalendarScreenState extends State<PoopCalendarScreen> {
     }
   }
 
+  Future<void> _confirmAndDeleteLog(PoopLog log) async {
+    final bool? shouldDelete = await showDialog<bool>(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text('Remove log?'),
+          content: const Text('This will unlog the selected date.'),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(false),
+              child: const Text('Cancel'),
+            ),
+            FilledButton(
+              onPressed: () => Navigator.of(context).pop(true),
+              child: const Text('Remove'),
+            ),
+          ],
+        );
+      },
+    );
+
+    if (shouldDelete != true || !mounted) {
+      return;
+    }
+
+    await _toggleSelectedDay(log);
+  }
+
   DateTime _clampSelectedDayToVisibleMonth() {
     final int lastDay = DateTime(
       _visibleMonth.year,
@@ -157,12 +185,18 @@ class _PoopCalendarScreenState extends State<PoopCalendarScreen> {
                                 isFutureDate: selectedDayIsInFuture,
                                 monthLogCount: logs.length,
                                 showStreak: widget.featureFlags.streaks,
+                                showLogButton:
+                                    widget.featureFlags.selectedDayLogButton,
                                 onToggle:
                                     _isSaving ||
                                         (selectedDayIsInFuture &&
                                             selectedLog == null)
                                     ? null
                                     : () => _toggleSelectedDay(selectedLog),
+                                onRemoveLogPressed:
+                                    _isSaving || selectedLog == null
+                                    ? null
+                                    : () => _confirmAndDeleteLog(selectedLog),
                               ),
                               OptionalFeatureSections(
                                 featureFlags: widget.featureFlags,

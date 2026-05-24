@@ -157,30 +157,32 @@ class CenterLogButton extends StatelessWidget {
             Positioned(
               top: 0,
               right: 0,
-              child: DecoratedBox(
-                decoration: BoxDecoration(
-                  color: isLogged
-                      ? const Color(0xFF2F9D5B)
-                      : isFutureDate
-                      ? const Color(0xFF737B7A)
-                      : const Color(0xFFFF765F),
-                  shape: BoxShape.circle,
-                  border: Border.all(color: Colors.white, width: 3),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black.withValues(alpha: 0.16),
-                      blurRadius: 8,
-                      offset: const Offset(0, 3),
+              child: IgnorePointer(
+                child: DecoratedBox(
+                  decoration: BoxDecoration(
+                    color: isLogged
+                        ? const Color(0xFF2F9D5B)
+                        : isFutureDate
+                        ? const Color(0xFF737B7A)
+                        : const Color(0xFFFF765F),
+                    shape: BoxShape.circle,
+                    border: Border.all(color: Colors.white, width: 3),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withValues(alpha: 0.16),
+                        blurRadius: 8,
+                        offset: const Offset(0, 3),
+                      ),
+                    ],
+                  ),
+                  child: SizedBox(
+                    width: 40,
+                    height: 40,
+                    child: Icon(
+                      isLogged ? Icons.check : Icons.add,
+                      color: Colors.white,
+                      size: 26,
                     ),
-                  ],
-                ),
-                child: SizedBox(
-                  width: 40,
-                  height: 40,
-                  child: Icon(
-                    isLogged ? Icons.check : Icons.add,
-                    color: Colors.white,
-                    size: 26,
                   ),
                 ),
               ),

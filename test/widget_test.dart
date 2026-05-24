@@ -26,14 +26,8 @@ void main() {
     expect(find.text('Insights'), findsNothing);
     expect(find.text('Profile'), findsNothing);
 
-    await tester.scrollUntilVisible(
-      find.text('No poop logged'),
-      300,
-      scrollable: find.byType(Scrollable).first,
-    );
-    await tester.pumpAndSettle();
-
     expect(find.byTooltip('Log poop'), findsOneWidget);
+    expect(find.text('No poop logged'), findsNothing);
     expect(find.text('Streak'), findsNothing);
     expect(find.text('Bristol'), findsNothing);
     expect(find.text('After Poop Mood'), findsNothing);
@@ -46,26 +40,30 @@ void main() {
     await tester.tap(find.byTooltip('Log poop'));
     await tester.pumpAndSettle();
 
-    expect(find.text('Logged'), findsOneWidget);
     expect(find.text('Poop logged 🎉'), findsOneWidget);
     expect(find.text('Time'), findsOneWidget);
-    expect(find.byIcon(Icons.check_circle), findsOneWidget);
+    expect(find.byTooltip('Remove log'), findsOneWidget);
 
     await tester.pumpWidget(const SizedBox.shrink());
     await tester.pump(const Duration(milliseconds: 1));
     await tester.pumpWidget(PoopTrackerApp(repository: repository));
     await tester.scrollUntilVisible(
-      find.text('Logged'),
+      find.text('Poop logged 🎉'),
       300,
       scrollable: find.byType(Scrollable).first,
     );
     await tester.pumpAndSettle();
 
-    expect(find.text('Logged'), findsOneWidget);
     expect(find.text('Poop logged 🎉'), findsOneWidget);
     expect(find.text('Time'), findsOneWidget);
 
-    await tester.tap(find.text('Logged'));
+    await tester.tap(find.byTooltip('Remove log'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Remove log?'), findsOneWidget);
+    expect(find.text('This will unlog the selected date.'), findsOneWidget);
+
+    await tester.tap(find.widgetWithText(FilledButton, 'Remove'));
     await tester.pumpAndSettle();
 
     expect(find.byTooltip('Log poop'), findsOneWidget);
@@ -115,7 +113,9 @@ void main() {
                   isFutureDate: false,
                   monthLogCount: 7,
                   showStreak: true,
+                  showLogButton: true,
                   onToggle: null,
+                  onRemoveLogPressed: null,
                 ),
                 const OptionalFeatureSections(
                   featureFlags: FeatureFlags.allEnabled(),
@@ -157,5 +157,32 @@ void main() {
     expect(find.text('History'), findsOneWidget);
     expect(find.text('Insights'), findsOneWidget);
     expect(find.text('Profile'), findsOneWidget);
+  });
+
+  testWidgets('plus badge forwards taps to center log button', (
+    WidgetTester tester,
+  ) async {
+    int tapCount = 0;
+
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(
+          body: Center(
+            child: CenterLogButton(
+              isLogged: false,
+              isFutureDate: false,
+              onPressed: () {
+                tapCount += 1;
+              },
+            ),
+          ),
+        ),
+      ),
+    );
+
+    await tester.tapAt(tester.getCenter(find.byIcon(Icons.add)));
+    await tester.pumpAndSettle();
+
+    expect(tapCount, 1);
   });
 }
