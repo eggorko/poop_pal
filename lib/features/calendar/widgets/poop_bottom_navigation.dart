@@ -1,16 +1,19 @@
 import 'package:flutter/material.dart';
 
+import '../../../app/feature_flags.dart';
 import '../../../shared/app_assets.dart';
 
 class PoopBottomNavigation extends StatelessWidget {
   const PoopBottomNavigation({
     required this.onLogPressed,
     required this.isLogged,
+    required this.featureFlags,
     super.key,
   });
 
   final VoidCallback? onLogPressed;
   final bool isLogged;
+  final FeatureFlags featureFlags;
 
   @override
   Widget build(BuildContext context) {
@@ -31,17 +34,24 @@ class PoopBottomNavigation extends StatelessWidget {
         child: SizedBox(
           height: 80,
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              const NavItem(
-                icon: Icons.calendar_month,
-                label: 'Calendar',
-                selected: true,
-              ),
-              const NavItem(
-                icon: Icons.history,
-                label: 'History',
-                selected: false,
+              Expanded(
+                child: NavItemGroup(
+                  children: [
+                     if (featureFlags.calendar)
+                    const NavItem(
+                      icon: Icons.calendar_month,
+                      label: 'Calendar',
+                      selected: true,
+                    ),
+                    if (featureFlags.history)
+                      const NavItem(
+                        icon: Icons.history,
+                        label: 'History',
+                        selected: false,
+                      ),
+                  ],
+                ),
               ),
               SizedBox(
                 width: 96,
@@ -60,15 +70,23 @@ class PoopBottomNavigation extends StatelessWidget {
                   ),
                 ),
               ),
-              const NavItem(
-                icon: Icons.bar_chart,
-                label: 'Insights',
-                selected: false,
-              ),
-              const NavItem(
-                icon: Icons.person_outline,
-                label: 'Profile',
-                selected: false,
+              Expanded(
+                child: NavItemGroup(
+                  children: [
+                    if (featureFlags.insights)
+                      const NavItem(
+                        icon: Icons.bar_chart,
+                        label: 'Insights',
+                        selected: false,
+                      ),
+                    if (featureFlags.profile)
+                      const NavItem(
+                        icon: Icons.person_outline,
+                        label: 'Profile',
+                        selected: false,
+                      ),
+                  ],
+                ),
               ),
             ],
           ),
@@ -153,6 +171,20 @@ class CenterLogButton extends StatelessWidget {
           ],
         ),
       ),
+    );
+  }
+}
+
+class NavItemGroup extends StatelessWidget {
+  const NavItemGroup({required this.children, super.key});
+
+  final List<Widget> children;
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      children: children,
     );
   }
 }

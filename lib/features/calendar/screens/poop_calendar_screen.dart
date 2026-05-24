@@ -164,6 +164,7 @@ class _PoopCalendarScreenState extends State<PoopCalendarScreen> {
                       alignment: Alignment.bottomCenter,
                       child: PoopBottomNavigation(
                         isLogged: selectedDayIsMarked,
+                        featureFlags: widget.featureFlags,
                         onLogPressed: _isSaving || selectedDayIsMarked
                             ? null
                             : () => _toggleSelectedDay(null),

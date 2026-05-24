@@ -1,16 +1,16 @@
 # Graph Report - pt  (2026-05-24)
 
 ## Corpus Check
-- 73 files · ~105,560 words
+- 73 files · ~105,692 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 448 nodes · 490 edges · 57 communities (44 shown, 13 thin omitted)
+- 452 nodes · 495 edges · 57 communities (44 shown, 13 thin omitted)
 - Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 55 edges (avg confidence: 0.84)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fb7e23c4`
+- Built from commit: `39243074`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -120,8 +120,8 @@ Cohesion: 0.09
 Nodes (27): Graphify Query First Rule, Graphify Workflow Instructions, Dart Static Analyzer, Flutter Lints Analyzer Configuration, Drift DevTools Extension Enabled, iOS Launch Screen Assets, Build Runner Dependency, Cupertino Icons Dependency (+19 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.06
-Nodes (30): ../../../app/feature_flags.dart, ../data/poop_log_repository.dart, BristolSection, build, _clampSelectedDayToVisibleMonth, Column, DateTime, Expanded (+22 more)
+Cohesion: 0.07
+Nodes (29): ../data/poop_log_repository.dart, BristolSection, build, _clampSelectedDayToVisibleMonth, Column, DateTime, Expanded, _goToNextMonth (+21 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.09
@@ -136,8 +136,8 @@ Cohesion: 0.11
 Nodes (7): fl_register_plugins(), main(), my_application_activate(), my_application_new(), _MyApplication, dart_entrypoint_arguments, parent_instance
 
 ### Community 7 - "Community 7"
-Cohesion: 0.10
-Nodes (19): dart:io, package:drift/native.dart, package:flutter_test/flutter_test.dart, package:path/path.dart, package:path_provider/path_provider.dart, package:pt/app/feature_flags.dart, package:pt/app/poop_tracker_app.dart, package:pt/features/calendar/data/app_database.dart (+11 more)
+Cohesion: 0.09
+Nodes (21): dart:io, package:drift/native.dart, package:flutter_test/flutter_test.dart, package:path/path.dart, package:path_provider/path_provider.dart, package:pt/app/feature_flags.dart, package:pt/app/poop_tracker_app.dart, package:pt/features/calendar/data/app_database.dart (+13 more)
 
 ### Community 8 - "Community 8"
 Cohesion: 0.13
@@ -188,8 +188,8 @@ Cohesion: 0.25
 Nodes (7): BristolSection, BristolTypeButton, build, Card, Container, Icon, SizedBox
 
 ### Community 20 - "Community 20"
-Cohesion: 0.25
-Nodes (7): build, CenterLogButton, NavItem, Padding, PoopBottomNavigation, Semantics, SizedBox
+Cohesion: 0.18
+Nodes (10): ../../../app/feature_flags.dart, build, CenterLogButton, NavItem, NavItemGroup, Padding, PoopBottomNavigation, Row (+2 more)
 
 ### Community 21 - "Community 21"
 Cohesion: 0.29
@@ -224,7 +224,7 @@ Cohesion: 0.83
 Nodes (4): iOS Launch Image Placeholder Variants, iOS Launch Image 1x Placeholder, iOS Launch Image 2x Placeholder, iOS Launch Image 3x Placeholder
 
 ## Knowledge Gaps
-- **221 isolated node(s):** `version`, `author`, `main`, `package:pt/features/calendar/models/poop_log.dart`, `main` (+216 more)
+- **224 isolated node(s):** `version`, `author`, `main`, `package:pt/features/calendar/models/poop_log.dart`, `main` (+219 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -232,7 +232,7 @@ Nodes (4): iOS Launch Image Placeholder Variants, iOS Launch Image 1x Placeholde
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `package:flutter/material.dart` connect `Community 16` to `Community 1`, `Community 3`, `Community 7`, `Community 12`, `Community 14`, `Community 19`, `Community 20`, `Community 21`, `Community 22`, `Community 28`?**
-  _High betweenness centrality (0.070) - this node is a cross-community bridge._
+  _High betweenness centrality (0.073) - this node is a cross-community bridge._
 - **Why does `../../../shared/app_assets.dart` connect `Community 14` to `Community 1`, `Community 3`, `Community 19`, `Community 20`, `Community 21`, `Community 22`?**
   _High betweenness centrality (0.012) - this node is a cross-community bridge._
 - **Why does `pt Flutter Project` connect `Community 2` to `Community 10`, `Community 11`?**
@@ -242,6 +242,6 @@ _Questions this graph is uniquely positioned to answer:_
 - **Are the 2 inferred relationships involving `iOS App Icon Family` (e.g. with `Flutter Default Brand Mark` and `Android Launcher Icon Family`) actually correct?**
   _`iOS App Icon Family` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `version`, `author`, `main` to the rest of the system?**
-  _225 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _228 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.1032258064516129 - nodes in this community are weakly interconnected._

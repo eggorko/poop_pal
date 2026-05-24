@@ -7,6 +7,7 @@ import 'package:pt/app/poop_tracker_app.dart';
 import 'package:pt/features/calendar/data/app_database.dart';
 import 'package:pt/features/calendar/data/poop_log_repository.dart';
 import 'package:pt/features/calendar/screens/poop_calendar_screen.dart';
+import 'package:pt/features/calendar/widgets/poop_bottom_navigation.dart';
 import 'package:pt/features/calendar/widgets/selected_day_panel.dart';
 
 void main() {
@@ -21,6 +22,9 @@ void main() {
 
     expect(find.text('PoopPal'), findsOneWidget);
     expect(find.text('Calendar'), findsOneWidget);
+    expect(find.text('History'), findsNothing);
+    expect(find.text('Insights'), findsNothing);
+    expect(find.text('Profile'), findsNothing);
 
     await tester.scrollUntilVisible(
       find.text('Log poop'),
@@ -107,5 +111,26 @@ void main() {
     expect(find.text('Hydration', skipOffstage: false), findsOneWidget);
     expect(find.text('Fiber', skipOffstage: false), findsOneWidget);
     expect(find.text('Notes', skipOffstage: false), findsOneWidget);
+  });
+
+  testWidgets('can show unfinished navigation items when enabled', (
+    WidgetTester tester,
+  ) async {
+    await tester.pumpWidget(
+      const MaterialApp(
+        home: Scaffold(
+          body: PoopBottomNavigation(
+            isLogged: false,
+            featureFlags: FeatureFlags.allEnabled(),
+            onLogPressed: null,
+          ),
+        ),
+      ),
+    );
+
+    expect(find.text('Calendar'), findsOneWidget);
+    expect(find.text('History'), findsOneWidget);
+    expect(find.text('Insights'), findsOneWidget);
+    expect(find.text('Profile'), findsOneWidget);
   });
 }

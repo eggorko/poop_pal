@@ -654,6 +654,15 @@
       "norm_label": "optionalfeaturesections"
     },
     {
+      "label": "MaterialApp",
+      "file_type": "code",
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_test_widget_test_dart_materialapp",
+      "community": 7,
+      "norm_label": "materialapp"
+    },
+    {
       "label": "package:flutter/material.dart",
       "file_type": "code",
       "source_file": "lib/features/calendar/widgets/progress_card.dart",
@@ -688,6 +697,15 @@
       "id": "package_pt_features_calendar_screens_poop_calendar_screen_dart",
       "community": 7,
       "norm_label": "package:pt/features/calendar/screens/poop_calendar_screen.dart"
+    },
+    {
+      "label": "package:pt/features/calendar/widgets/poop_bottom_navigation.dart",
+      "file_type": "code",
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "id": "package_pt_features_calendar_widgets_poop_bottom_navigation_dart",
+      "community": 7,
+      "norm_label": "package:pt/features/calendar/widgets/poop_bottom_navigation.dart"
     },
     {
       "label": "package:pt/features/calendar/widgets/selected_day_panel.dart",
@@ -1718,10 +1736,10 @@
     {
       "label": "../../../app/feature_flags.dart",
       "file_type": "code",
-      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
       "source_location": null,
       "id": "app_feature_flags_dart",
-      "community": 3,
+      "community": 20,
       "norm_label": "../../../app/feature_flags.dart"
     },
     {
@@ -2238,6 +2256,15 @@
       "norm_label": "centerlogbutton"
     },
     {
+      "label": "NavItemGroup",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_poop_bottom_navigation_dart_navitemgroup",
+      "community": 20,
+      "norm_label": "navitemgroup"
+    },
+    {
       "label": "NavItem",
       "file_type": "code",
       "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
@@ -2272,6 +2299,15 @@
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_poop_bottom_navigation_dart_semantics",
       "community": 20,
       "norm_label": "semantics"
+    },
+    {
+      "label": "Row",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_poop_bottom_navigation_dart_row",
+      "community": 20,
+      "norm_label": "row"
     },
     {
       "label": "SizedBox",
@@ -5242,6 +5278,16 @@
       "target": "users_e_gorko_projectspersonal_pt_pt_test_widget_test_dart_optionalfeaturesections"
     },
     {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_widget_test_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_test_widget_test_dart_materialapp"
+    },
+    {
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -5280,6 +5326,16 @@
       "weight": 1.0,
       "source": "test_widget_test_dart",
       "target": "package_pt_features_calendar_screens_poop_calendar_screen_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_widget_test_dart",
+      "target": "package_pt_features_calendar_widgets_poop_bottom_navigation_dart"
     },
     {
       "relation": "imports",
@@ -6402,6 +6458,16 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_widgets_poop_bottom_navigation_dart",
+      "target": "app_feature_flags_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "lib/features/calendar/data/poop_log_repository.dart",
       "source_location": null,
       "weight": 1.0,
@@ -7006,6 +7072,16 @@
       "source_location": null,
       "weight": 1.0,
       "source": "lib_features_calendar_widgets_poop_bottom_navigation_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_poop_bottom_navigation_dart_navitemgroup"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_widgets_poop_bottom_navigation_dart",
       "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_poop_bottom_navigation_dart_navitem"
     },
     {
@@ -7037,6 +7113,16 @@
       "weight": 1.0,
       "source": "lib_features_calendar_widgets_poop_bottom_navigation_dart",
       "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_poop_bottom_navigation_dart_semantics"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_widgets_poop_bottom_navigation_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_poop_bottom_navigation_dart_row"
     },
     {
       "relation": "defines",
@@ -8199,9 +8285,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "pt_readme_pt",
-      "confidence_score": 1.0
+      "target": "pt_readme_pt"
     },
     {
       "relation": "contains",
@@ -8209,9 +8295,9 @@
       "source_file": "README.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "pt_readme_pt",
-      "target": "pt_readme_getting_started",
-      "confidence_score": 1.0
+      "target": "pt_readme_getting_started"
     },
     {
       "relation": "contains",
@@ -8219,9 +8305,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_md",
-      "target": "pt_agents_graphify",
-      "confidence_score": 1.0
+      "target": "pt_agents_graphify"
     },
     {
       "relation": "contains",
@@ -8229,9 +8315,9 @@
       "source_file": "ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ios_runner_assets_xcassets_launchimage_imageset_readme_md",
-      "target": "launchimage_imageset_readme_launch_screen_assets",
-      "confidence_score": 1.0
+      "target": "launchimage_imageset_readme_launch_screen_assets"
     },
     {
       "relation": "references",
@@ -10158,5 +10244,5 @@
       "source_file": "assets/vectors/poop_marker.svg"
     }
   ],
-  "built_at_commit": "fb7e23c4b98a039ed56b8ac619fe03d5f88b72ec"
+  "built_at_commit": "39243074da0a116250bd97ff69222a1c1b4ac571"
 }

@@ -6,6 +6,10 @@ class FeatureFlags {
     this.hydration = false,
     this.fiber = false,
     this.notes = false,
+    this.history = false,
+    this.insights = false,
+    this.profile = false,
+    this.calendar = false,
   });
 
   const FeatureFlags.allEnabled()
@@ -14,7 +18,11 @@ class FeatureFlags {
       mood = true,
       hydration = true,
       fiber = true,
-      notes = true;
+      notes = true,
+      history = true,
+      insights = true,
+      profile = true,
+      calendar = true;
 
   final bool streaks;
   final bool bristol;
@@ -22,6 +30,10 @@ class FeatureFlags {
   final bool hydration;
   final bool fiber;
   final bool notes;
+  final bool history;
+  final bool insights;
+  final bool profile;
+  final bool calendar;
 
   bool get hasHealthProgress => hydration || fiber;
 }
