@@ -1,5 +1,9 @@
+import 'dart:async';
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
 
+import '../../../app/confetti_config.dart';
 import '../../../app/feature_flags.dart';
 import '../data/poop_log_repository.dart';
 import '../models/poop_log.dart';
@@ -18,17 +22,21 @@ class PoopCalendarScreen extends StatefulWidget {
   const PoopCalendarScreen({
     required this.repository,
     required this.featureFlags,
+    this.confettiConfig = appConfettiConfig,
     super.key,
   });
 
   final PoopLogRepository repository;
   final FeatureFlags featureFlags;
+  final ConfettiConfig confettiConfig;
 
   @override
   State<PoopCalendarScreen> createState() => _PoopCalendarScreenState();
 }
 
-class _PoopCalendarScreenState extends State<PoopCalendarScreen> {
+class _PoopCalendarScreenState extends State<PoopCalendarScreen>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _confettiController;
   late DateTime _visibleMonth;
   late DateTime _selectedDay;
   late Stream<List<PoopLog>> _visibleMonthLogs;
@@ -38,10 +46,20 @@ class _PoopCalendarScreenState extends State<PoopCalendarScreen> {
   @override
   void initState() {
     super.initState();
+    _confettiController = AnimationController(
+      vsync: this,
+      duration: widget.confettiConfig.duration,
+    );
     final DateTime today = DateTime.now();
     _visibleMonth = DateTime(today.year, today.month);
     _selectedDay = dateOnly(today);
     _visibleMonthLogs = widget.repository.watchLogsForMonth(_visibleMonth);
+  }
+
+  @override
+  void dispose() {
+    _confettiController.dispose();
+    super.dispose();
   }
 
   void _goToPreviousMonth() {
@@ -85,6 +103,9 @@ class _PoopCalendarScreenState extends State<PoopCalendarScreen> {
     try {
       if (selectedLog == null) {
         await widget.repository.createLogForDay(_selectedDay);
+        if (mounted && widget.confettiConfig.enabled) {
+          unawaited(_confettiController.forward(from: 0));
+        }
       } else {
         await widget.repository.deleteLog(selectedLog.id);
       }
@@ -220,12 +241,89 @@ class _PoopCalendarScreenState extends State<PoopCalendarScreen> {
                             : () => _toggleSelectedDay(null),
                       ),
                     ),
+                    Positioned.fill(
+                      child: IgnorePointer(
+                        child: AnimatedBuilder(
+                          animation: _confettiController,
+                          builder: (BuildContext context, Widget? child) {
+                            if (_confettiController.isDismissed ||
+                                _confettiController.isCompleted) {
+                              return const SizedBox.shrink();
+                            }
+
+                            return CustomPaint(
+                              key: const Key('log-confetti'),
+                              painter: _ConfettiPainter(
+                                progress: _confettiController.value,
+                                config: widget.confettiConfig,
+                              ),
+                            );
+                          },
+                        ),
+                      ),
+                    ),
                   ],
                 );
               },
         ),
       ),
     );
+  }
+}
+
+class _ConfettiPainter extends CustomPainter {
+  _ConfettiPainter({required this.progress, required this.config});
+
+  final double progress;
+  final ConfettiConfig config;
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    if (config.colors.isEmpty) {
+      return;
+    }
+
+    final Paint paint = Paint()..style = PaintingStyle.fill;
+    final double fade = (1 - progress).clamp(0.0, 1.0);
+    final double eased = Curves.easeOutCubic.transform(progress);
+
+    for (int i = 0; i < config.pieceCount; i += 1) {
+      final double seed = i.toDouble();
+      final double startX = ((seed * 47) % 100) / 100 * size.width;
+      final double drift =
+          math.sin(seed * 1.7) * config.maxHorizontalDrift * progress;
+      final double fall =
+          size.height *
+          (config.fallStartFraction + config.fallDistanceFraction * eased);
+      final double stagger = ((seed * 13) % 24) / 24;
+      final double y =
+          -config.topStartOffset - stagger * config.verticalStagger + fall;
+
+      if (y > size.height || y < -config.topStartOffset - 44) {
+        continue;
+      }
+
+      paint.color = config.colors[i % config.colors.length].withValues(
+        alpha: fade,
+      );
+      canvas.save();
+      canvas.translate(startX + drift, y);
+      canvas.rotate(progress * math.pi * (2 + (i % 5)) + seed);
+
+      final double width = config.minPieceWidth + (i % 3) * config.widthStep;
+      final double height = config.minPieceHeight + (i % 4) * config.heightStep;
+      final RRect piece = RRect.fromRectAndRadius(
+        Rect.fromCenter(center: Offset.zero, width: width, height: height),
+        Radius.circular(config.cornerRadius),
+      );
+      canvas.drawRRect(piece, paint);
+      canvas.restore();
+    }
+  }
+
+  @override
+  bool shouldRepaint(_ConfettiPainter oldDelegate) {
+    return oldDelegate.progress != progress || oldDelegate.config != config;
   }
 }
 

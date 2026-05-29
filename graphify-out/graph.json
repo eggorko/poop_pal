@@ -1491,6 +1491,24 @@
       "norm_label": "featureflags"
     },
     {
+      "label": "confetti_config.dart",
+      "file_type": "code",
+      "source_file": "lib/app/confetti_config.dart",
+      "source_location": null,
+      "id": "lib_app_confetti_config_dart",
+      "community": 16,
+      "norm_label": "confetti_config.dart"
+    },
+    {
+      "label": "ConfettiConfig",
+      "file_type": "code",
+      "source_file": "lib/app/confetti_config.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_app_confetti_config_dart_confetticonfig",
+      "community": 16,
+      "norm_label": "confetticonfig"
+    },
+    {
       "label": "theme.dart",
       "file_type": "code",
       "source_file": "lib/app/theme.dart",
@@ -1572,6 +1590,15 @@
       "norm_label": "_poopcalendarscreenstate"
     },
     {
+      "label": "_ConfettiPainter",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_confettipainter",
+      "community": 3,
+      "norm_label": "_confettipainter"
+    },
+    {
       "label": "OptionalFeatureSections",
       "file_type": "code",
       "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
@@ -1597,6 +1624,15 @@
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_initstate",
       "community": 3,
       "norm_label": "initstate"
+    },
+    {
+      "label": "dispose",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_dispose",
+      "community": 3,
+      "norm_label": "dispose"
     },
     {
       "label": "_goToPreviousMonth",
@@ -1716,6 +1752,33 @@
       "norm_label": "sizedbox"
     },
     {
+      "label": "CustomPaint",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_custompaint",
+      "community": 3,
+      "norm_label": "custompaint"
+    },
+    {
+      "label": "paint",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_paint",
+      "community": 3,
+      "norm_label": "paint"
+    },
+    {
+      "label": "shouldRepaint",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_shouldrepaint",
+      "community": 3,
+      "norm_label": "shouldrepaint"
+    },
+    {
       "label": "Column",
       "file_type": "code",
       "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
@@ -1770,6 +1833,33 @@
       "norm_label": "row"
     },
     {
+      "label": "dart:async",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "id": "dart_async",
+      "community": 3,
+      "norm_label": "dart:async"
+    },
+    {
+      "label": "dart:math",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "id": "dart_math",
+      "community": 3,
+      "norm_label": "dart:math"
+    },
+    {
+      "label": "../../../app/confetti_config.dart",
+      "file_type": "code",
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "id": "app_confetti_config_dart",
+      "community": 3,
+      "norm_label": "../../../app/confetti_config.dart"
+    },
+    {
       "label": "../../../app/feature_flags.dart",
       "file_type": "code",
       "source_file": "lib/features/calendar/widgets/poop_bottom_navigation.dart",
@@ -1802,7 +1892,7 @@
       "source_file": "lib/features/calendar/widgets/selected_day_panel.dart",
       "source_location": null,
       "id": "shared_app_assets_dart",
-      "community": 28,
+      "community": 14,
       "norm_label": "../../../shared/app_assets.dart"
     },
     {
@@ -1946,7 +2036,7 @@
       "source_file": "lib/features/calendar/data/poop_log_repository.dart",
       "source_location": null,
       "id": "package_drift_drift_dart",
-      "community": 1,
+      "community": 7,
       "norm_label": "package:drift/drift.dart"
     },
     {
@@ -2189,7 +2279,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "lib_features_calendar_widgets_calendar_section_dart",
-      "community": 14,
+      "community": 1,
       "norm_label": "calendar_section.dart"
     },
     {
@@ -2198,7 +2288,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_section_dart_calendarsection",
-      "community": 14,
+      "community": 1,
       "norm_label": "calendarsection"
     },
     {
@@ -2207,7 +2297,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_section_dart_build",
-      "community": 14,
+      "community": 1,
       "norm_label": "build"
     },
     {
@@ -2216,7 +2306,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_section_dart_column",
-      "community": 14,
+      "community": 1,
       "norm_label": "column"
     },
     {
@@ -2225,7 +2315,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_section_dart_sizedbox",
-      "community": 14,
+      "community": 1,
       "norm_label": "sizedbox"
     },
     {
@@ -2234,7 +2324,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_section_dart_center",
-      "community": 14,
+      "community": 1,
       "norm_label": "center"
     },
     {
@@ -2243,7 +2333,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_section_dart_calendardaybutton",
-      "community": 14,
+      "community": 1,
       "norm_label": "calendardaybutton"
     },
     {
@@ -2252,7 +2342,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "calendar_day_button_dart",
-      "community": 14,
+      "community": 1,
       "norm_label": "calendar_day_button.dart"
     },
     {
@@ -2261,7 +2351,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_section.dart",
       "source_location": null,
       "id": "round_icon_button_dart",
-      "community": 14,
+      "community": 1,
       "norm_label": "round_icon_button.dart"
     },
     {
@@ -2360,7 +2450,7 @@
       "source_file": "lib/features/calendar/widgets/notes_card.dart",
       "source_location": null,
       "id": "lib_features_calendar_widgets_notes_card_dart",
-      "community": 28,
+      "community": 14,
       "norm_label": "notes_card.dart"
     },
     {
@@ -2369,7 +2459,7 @@
       "source_file": "lib/features/calendar/widgets/notes_card.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_notes_card_dart_notescard",
-      "community": 28,
+      "community": 14,
       "norm_label": "notescard"
     },
     {
@@ -2378,7 +2468,7 @@
       "source_file": "lib/features/calendar/widgets/notes_card.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_notes_card_dart_build",
-      "community": 28,
+      "community": 14,
       "norm_label": "build"
     },
     {
@@ -2387,7 +2477,7 @@
       "source_file": "lib/features/calendar/widgets/notes_card.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_notes_card_dart_card",
-      "community": 28,
+      "community": 14,
       "norm_label": "card"
     },
     {
@@ -2459,7 +2549,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
       "source_location": null,
       "id": "lib_features_calendar_widgets_calendar_day_button_dart",
-      "community": 1,
+      "community": 28,
       "norm_label": "calendar_day_button.dart"
     },
     {
@@ -2468,7 +2558,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_day_button_dart_calendardaybutton",
-      "community": 1,
+      "community": 28,
       "norm_label": "calendardaybutton"
     },
     {
@@ -2477,7 +2567,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_day_button_dart_build",
-      "community": 1,
+      "community": 28,
       "norm_label": "build"
     },
     {
@@ -2486,7 +2576,7 @@
       "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
       "source_location": null,
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_day_button_dart_decoratedbox",
-      "community": 1,
+      "community": 28,
       "norm_label": "decoratedbox"
     },
     {
@@ -3403,7 +3493,7 @@
       "file_type": "code",
       "source_file": "lib/features/calendar/widgets/calendar_day_button.dart",
       "source_location": null,
-      "community": 1,
+      "community": 28,
       "norm_label": "sizedbox",
       "id": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_widgets_calendar_day_button_dart_sizedbox"
     },
@@ -5515,6 +5605,16 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "lib/app/confetti_config.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_app_confetti_config_dart",
+      "target": "package_flutter_material_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "lib/app/theme.dart",
       "source_location": null,
       "weight": 1.0,
@@ -6232,6 +6332,16 @@
       "relation": "defines",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "lib/app/confetti_config.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_app_confetti_config_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_app_confetti_config_dart_confetticonfig"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "lib/app/theme.dart",
       "source_location": null,
       "weight": 1.0,
@@ -6296,6 +6406,16 @@
       "source_location": null,
       "weight": 1.0,
       "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_confettipainter"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
       "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_optionalfeaturesections"
     },
     {
@@ -6317,6 +6437,16 @@
       "weight": 1.0,
       "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
       "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_initstate"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_dispose"
     },
     {
       "relation": "defines",
@@ -6456,6 +6586,36 @@
       "source_location": null,
       "weight": 1.0,
       "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_custompaint"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_paint"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
+      "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_shouldrepaint"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
       "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_column"
     },
     {
@@ -6507,6 +6667,36 @@
       "weight": 1.0,
       "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
       "target": "users_e_gorko_projectspersonal_pt_pt_lib_features_calendar_screens_poop_calendar_screen_dart_row"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
+      "target": "dart_async"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
+      "target": "dart_math"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/features/calendar/screens/poop_calendar_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_features_calendar_screens_poop_calendar_screen_dart",
+      "target": "app_confetti_config_dart"
     },
     {
       "relation": "imports",
@@ -10548,5 +10738,5 @@
       "source_file": "assets/vectors/poop_marker.svg"
     }
   ],
-  "built_at_commit": "8502621ad689c87eef1f8d2fe70e0eafca4e93f1"
+  "built_at_commit": "25df6188f29916d3632f1ed41e8d94b8718807ab"
 }

@@ -25,22 +25,22 @@
     "semantic_hash": "c840bc53b61279c2fb631741134c2ed7"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/macos/Flutter/ephemeral/flutter_export_environment.sh": {
-    "mtime": 1779642644.4516723,
+    "mtime": 1780067390.4618206,
     "ast_hash": "e378544975a79929078b72d9ea83feb9",
     "semantic_hash": "e378544975a79929078b72d9ea83feb9"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/macos/Flutter/ephemeral/Packages/.packages/FlutterFramework/Package.swift": {
-    "mtime": 1779643232.4595866,
+    "mtime": 1780067676.4835324,
     "ast_hash": "0be97e7c440958734803cc9f1f14cd7f",
     "semantic_hash": "0be97e7c440958734803cc9f1f14cd7f"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/macos/Flutter/ephemeral/Packages/.packages/FlutterFramework/Sources/FlutterFramework/FlutterFramework.swift": {
-    "mtime": 1779643232.4583118,
+    "mtime": 1780067676.4821684,
     "ast_hash": "e6366d8685ad56268730656aa0a6e00c",
     "semantic_hash": "e6366d8685ad56268730656aa0a6e00c"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/macos/Flutter/ephemeral/Packages/FlutterGeneratedPluginSwiftPackage/Package.swift": {
-    "mtime": 1779643232.460354,
+    "mtime": 1780067676.4846683,
     "ast_hash": "cfc299aa8d02480bd9d694dc21de38e3",
     "semantic_hash": "cfc299aa8d02480bd9d694dc21de38e3"
   },
@@ -50,17 +50,17 @@
     "semantic_hash": "e6366d8685ad56268730656aa0a6e00c"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/test/poop_log_repository_test.dart": {
-    "mtime": 1779639920.8577144,
+    "mtime": 1779643717.7578068,
     "ast_hash": "cfb375b307f09efd4411543d049058ef",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/test/widget_test.dart": {
-    "mtime": 1779643217.804989,
+    "mtime": 1779643717.7581265,
     "ast_hash": "96c35fc0af9ad6f17428b024ceea4a03",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/web/manifest.json": {
-    "mtime": 1779603991.9674475,
+    "mtime": 1779643717.7607453,
     "ast_hash": "fd6fc23ca6400c81b94c5a48c53b41bc",
     "semantic_hash": ""
   },
@@ -115,17 +115,17 @@
     "semantic_hash": "98fc75412162af387e2e3461e4e58094"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Flutter/ephemeral/Packages/.packages/FlutterFramework/Package.swift": {
-    "mtime": 1779643232.4115314,
+    "mtime": 1780067676.416721,
     "ast_hash": "0be97e7c440958734803cc9f1f14cd7f",
     "semantic_hash": "0be97e7c440958734803cc9f1f14cd7f"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Flutter/ephemeral/Packages/.packages/FlutterFramework/Sources/FlutterFramework/FlutterFramework.swift": {
-    "mtime": 1779643232.4079669,
+    "mtime": 1780067676.4152443,
     "ast_hash": "e6366d8685ad56268730656aa0a6e00c",
     "semantic_hash": "e6366d8685ad56268730656aa0a6e00c"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Flutter/ephemeral/Packages/FlutterGeneratedPluginSwiftPackage/Package.swift": {
-    "mtime": 1779643232.4128773,
+    "mtime": 1780067676.4185655,
     "ast_hash": "287882db13b0a4c6b9d94c0af0a80070",
     "semantic_hash": "287882db13b0a4c6b9d94c0af0a80070"
   },
@@ -135,7 +135,7 @@
     "semantic_hash": "e6366d8685ad56268730656aa0a6e00c"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/.codex/hooks.json": {
-    "mtime": 1779601558.4908662,
+    "mtime": 1779643717.6935139,
     "ast_hash": "96a9f2efb6361d48f5537d1f6aaf5769",
     "semantic_hash": "96a9f2efb6361d48f5537d1f6aaf5769"
   },
@@ -195,102 +195,102 @@
     "semantic_hash": "45a48ae059dadfeda4d64cacd97d6cbf"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/main.dart": {
-    "mtime": 1779558253.057147,
+    "mtime": 1779643717.7523222,
     "ast_hash": "57c33389581d12068c5faacc93316052",
     "semantic_hash": "57c33389581d12068c5faacc93316052"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/app/poop_tracker_app.dart": {
-    "mtime": 1779603970.5625598,
+    "mtime": 1779643717.7481146,
     "ast_hash": "14b98d5d64fd858b6ad5bef20a270ae0",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/app/theme.dart": {
-    "mtime": 1779558069.519839,
+    "mtime": 1779643717.748252,
     "ast_hash": "f0cdba12cc14e8edce10740c7fe55f13",
     "semantic_hash": "f0cdba12cc14e8edce10740c7fe55f13"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/features/calendar/models/poop_log.dart": {
-    "mtime": 1779559757.579067,
+    "mtime": 1779643717.7493641,
     "ast_hash": "9426621d7df42c74f62f08e2e934415a",
     "semantic_hash": "9426621d7df42c74f62f08e2e934415a"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/features/calendar/screens/poop_calendar_screen.dart": {
-    "mtime": 1779642898.5253646,
-    "ast_hash": "20caa139c7e90241f742466519f7077a",
+    "mtime": 1780067637.8985803,
+    "ast_hash": "afedcc3dcfb48f8dafebf3376d59cf29",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/features/calendar/data/app_database.dart": {
-    "mtime": 1779559757.64839,
+    "mtime": 1779643717.7484853,
     "ast_hash": "06d8d65b19300bba3ee367920eae3b6c",
     "semantic_hash": "06d8d65b19300bba3ee367920eae3b6c"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/features/calendar/data/poop_log_repository.dart": {
-    "mtime": 1779639863.2013137,
+    "mtime": 1779643717.7489147,
     "ast_hash": "9c2f087cb8d04924724df7e79658ec5e",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/features/calendar/data/app_database.g.dart": {
-    "mtime": 1779560358.3999443,
+    "mtime": 1779643717.748678,
     "ast_hash": "442041682855af87aa1ceac2e76718fe",
     "semantic_hash": "442041682855af87aa1ceac2e76718fe"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/features/calendar/widgets/mood_section.dart": {
-    "mtime": 1779563222.8171718,
+    "mtime": 1779643717.750864,
     "ast_hash": "791ca89fc08e40bc17d340f4c0710ff2",
     "semantic_hash": "791ca89fc08e40bc17d340f4c0710ff2"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/features/calendar/widgets/calendar_section.dart": {
-    "mtime": 1779639092.385644,
+    "mtime": 1779643717.7506526,
     "ast_hash": "dfeed1eaecc9ab50acc52b3b8b615289",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/features/calendar/widgets/poop_bottom_navigation.dart": {
-    "mtime": 1779642391.281928,
+    "mtime": 1779643717.7515452,
     "ast_hash": "a46307744b04f23e574b3e47e2759fc3",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/features/calendar/widgets/notes_card.dart": {
-    "mtime": 1779558262.806628,
+    "mtime": 1779643717.7512307,
     "ast_hash": "09d5bdd00e7460684d38f6ca820796ec",
     "semantic_hash": "09d5bdd00e7460684d38f6ca820796ec"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/features/calendar/widgets/app_header.dart": {
-    "mtime": 1779603955.350284,
+    "mtime": 1779643717.7500079,
     "ast_hash": "249293ea973bc3b8823be0994e633211",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/features/calendar/widgets/calendar_day_button.dart": {
-    "mtime": 1779640423.4252577,
+    "mtime": 1779643717.7503734,
     "ast_hash": "feea7f16d869b1eee7f3eba640f3c055",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/features/calendar/widgets/bristol_section.dart": {
-    "mtime": 1779558262.7967975,
+    "mtime": 1779643717.7501783,
     "ast_hash": "d4afd1dff057227554a3299769cbbbb3",
     "semantic_hash": "d4afd1dff057227554a3299769cbbbb3"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/features/calendar/widgets/selected_day_panel.dart": {
-    "mtime": 1779643199.9669862,
+    "mtime": 1779643717.7520964,
     "ast_hash": "c107d56ecedaca4b5684d07aaa0b3dce",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/features/calendar/widgets/round_icon_button.dart": {
-    "mtime": 1779558105.1496093,
+    "mtime": 1779643717.751886,
     "ast_hash": "5d091cf10aa7fed9e31750efecc31453",
     "semantic_hash": "5d091cf10aa7fed9e31750efecc31453"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/features/calendar/widgets/progress_card.dart": {
-    "mtime": 1779558198.3757567,
+    "mtime": 1779643717.751737,
     "ast_hash": "751a8225760d68d4d7f03aeef43cc807",
     "semantic_hash": "751a8225760d68d4d7f03aeef43cc807"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/shared/date_helpers.dart": {
-    "mtime": 1779639863.1058586,
+    "mtime": 1779643717.752771,
     "ast_hash": "0dc8939a11a93664cd4f3d15e1760e2a",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/shared/app_assets.dart": {
-    "mtime": 1779603950.4246273,
+    "mtime": 1779643717.752593,
     "ast_hash": "bf4712350156961edb7af1ffae222e21",
     "semantic_hash": ""
   },
@@ -345,17 +345,17 @@
     "semantic_hash": "0ea33875f9f8e118f9c2ded03e2e2835"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/devtools_options.yaml": {
-    "mtime": 1779562838.6074536,
+    "mtime": 1779643717.7041087,
     "ast_hash": "4271a08e34ba0be1270e861c49b4cec0",
     "semantic_hash": "4271a08e34ba0be1270e861c49b4cec0"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/README.md": {
-    "mtime": 1779642218.8665135,
+    "mtime": 1779643717.6940558,
     "ast_hash": "95dfc5c0aec2f25680b46ce1bb172b8f",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/pubspec.yaml": {
-    "mtime": 1779559694.4635043,
+    "mtime": 1779643717.7574804,
     "ast_hash": "7bedb1e8a9b3a032b1e9d9d3026520f5",
     "semantic_hash": "7bedb1e8a9b3a032b1e9d9d3026520f5"
   },
@@ -365,12 +365,12 @@
     "semantic_hash": "66d03d7647c8e438164feaf5b922d44a"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/AGENTS.md": {
-    "mtime": 1779600562.809105,
+    "mtime": 1779643717.6938596,
     "ast_hash": "62c05a2bf20bf036a0b2633478663e64",
     "semantic_hash": "62c05a2bf20bf036a0b2633478663e64"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/web/index.html": {
-    "mtime": 1779604018.186565,
+    "mtime": 1779643717.7605538,
     "ast_hash": "84154c286292d2506d5ecde2ee4a6d6e",
     "semantic_hash": ""
   },
@@ -410,62 +410,62 @@
     "semantic_hash": "0c500410e3259a9a053797dc1c28070e"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png": {
-    "mtime": 1779604099.0677097,
+    "mtime": 1779643717.7551413,
     "ast_hash": "7f0ef89ac01f91391cf69b3e062080e7",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png": {
-    "mtime": 1779604100.144324,
+    "mtime": 1779643717.7545888,
     "ast_hash": "1f99c9fb44dee49cc9c526438c3e8216",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png": {
-    "mtime": 1779604099.7329926,
+    "mtime": 1779643717.7555304,
     "ast_hash": "508355efd64602f4c56347cb5f78a11b",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png": {
-    "mtime": 1779604099.3836994,
+    "mtime": 1779643717.7567985,
     "ast_hash": "39358418f7893749d4a3907573e0c31f",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png": {
-    "mtime": 1779604099.9211323,
+    "mtime": 1779643717.7564113,
     "ast_hash": "abac6346e9c23cb3e986daf55d51de42",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png": {
-    "mtime": 1779604099.5571928,
+    "mtime": 1779643717.7549284,
     "ast_hash": "39a54f6145ce281eef3020415aa6143a",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png": {
-    "mtime": 1779604099.228981,
+    "mtime": 1779643717.7558033,
     "ast_hash": "122d14922f35761501e2504ebad83351",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/web/favicon.png": {
-    "mtime": 1779604101.058328,
+    "mtime": 1779643717.7583792,
     "ast_hash": "122d14922f35761501e2504ebad83351",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/web/icons/Icon-192.png": {
-    "mtime": 1779604100.3080978,
+    "mtime": 1779643717.7587037,
     "ast_hash": "8bba394334ea65915444090fed42b61c",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/web/icons/Icon-maskable-192.png": {
-    "mtime": 1779604100.6737492,
+    "mtime": 1779643717.7596197,
     "ast_hash": "8bba394334ea65915444090fed42b61c",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/web/icons/Icon-maskable-512.png": {
-    "mtime": 1779604100.8703163,
+    "mtime": 1779643717.7603385,
     "ast_hash": "abac6346e9c23cb3e986daf55d51de42",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/web/icons/Icon-512.png": {
-    "mtime": 1779604100.5150893,
+    "mtime": 1779643717.7592723,
     "ast_hash": "abac6346e9c23cb3e986daf55d51de42",
     "semantic_hash": ""
   },
@@ -485,218 +485,223 @@
     "semantic_hash": "978c1bee49d7ad5fc1a4d81099b13e18"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png": {
-    "mtime": 1779604080.4951015,
+    "mtime": 1779643717.7471828,
     "ast_hash": "9672d61dee429ce4fc12eaaffa42ef72",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png": {
-    "mtime": 1779604078.8636653,
+    "mtime": 1779643717.7446175,
     "ast_hash": "bed7e50d486025ea9b60ed585ab28efd",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png": {
-    "mtime": 1779604079.4256313,
+    "mtime": 1779643717.7455618,
     "ast_hash": "472d7964308e298489feae22b28c9f57",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png": {
-    "mtime": 1779604078.3233938,
+    "mtime": 1779643717.7438087,
     "ast_hash": "a74cb92ea991731a6e53017ee5c33e43",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png": {
-    "mtime": 1779604080.8087554,
+    "mtime": 1779643717.743479,
     "ast_hash": "1f99c9fb44dee49cc9c526438c3e8216",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png": {
-    "mtime": 1779604080.6389587,
+    "mtime": 1779643717.7474859,
     "ast_hash": "a090808102a9b3c79ba8e60e97ca89be",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png": {
-    "mtime": 1779604078.682547,
+    "mtime": 1779643717.744396,
     "ast_hash": "73c2949162a4b6fd7c273ab8579683b8",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png": {
-    "mtime": 1779604078.515955,
+    "mtime": 1779643717.7440639,
     "ast_hash": "472d7964308e298489feae22b28c9f57",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png": {
-    "mtime": 1779604079.2468536,
+    "mtime": 1779643717.7452781,
     "ast_hash": "e4bb5be9b696abb344aca6dee48f3630",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png": {
-    "mtime": 1779604079.5979433,
+    "mtime": 1779643717.7458453,
     "ast_hash": "98dcb708ffbc5cc9e5cb95965a916eb5",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png": {
-    "mtime": 1779604080.174245,
+    "mtime": 1779643717.746607,
     "ast_hash": "a81cd7e440672f72f539e7400e6e2bd9",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png": {
-    "mtime": 1779604079.9899793,
+    "mtime": 1779643717.746335,
     "ast_hash": "92f292ca4a36a6b4e4ce39af83241af4",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png": {
-    "mtime": 1779604080.340754,
+    "mtime": 1779643717.7469068,
     "ast_hash": "88a09247d8f57da9dcca74fed2f9cb11",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png": {
-    "mtime": 1779604079.8008006,
+    "mtime": 1779643717.7460892,
     "ast_hash": "92f292ca4a36a6b4e4ce39af83241af4",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png": {
-    "mtime": 1779604079.0653625,
+    "mtime": 1779643717.744951,
     "ast_hash": "ed9344b9509ad6a5413860ca803fb724",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/android/app/src/main/res/mipmap-mdpi/ic_launcher.png": {
-    "mtime": 1779604059.9842834,
+    "mtime": 1779643717.6952636,
     "ast_hash": "efac7658de16c8ac6506222353df6eba",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/android/app/src/main/res/mipmap-hdpi/ic_launcher.png": {
-    "mtime": 1779604060.1829414,
+    "mtime": 1779643717.6948712,
     "ast_hash": "9c76fda48a2347dbdaa5243ae7cb3887",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png": {
-    "mtime": 1779604060.7469509,
+    "mtime": 1779643717.6963363,
     "ast_hash": "8bba394334ea65915444090fed42b61c",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png": {
-    "mtime": 1779604060.562667,
+    "mtime": 1779643717.6960008,
     "ast_hash": "b6617af18de9e1ff58716bf7c3c2e2c6",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png": {
-    "mtime": 1779604060.3786776,
+    "mtime": 1779643717.6956174,
     "ast_hash": "270e570657e899e3d28abfcf15d53547",
     "semantic_hash": ""
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/poop_mascot.svg": {
-    "mtime": 1779555599.8533642,
+    "mtime": 1779643717.700323,
     "ast_hash": "9ce309b5fb865ceab2bf604ce850a16d",
     "semantic_hash": "9ce309b5fb865ceab2bf604ce850a16d"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/toilet_paper_mascot.svg": {
-    "mtime": 1779555600.1243136,
+    "mtime": 1779643717.7035427,
     "ast_hash": "9431732107c1326377c1295db1e6fafa",
     "semantic_hash": "9431732107c1326377c1295db1e6fafa"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/notes_sheet.svg": {
-    "mtime": 1779555600.6522932,
+    "mtime": 1779643717.6998167,
     "ast_hash": "949e0cc6dc5249edbe6c08cf31795b15",
     "semantic_hash": "949e0cc6dc5249edbe6c08cf31795b15"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/insights_bars.svg": {
-    "mtime": 1779555600.7553656,
+    "mtime": 1779643717.698909,
     "ast_hash": "3126680ae4bc5b7a294a21ab2b874921",
     "semantic_hash": "3126680ae4bc5b7a294a21ab2b874921"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/hydration_drop.svg": {
-    "mtime": 1779555600.393736,
+    "mtime": 1779643717.698752,
     "ast_hash": "c5d504e731e2c9cde5b5eaaff1919603",
     "semantic_hash": "c5d504e731e2c9cde5b5eaaff1919603"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/calendar_tab.svg": {
-    "mtime": 1779555600.894394,
+    "mtime": 1779643717.69831,
     "ast_hash": "47337300189180dfd32cc44bfa2cccbd",
     "semantic_hash": "47337300189180dfd32cc44bfa2cccbd"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/poop_pal.png": {
-    "mtime": 1779564816.5765831,
+    "mtime": 1779643717.7029378,
     "ast_hash": "b7db5f6c943d2012622bf1d25fa1760b",
     "semantic_hash": "b7db5f6c943d2012622bf1d25fa1760b"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/poop_marker.svg": {
-    "mtime": 1779555599.9650629,
+    "mtime": 1779643717.7000003,
     "ast_hash": "b7a83204aa6b6115988192a928e8ee5d",
     "semantic_hash": "b7a83204aa6b6115988192a928e8ee5d"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/streak_flame.svg": {
-    "mtime": 1779555600.258119,
+    "mtime": 1779643717.7033799,
     "ast_hash": "57175a913c8eca91eb1ab9f1eb189d3c",
     "semantic_hash": "57175a913c8eca91eb1ab9f1eb189d3c"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/mood_not_great.svg": {
-    "mtime": 1779555655.8060234,
+    "mtime": 1779643717.6994424,
     "ast_hash": "215bf9fa98ed7123c1df238170b1bb2d",
     "semantic_hash": "215bf9fa98ed7123c1df238170b1bb2d"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/bristol_type_2.svg": {
-    "mtime": 1779555655.0168843,
+    "mtime": 1779643717.6971488,
     "ast_hash": "dc9ba377dbfff1672e3147cfc2a14ad3",
     "semantic_hash": "dc9ba377dbfff1672e3147cfc2a14ad3"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/bristol_type_3.svg": {
-    "mtime": 1779555655.0979779,
+    "mtime": 1779643717.6973016,
     "ast_hash": "43cf1b4619dea1a564fb08d6dcaa0a4a",
     "semantic_hash": "43cf1b4619dea1a564fb08d6dcaa0a4a"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/mood_good.svg": {
-    "mtime": 1779555655.6315026,
+    "mtime": 1779643717.6991935,
     "ast_hash": "21353096a31f06a661a45e475811b4cd",
     "semantic_hash": "21353096a31f06a661a45e475811b4cd"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/bristol_type_1.svg": {
-    "mtime": 1779555654.9243734,
+    "mtime": 1779643717.696746,
     "ast_hash": "bb07451d6f18ae1dba7ff7fb7a97a214",
     "semantic_hash": "bb07451d6f18ae1dba7ff7fb7a97a214"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/bristol_type_4.svg": {
-    "mtime": 1779555655.1802132,
+    "mtime": 1779643717.6974301,
     "ast_hash": "cc6c8cf23e5c181c7584b23b9a8dc607",
     "semantic_hash": "cc6c8cf23e5c181c7584b23b9a8dc607"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/bristol_type_5.svg": {
-    "mtime": 1779555655.2619205,
+    "mtime": 1779643717.6975958,
     "ast_hash": "032d5cd1eb3ab0b0808a44e351bbc736",
     "semantic_hash": "032d5cd1eb3ab0b0808a44e351bbc736"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/bristol_type_7.svg": {
-    "mtime": 1779555655.4449148,
+    "mtime": 1779643717.6980405,
     "ast_hash": "83569b7ef32ced59626e8fc98fe4b3c4",
     "semantic_hash": "83569b7ef32ced59626e8fc98fe4b3c4"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/bristol_type_6.svg": {
-    "mtime": 1779555655.343226,
+    "mtime": 1779643717.697893,
     "ast_hash": "7cfeaa71b2089c1c145312cfa485a6bb",
     "semantic_hash": "7cfeaa71b2089c1c145312cfa485a6bb"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/fiber_leaf.svg": {
-    "mtime": 1779555600.5378666,
+    "mtime": 1779643717.6986024,
     "ast_hash": "cdb9b1793f0dd907be7f45e83d21523b",
     "semantic_hash": "cdb9b1793f0dd907be7f45e83d21523b"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/mood_okay.svg": {
-    "mtime": 1779555655.7183104,
+    "mtime": 1779643717.699642,
     "ast_hash": "820246e11479b6aef4ef9a16295f36e0",
     "semantic_hash": "820246e11479b6aef4ef9a16295f36e0"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/mood_bad.svg": {
-    "mtime": 1779555655.8995655,
+    "mtime": 1779643717.6990519,
     "ast_hash": "a0b91af1186e4a7f3b739ea036915040",
     "semantic_hash": "a0b91af1186e4a7f3b739ea036915040"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/assets/vectors/mood_great.svg": {
-    "mtime": 1779555655.5433917,
+    "mtime": 1779643717.6993217,
     "ast_hash": "98519890f4b9e63659d43b16e2cd6a00",
     "semantic_hash": "98519890f4b9e63659d43b16e2cd6a00"
   },
   "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/app/feature_flags.dart": {
-    "mtime": 1779642898.4494212,
+    "mtime": 1779643717.747946,
     "ast_hash": "d362c7f799cc0594a5b98d787222dd3a",
+    "semantic_hash": ""
+  },
+  "/Users/e.gorko/ProjectsPersonal/pt/pt/lib/app/confetti_config.dart": {
+    "mtime": 1780067632.2217898,
+    "ast_hash": "6764ceaf6a01253d62a9055f589a9cdc",
     "semantic_hash": ""
   }
 }

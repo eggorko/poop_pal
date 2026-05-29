@@ -1,16 +1,16 @@
-# Graph Report - pt  (2026-05-24)
+# Graph Report - pt  (2026-05-29)
 
 ## Corpus Check
-- 73 files · ~229,288 words
+- 74 files · ~229,761 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 468 nodes · 511 edges · 58 communities (46 shown, 12 thin omitted)
+- 478 nodes · 521 edges · 58 communities (46 shown, 12 thin omitted)
 - Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 55 edges (avg confidence: 0.84)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8502621a`
+- Built from commit: `25df6188`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -61,7 +61,7 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `pt Flutter Project` - 21 edges
-2. `package:flutter/material.dart` - 15 edges
+2. `package:flutter/material.dart` - 16 edges
 3. `_` - 12 edges
 4. `iOS App Icon Family` - 10 edges
 5. `AppDelegate` - 8 edges
@@ -113,16 +113,16 @@ Cohesion: 0.10
 Nodes (22): RegisterPlugins(), OnCreate(), Create(), Destroy(), EnableFullDpiSupportIfAvailable(), GetClientArea(), GetThisFromHandle(), GetWindowClass() (+14 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.08
-Nodes (23): app_database.dart, ../models/poop_log.dart, package:drift/drift.dart, ../../../shared/date_helpers.dart, _logDateKey, _mapLog, PoopLogRepository, build (+15 more)
+Cohesion: 0.07
+Nodes (26): app_database.dart, calendar_day_button.dart, ../models/poop_log.dart, round_icon_button.dart, ../../../shared/date_helpers.dart, _logDateKey, _mapLog, PoopLogRepository (+18 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.09
 Nodes (27): Graphify Query First Rule, Graphify Workflow Instructions, Dart Static Analyzer, Flutter Lints Analyzer Configuration, Drift DevTools Extension Enabled, iOS Launch Screen Assets, Build Runner Dependency, Cupertino Icons Dependency (+19 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.06
-Nodes (33): ../data/poop_log_repository.dart, AlertDialog, AppHeader, BristolSection, build, _clampSelectedDayToVisibleMonth, Column, DateTime (+25 more)
+Cohesion: 0.05
+Nodes (41): ../../../app/confetti_config.dart, dart:async, dart:math, ../data/poop_log_repository.dart, AlertDialog, AppHeader, BristolSection, build (+33 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.09
@@ -138,7 +138,7 @@ Nodes (7): fl_register_plugins(), main(), my_application_activate(), my_applicat
 
 ### Community 7 - "Community 7"
 Cohesion: 0.09
-Nodes (21): dart:io, package:drift/native.dart, package:flutter_test/flutter_test.dart, package:path/path.dart, package:path_provider/path_provider.dart, package:pt/app/feature_flags.dart, package:pt/app/poop_tracker_app.dart, package:pt/features/calendar/data/app_database.dart (+13 more)
+Nodes (22): dart:io, package:drift/drift.dart, package:drift/native.dart, package:flutter_test/flutter_test.dart, package:path/path.dart, package:path_provider/path_provider.dart, package:pt/app/feature_flags.dart, package:pt/app/poop_tracker_app.dart (+14 more)
 
 ### Community 8 - "Community 8"
 Cohesion: 0.13
@@ -165,16 +165,16 @@ Cohesion: 0.20
 Nodes (11): _, copyWith, copyWithCompanion, Function, map, PoopLog, PoopLogsCompanion, RawValuesInsertable (+3 more)
 
 ### Community 14 - "Community 14"
-Cohesion: 0.22
-Nodes (8): calendar_day_button.dart, round_icon_button.dart, build, CalendarDayButton, CalendarSection, Center, Column, SizedBox
+Cohesion: 0.40
+Nodes (4): ../../../shared/app_assets.dart, build, Card, NotesCard
 
 ### Community 15 - "Community 15"
 Cohesion: 0.18
 Nodes (10): background_color, description, display, icons, name, orientation, prefer_related_applications, short_name (+2 more)
 
 ### Community 16 - "Community 16"
-Cohesion: 0.20
-Nodes (7): app/poop_tracker_app.dart, package:flutter/material.dart, AppTheme, ThemeData, build, RoundIconButton, main
+Cohesion: 0.17
+Nodes (8): app/poop_tracker_app.dart, package:flutter/material.dart, ConfettiConfig, AppTheme, ThemeData, build, RoundIconButton, main
 
 ### Community 17 - "Community 17"
 Cohesion: 0.40
@@ -218,7 +218,7 @@ Nodes (4): images, info, author, version
 
 ### Community 28 - "Community 28"
 Cohesion: 0.40
-Nodes (4): ../../../shared/app_assets.dart, build, Card, NotesCard
+Nodes (4): build, CalendarDayButton, DecoratedBox, SizedBox
 
 ### Community 29 - "Community 29"
 Cohesion: 0.83
@@ -233,7 +233,7 @@ Cohesion: 0.18
 Nodes (10): ../../../app/feature_flags.dart, build, CenterLogButton, NavItem, NavItemGroup, Padding, PoopBottomNavigation, Row (+2 more)
 
 ## Knowledge Gaps
-- **238 isolated node(s):** `version`, `author`, `main`, `package:pt/features/calendar/models/poop_log.dart`, `main` (+233 more)
+- **247 isolated node(s):** `version`, `author`, `main`, `package:pt/features/calendar/models/poop_log.dart`, `main` (+242 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -241,16 +241,16 @@ Nodes (10): ../../../app/feature_flags.dart, build, CenterLogButton, NavItem, Na
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `package:flutter/material.dart` connect `Community 16` to `Community 1`, `Community 3`, `Community 7`, `Community 12`, `Community 14`, `Community 19`, `Community 20`, `Community 21`, `Community 22`, `Community 59`, `Community 28`?**
-  _High betweenness centrality (0.070) - this node is a cross-community bridge._
-- **Why does `../../../shared/app_assets.dart` connect `Community 28` to `Community 1`, `Community 3`, `Community 19`, `Community 20`, `Community 21`, `Community 59`?**
-  _High betweenness centrality (0.012) - this node is a cross-community bridge._
-- **Why does `../../../shared/date_helpers.dart` connect `Community 1` to `Community 3`, `Community 14`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
+  _High betweenness centrality (0.075) - this node is a cross-community bridge._
+- **Why does `../../../shared/app_assets.dart` connect `Community 14` to `Community 1`, `Community 3`, `Community 19`, `Community 20`, `Community 21`, `Community 59`, `Community 28`?**
+  _High betweenness centrality (0.013) - this node is a cross-community bridge._
+- **Why does `../../../shared/date_helpers.dart` connect `Community 1` to `Community 3`, `Community 28`?**
+  _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **Are the 5 inferred relationships involving `pt Flutter Project` (e.g. with `Graphify Query First Rule` and `Flutter Web HTML Shell`) actually correct?**
   _`pt Flutter Project` has 5 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 2 inferred relationships involving `iOS App Icon Family` (e.g. with `Flutter Default Brand Mark` and `Android Launcher Icon Family`) actually correct?**
   _`iOS App Icon Family` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `version`, `author`, `main` to the rest of the system?**
-  _242 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _251 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.1032258064516129 - nodes in this community are weakly interconnected._
